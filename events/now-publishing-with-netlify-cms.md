@@ -2,7 +2,7 @@
 title: Now Publishing With Netlify CMS!
 author: Will Jay
 date: 2020-01-05T07:18:52.042Z
-thumbnail: /images/netlifyicon.png
+thumbnail: /images/5e552d0482a8d87735122ec713e48697.jpg
 ---
 
 We're now publishing remotely. Calling on all who would like to contribute to my blog!

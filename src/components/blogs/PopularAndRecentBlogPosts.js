@@ -19,7 +19,7 @@ const Post = tw(
 const PostsContainer = tw.div`mt-12 flex flex-col sm:flex-row sm:justify-between lg:justify-start`;
 const Image = styled(motion.div)((props) => [
   `background-image: url("${props.imageSrc}");`,
-  tw`h-64 bg-cover bg-center rounded`,
+  tw`h-64 w-full bg-cover bg-center rounded`,
 ]);
 const Title = tw.h5`mt-6 text-xl font-bold transition duration-300 group-hover:text-primary-500`;
 const Description = tw.p`mt-2 font-medium text-secondary-100 leading-loose text-sm`;
@@ -49,8 +49,13 @@ const RecentPostsContainer = styled.div`
 `;
 const PopularPostsContainer = styled.div`
   ${tw`lg:w-2/3`}
+  ${PostsContainer} {
+    ${tw`flex flex-row h-5/6`}
   ${Post} {
-    ${tw`flex flex-col h-full`}
+    ${tw`flex flex-col h-2/3 w-full sm:w-1/2 lg:w-full`}
+    ${Image} {
+      ${tw`sm:h-64 sm:min-h-64 sm:w-1/2 lg:w-full`}
+    }
     ${Title} {
       ${tw`h-1/3`}
     }

@@ -2,7 +2,7 @@
 title: This is a Test
 author: Will Jay
 date: 2020-01-03T11:50:02.255Z
-thumbnail: /images/pumpbeerthumb.jpg
+thumbnail: /images/5e552d0482a8d87735122ec713e48697.jpg
 ---
 
 # This is just a test post

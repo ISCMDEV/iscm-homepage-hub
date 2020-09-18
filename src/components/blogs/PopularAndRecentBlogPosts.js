@@ -73,7 +73,7 @@ export default () => {
   };
 
   //Recommended: Only 2 Items
-  const popularPosts = postslist.slice(
+  const popularPosts = eventslist.slice(
     0,
     2
   ); /* [
@@ -103,7 +103,7 @@ export default () => {
     },
   ]; */
 
-  const recentPosts = eventslist.slice(
+  const recentPosts = postslist.slice(
     0,
     5
   ); /* [

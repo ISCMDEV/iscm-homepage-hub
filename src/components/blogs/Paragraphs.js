@@ -1,6 +1,5 @@
 import React from "react";
-import AnimationRevealPage from "helpers/AnimationRevealPage.js";
-import { Container, ContentWithPaddingXl } from "components/misc/Layouts";
+import { Container } from "components/misc/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
@@ -33,15 +32,15 @@ const Text = styled.div`
 `;
 export default ({ headingText = "Our Mission", textContent = " " }) => {
   return (
-    <AnimationRevealPage>
+    // <AnimationRevealPage>
       <Container>
-        <ContentWithPaddingXl>
+        {/* <ContentWithPaddingXl> */}
           <HeadingRow>
             <Heading>{headingText}</Heading>
           </HeadingRow>
           <Text>
             <p className="">
-              orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              {/* orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               scelerisque nibh non auctor mattis. Aenean imperdiet consequat ex.
               Etiam non ante rhoncus, porttitor sem eget, varius quam. Donec vel
               tempor tortor, et condimentum est. Vivamus ac vestibulum ligula.
@@ -61,11 +60,12 @@ export default ({ headingText = "Our Mission", textContent = " " }) => {
               tincidunt ipsum, non condimentum ligula sodales non. Quisque
               sagittis dui quis nunc lobortis, sit amet rutrum lacus facilisis.
               Fusce eleifend vehicula lectus. Sed in posuere massa. Sed vehicula
-              quis ipsum vitae dignissim. In varius tellus erat.
+              quis ipsum vitae dignissim. In varius tellus erat. */}
+              {textContent}
             </p>
           </Text>
-        </ContentWithPaddingXl>
+        {/* </ContentWithPaddingXl> */}
       </Container>
-    </AnimationRevealPage>
+    // </AnimationRevealPage>
   );
 };

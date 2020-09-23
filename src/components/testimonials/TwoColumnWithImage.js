@@ -79,9 +79,9 @@ export default () => {
       imageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Charlotte Hale",
-      customerTitle: "CEO, Delos Inc."
+        "“At ISCM, “Smart City” is not about the destination, it is about the longlife journey. From our perspectives, cities are considered as organisms with full of cealess activities. In these activities, urban problems may emerge. To effectively solve these problems, we must prioritize them, allocate our limited assets and apply technology to create smart solutions. “Smart” is not only about applying advanced technology, but it also integrates all efficient resources as sustainable as possible. We are “shaping the unknown future” by our main fields of Smart Planning, Smart Design, Smart Management, Smart Transportation, and Integrated Application. We warmly welcome you to join our extensive network, be inspired and inspire the world by our innovation, ambition and creativity.",
+      customerName: "Dr.Tu Anh Trinh",
+      customerTitle: "Director, Institute of Smart City and Management"
     },
     {
       imageSrc:
@@ -104,7 +104,7 @@ export default () => {
     <Container>
       <Content>
         <HeadingInfoContainer>
-          <HeadingTitle>What others says</HeadingTitle>
+          <HeadingTitle>Message from our Director</HeadingTitle>
           <HeadingDescription></HeadingDescription>
         </HeadingInfoContainer>
         <TestimonialSliderContainer>

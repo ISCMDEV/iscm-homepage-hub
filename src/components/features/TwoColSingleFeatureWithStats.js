@@ -58,7 +58,7 @@ export default ({textOnLeft = false}) => {
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
             <Heading>A Little Introduction.</Heading>
-            <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Description>
+            <Description>Institute of Smart City and Management (ISCM) was established with the goal of becoming a connector between universities, government management agencies, research organizations, domestic and foreign companies, and the local community. Together, we will research and propose smart strategies and creative solutions to solve urban problems and develop a better education towards sustainable urban development in Vietnam.</Description>
             <Statistics>
               {statistics.map((statistic, index) => (
               <Statistic key={index}>

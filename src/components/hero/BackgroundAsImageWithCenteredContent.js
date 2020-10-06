@@ -1,12 +1,12 @@
 import React from "react";
-import tw from "twin.macro";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { css } from "styled-components/macro"; //eslint-disable-line
+import styled from "styled-components";
+import tw from "twin.macro";
+import HomePageBanner from "./../../images/HomePage/002-ISCM-1.JPG"
 
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
-  background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-image: url(${HomePageBanner});
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;

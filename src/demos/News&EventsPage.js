@@ -13,10 +13,10 @@ export default () => {
       <Hero
         heading={
           <>
-            News and Events.<HighlightedText>News and Events.</HighlightedText>
+            Upcoming Event.<HighlightedText>Universal Design Seminar</HighlightedText>
           </>
         }
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="2020 - the time of changes. Co-organizers: B+H Architects"
         imageSrc="https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_960_720.jpg"
         imageCss={imageCss}
         imageDecoratorBlob={true}
@@ -29,7 +29,7 @@ export default () => {
       <TabGrid
         heading={
           <>
-            Checkout our <HighlightedText>News and events.</HighlightedText>
+            <HighlightedText>News and events.</HighlightedText>
           </>
         }
       />

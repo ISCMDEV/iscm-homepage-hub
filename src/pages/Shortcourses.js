@@ -12,19 +12,19 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Banner heading1="Our Short" heading2="Courses" />
-      <WallOfText headingText="Short cources you can learn in a few weeks" />
+      <WallOfText headingText="" />
       <MainFeature1
-        subheading={<Subheading>Short-limited time course</Subheading>}
-        heading="THIS IS THE FULLNAME OF THE COURSE"
+        subheading={<Subheading>6-week course </Subheading>}
+        heading="VR course"
         buttonRounded={false}
         primaryButtonUrl=" "
-        primaryButtonText="Learn more"
+        primaryButtonText="Register now"
         imageSrc="https://images.unsplash.com/photo-1550202256-47e53ffabc95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
         textOnLeft={false}
       />
       <MainFeature1
-        subheading={<Subheading>Short-limited time course</Subheading>}
-        heading="THIS IS THE FULLNAME OF THE COURSE"
+        subheading={<Subheading>12-week course</Subheading>}
+        heading="Smart city Courses"
         buttonRounded={false}
         primaryButtonUrl=" "
         primaryButtonText="Learn more"

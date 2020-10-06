@@ -11,6 +11,12 @@ import { SectionDescription } from "components/misc/Typography";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+import MemberTUA from "./../../images/People/TuA.jpg";
+import MemberMAI from "./../../images/People/MAI.JPG";
+import MemberHAN from "./../../images/People/HAN.JPG";
+import MemberTRI from "./../../images/People/TRI.jpg";
+import MemberTAN from "./../../images/People/TAN.JPG";
+import MemberLV from "./../../images/People/LV.jpg";
 
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)``;
@@ -47,15 +53,15 @@ const CardLinks = styled.div`
 `;
 
 export default ({
-  heading = "Meet These Fine Folks.",
+  heading = "ISCM Core Members",
   subheading = "Our Team",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "At ISCM, we bring together diverse team with diverse skillset, experience and background to produce a richer, broader set of ideas, skills and innovative solotions.",
   cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Founder",
-      name: "Adam Cuppy",
+        MemberTUA,
+      position: "Director",
+      name: "Dr. Tu Anh Trinh",
       links: [
         {
           url: "https://twitter.com",
@@ -73,9 +79,9 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Sr. Designer",
-      name: "Charlotte Hale",
+        MemberMAI,
+      position: "Operation Manager",
+      name: "M.Arch Mai Tran",
       links: [
         {
           url: "https://twitter.com",
@@ -93,9 +99,9 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Jr. Designer",
-      name: "Silvester Wize",
+        MemberHAN,
+      position: "Marketing Manager",
+      name: "M.Sc Hanh An Le",
       links: [
         {
           url: "https://twitter.com",
@@ -113,9 +119,9 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Lead Developer",
-      name: "Himali Turn",
+        MemberTRI,
+      position: "Research Coordinator",
+      name: "M.Sc Hoai Pham",
       links: [
         {
           url: "https://twitter.com",
@@ -133,9 +139,9 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Sr. Developer",
-      name: "Troye Sivan",
+        MemberLV,
+      position: "StudioLab Administrator",
+      name: "B.E Viet Le",
       links: [
         {
           url: "https://twitter.com",
@@ -153,9 +159,9 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Quality Assurance",
-      name: "Holo Wo",
+        MemberTAN,
+      position: "IT Researcher",
+      name: "B.Sc An Le",
       links: [
         {
           url: "https://twitter.com",
@@ -171,7 +177,7 @@ export default ({
         },
       ],
     },
-  ],
+          ],
 }) => {
   return (
     <Container>

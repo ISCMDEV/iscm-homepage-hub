@@ -20,20 +20,20 @@ export default () => {
     <AnimationRevealPage>
       <Banner heading1="Who Are We?" heading2="About Our Insitute" />
       <MainFeature1
-        heading="About Our Insitute."
+        heading="Our Vision."
         subheading="We are a modern team of young reaschers."
-        description="Institute of Smart City and Management (ISCM) was established with the goal of becoming a connector between universities, government management agencies, research organizations, domestic and foreign companies, and the local community. Together, we will research and propose smart strategies and creative solutions to solve urban problems and develop a better education towards sustainable urban development in Vietnam."
+        description="Institute of Smart City and Management (2020 - 2025)/School of Design and Planning (2025 and forward) will be a leading institution/School by enhancing the quality of urban life towards sustainable and smart community development through international integrated education system, in-depth research and problem-solving projects."
         buttonRounded={false}
         primaryButtonText="Meet The Team"
         primaryButtonUrl="people"
         imageSrc="https://cdn.pixabay.com/photo/2015/01/09/11/09/startup-594091_960_720.jpg"
       />
       <MainFeature1
-        heading="Our Projects"
+        heading="Development Programs"
         subheading="We aim to excel in research and development."
-        description="Institute of Smart City and Management (2020 - 2025)/School of Design and Planning (2025 and forward) will be a leading institution/School by enhancing the quality of urban life towards sustainable and smart community development through international integrated education system, in-depth research and problem-solving projects."
+        description="The 4 pillars which are Education & Training, Research & Project, Smart City StudioLab, and Social Engagement, form the foundation of the centers' goal to lead the University's global effort to create knowledge, provide solutions, and enhance learning by reaching/project out and connecting with others."
         buttonRounded={false}
-        primaryButtonText="Our Projects"
+        primaryButtonText="Find out more"
         primaryButtonUrl="research-development"
         imageSrc="https://cdn.pixabay.com/photo/2016/11/29/09/32/concept-1868728_960_720.jpg"
         textOnLeft={false}
@@ -41,9 +41,9 @@ export default () => {
       <WallOfText textContent="Enhancing urban quality and environment by excellent education, in-depth research and problem-solving projects in terms of “Think Globally - Act Locally”.Educating new generation students for creative and critical thinking, global knowledge, professional skills, sustainability perception.Developing the most advanced integrated Smart City StudioLab system with sufficient spaces and equipment for comprehensive and in-depth analysis.Impacting on urban planning, design and management by changing the way of thinking and involvement of the community, local authority and stakeholders."/>
 
       <Features
-        subheading={<Subheading>Our 5 Values</Subheading>}
-        heading="We connect."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        subheading={<Subheading>Core Values</Subheading>}
+        heading="Core Values"
+        description="Our core values act as a compass, giving us a direction for leadership and daily decisions, helping us enjoy our time at work and keeping everything moving forward."
         cards={[
           {
             imageSrc: UniversitiesIconImage,

@@ -8,7 +8,7 @@ const Subheading = tw.span`uppercase tracking-wider text-sm`;
 export default function PeoplePage() {
   return (
     <AnimationRevealPage>
-      <Hero heading1="Our" heading2="People" />
+      <Hero heading1="Meet Our Team" />
       <TeamCardGrid subheading={<Subheading>Our Team</Subheading>} />
     </AnimationRevealPage>
   );

@@ -260,22 +260,22 @@ export const EducationPrograms = ({
     {
       imageSrc:
         "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
-      category: "BACHELOR",
+      category: "BACHELOR PROGRAM",
       date: "April 21, 2020",
-      title: "Learn more about our UNDERGRADE PROGRAMS",
+      title: "Bachelor of Architecture and Urban Design",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "In a rapid changing world, from your home to a giant building, from your neighborhood to your city, Architecture and Urban Design always play a key role in all those things. As a bachelor student of Architecture and Urban Design at ISCM-UEH, you will have the chance to design from the very first day of your studies with a program focusing on problem-solving studios and technology application.",
       url: "/undergrads",
       featured: true,
     },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
-      category: "PHD/MASTERS",
+      category: "MASTER PROGRAMS",
       date: "April 21, 2020",
-      title: "Learn more about our POST GRADUATE PROGRAMS",
+      title: "Learn more about our MASTER PROGRAMS",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "ISCM master programs focus on smart and sustainable approaches in a multi-disciplinary method with students working in groups to create integrated solutions for the built environment. The programs are coming with variety chances to receive dual degree at many universities around the world.",
       url: "/postgrads",
       featured: true,
     },
@@ -286,7 +286,7 @@ export const EducationPrograms = ({
       date: "April 21, 2020",
       title: "Learn more about SHORT COURSES",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "ISCM provides many high-quality on-demand short courses. The courses vary from many different topic such as VR, AR, visualization, data process,...  ",
       url: "/shortcourses",
       featured: true,
     },

@@ -20,6 +20,13 @@ import ResponsiveModalContent from "../../helpers/ResponsiveModalContent.js";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
+import StudioLabImage1 from "./../../images/StudioLab/StudioLab1.jpg"
+import StudioLabImage2 from "./../../images/StudioLab/VR1.jpg"
+import StudioLabImage3 from "./../../images/StudioLab/3dP.jpg"
+import StudioLabImage4 from "./../../images/StudioLab/USIM.jpg"
+import StudioLabImage5 from "./../../images/StudioLab/Book.JPG"
+
+
 
 const HeaderRow = tw.div`flex justify-center items-center flex-col xl:flex-col `;
 const Header = tw(SectionHeading)`
@@ -88,7 +95,7 @@ const TABS = {
   News: [
     {
       thumbnail:
-        "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        StudioLabImage1,
       title: "News",
       content: "Some Random piece of news",
       price: "$5.99",
@@ -108,7 +115,7 @@ const TABS = {
     },
     {
       thumbnail:
-        "https://images.unsplash.com/photo-1501503069356-3c6b82a17d89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        StudioLabImage3,
       title: "News",
       content: "Some Random piece of news",
       price: "$7.99",
@@ -118,7 +125,7 @@ const TABS = {
     },
     {
       thumbnail:
-        "https://images.unsplash.com/photo-1515163842884-3c780ba91d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+        StudioLabImage5,
       title: "News",
       content: "Some Random piece of news",
       price: "$8.99",
@@ -128,7 +135,7 @@ const TABS = {
     },
     {
       thumbnail:
-        "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+        StudioLabImage2,
       title: "News",
       content: "Some Random piece of news",
       price: "$7.99",
@@ -198,7 +205,7 @@ const TABS = {
     },
     {
       thumbnail:
-        "https://images.unsplash.com/photo-1515163842884-3c780ba91d1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
+        StudioLabImage4,
       title: "News",
       content: "Some Random piece of news",
       price: "$8.99",
@@ -206,6 +213,7 @@ const TABS = {
       reviews: "12",
       url: " ",
     },
+    
   ],
   Events: [
     {
@@ -485,7 +493,7 @@ const TABS = {
       url: " ",
     },
     {
-      thumbnail: "src/images/studiolab/_MG_2894.JPG",
+      thumbnail: StudioLabImage1,
       title: "Events",
       content: "Some random events",
       price: "$5.99",
@@ -626,7 +634,7 @@ export const TwoLinesTabsGrid = ({
   const tabsKeys = Object.keys(tabs);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [imgSRC, setimgSRC] = useState(
-    "https://images.unsplash.com/photo-1570291233163-5af2d525570f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+    ""
   );
   const toggleModal = () => setModalIsOpen(!modalIsOpen);
   return (

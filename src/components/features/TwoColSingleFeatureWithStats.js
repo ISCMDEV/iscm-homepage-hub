@@ -3,6 +3,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading } from "components/misc/Headings.js";
+import DirectorImage from "./../../images/HomePage/Directorimage.jpg"
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -32,20 +33,20 @@ export default ({textOnLeft = false}) => {
   //Change the statistics variable as you like, add or delete objects
   const statistics = [
     {
-      key: "Countries",
-      value: "192",
+      key: "Establishment",
+      value: "June 2020",
     },
     {
-      key: "Papers",
-      value: "479",
+      key: "Global Partners",
+      value: ">10",
     },
     {
-      key: "Graduates",
-      value: "2093",
+      key: "Members",
+      value: "13",
     },
     {
-      key: "Current Students",
-      value: "10347",
+      key: "Education Program",
+      value: "3",
     }
   ]
 
@@ -53,12 +54,15 @@ export default ({textOnLeft = false}) => {
     <Container>
       <TwoColumn>
         <ImageColumn>
-          <Image imageSrc="https://images.unsplash.com/photo-1583787164692-5dc0f3be194f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=376&q=80" />
+          <Image imageSrc= {DirectorImage} />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Heading>A Little Introduction.</Heading>
-            <Description>Institute of Smart City and Management (ISCM) was established with the goal of becoming a connector between universities, government management agencies, research organizations, domestic and foreign companies, and the local community. Together, we will research and propose smart strategies and creative solutions to solve urban problems and develop a better education towards sustainable urban development in Vietnam.</Description>
+            <Heading>Institute of Smart City and Management.</Heading>
+            <Description> "At Institute of Smart City and Management, "Smart City" is not about the destination, it is about the long life journey. From our perspectives, cities are considered as organisms wit full of ceaseless activities. In these activities, urban problem may emerge. To effectively solve these problems, we must prioritize them, allocate our limited assets, and apply technology to create smart solutions. "Smart" is not only about applying advanced technology, but it also integrates all effient resources as sustainable as possible </Description>
+            <Description> We are "Shaping the unknown future" by our main fields of Smart Planning, Samrt Design, Smart Management, Smart Transportation, and Integrated Application. We warmly welcome you to join our extensive network, be inspired, and inspire the world by our innovation, ambition, and creativity" </Description>
+            <Description> Dr. Tu Anh Trinh </Description>
+            <Description> Director of Institute of Smart City and Management </Description>
             <Statistics>
               {statistics.map((statistic, index) => (
               <Statistic key={index}>

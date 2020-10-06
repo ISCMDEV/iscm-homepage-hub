@@ -73,37 +73,37 @@ const SvgDotPattern4 = tw(
 )`absolute bottom-0 right-0 transform translate-x-20 rotate-90 -translate-y-24 -z-10 opacity-25 text-primary-500 fill-current w-24`;
 
 export default ({
-  heading = "Here are Our sponsors and friends",
-  headingtitle = "Our Friends and Sponsors",
+  heading = "In ISCM, we are working closely with companies, governments, nonprofit organizations and communities to address urban challenges.",
+  headingtitle = "Our Partners",
 }) => {
   const cards = [
     {
       imageSrc:
         "https://images.unsplash.com/photo-1583787164692-5dc0f3be194f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80",
-      subtitle: "School/Universities",
-      title: "University of Economics ",
+      subtitle: "Universities/Institutes",
+      title: "Higher Education Sectors ",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "ISCM are proudly working with more than 10 universities/institutes in more than 9 countries around the globe.",
       url: "https://www.ueh.edu.vn/",
     },
 
     {
       imageSrc:
         "https://images.unsplash.com/photo-1494034547187-271c87f7f4fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-      subtitle: "Gornverning body.",
-      title: "The Government",
+      subtitle: "Companies/Organizations",
+      title: "Private Sectors",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com",
+        "In each project, we always try to work with private companies/organizations to bring the theory and research closer to practice.",
+      url: "https://www.ueh.edu.vn/",
     },
 
     {
       imageSrc:
         "https://images.unsplash.com/photo-1558722141-28237ef18e0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
-      subtitle: "Communities",
-      title: "Our comminites",
+      subtitle: "Other orgranizations",
+      title: "International Organizations",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "",
       url: "https://timerse.com",
     },
   ];

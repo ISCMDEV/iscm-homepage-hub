@@ -59,10 +59,8 @@ export default ({textOnLeft = false}) => {
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
             <Heading>Institute of Smart City and Management.</Heading>
-            <Description> "At Institute of Smart City and Management, "Smart City" is not about the destination, it is about the long life journey. From our perspectives, cities are considered as organisms wit full of ceaseless activities. In these activities, urban problem may emerge. To effectively solve these problems, we must prioritize them, allocate our limited assets, and apply technology to create smart solutions. "Smart" is not only about applying advanced technology, but it also integrates all effient resources as sustainable as possible </Description>
-            <Description> We are "Shaping the unknown future" by our main fields of Smart Planning, Samrt Design, Smart Management, Smart Transportation, and Integrated Application. We warmly welcome you to join our extensive network, be inspired, and inspire the world by our innovation, ambition, and creativity" </Description>
-            <Description> Dr. Tu Anh Trinh </Description>
-            <Description> Director of Institute of Smart City and Management </Description>
+            <Description> Established in May 2020, Institute of Smart City and Management (ISCM) is positioned as the first phase of multidiscipline in UEH, and active response to urban challenges. ISCM has been positioned as a Center of Excellence in academic and practical fields, focusing on Smart City strategies – how technology can be a problem-solving instrument in a rapidly changing and unpredictable world. </Description>
+            <Description> ISCM facilitates partnerships by building extensive local and international networks among research organizations, government authorities, companies, and communities. With a highly motivated and dynamic team that includes professors, experts, and researchers from different backgrounds, generations, and nationalities, we strive to create collective efforts to enhance the smartness, resilience, and sustainability of our cities. </Description>
             <Statistics>
               {statistics.map((statistic, index) => (
               <Statistic key={index}>

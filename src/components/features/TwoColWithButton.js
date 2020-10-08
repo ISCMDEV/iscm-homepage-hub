@@ -52,7 +52,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "In a rapid changing world, from your home to a giant building, from your neighborhood to your city, Architecture and Urban Design always play a key role in all those things. As a bachelor student of Architecture and Urban Design at ISCM-UEH, you will have the chance to design from the very first day of your studies with a program focusing on problem-solving studios and technology application.",
+  description = "This is an example text paragraphs.Add custom description by adding description properties to component",
   primaryButtonText = "Learn More",
   primaryButtonUrl = " ",
   imageSrc = TeamIllustrationSrc,

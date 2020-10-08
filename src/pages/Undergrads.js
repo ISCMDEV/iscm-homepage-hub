@@ -16,12 +16,12 @@ export default () => {
       <MainFeature1
         subheading={<Subheading>bachelor programs</Subheading>}
         heading="Bachelor of Architecture and Urban Design"
+        description="In a rapid changing world, from your home to a giant building, from your neighborhood to your city, Architecture and Urban Design always play a key role in all those things. As a bachelor student of Architecture and Urban Design at ISCM-UEH, you will have the chance to design from the very first day of your studies with a program focusing on problem-solving studios and technology application."
         buttonRounded={false}
         primaryButtonText="Register now"
         primaryButtonUrl=" "
         imageSrc="https://images.unsplash.com/photo-1546953304-5d96f43c2e94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1401&q=80"
       />
-      
     </AnimationRevealPage>
   );
 };

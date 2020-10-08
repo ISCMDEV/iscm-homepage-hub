@@ -6,9 +6,11 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading } from "components/misc/Headings";
 import { ContentWithPaddingXl } from "components/misc/Layouts";
 const HeadingRow = tw.div`flex`;
-const Heading = tw(SectionHeading)`text-gray-900 mb-10`;
+const Heading = tw(
+  SectionHeading
+)`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
 const Text = styled.div`
-  ${tw`text-lg  text-gray-800`}
+  ${tw`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`}
   p {
     ${tw`mt-2 leading-loose`}
   }

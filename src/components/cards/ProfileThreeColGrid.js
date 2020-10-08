@@ -58,8 +58,7 @@ export default ({
   description = "At ISCM, we bring together diverse team with diverse skillset, experience and background to produce a richer, broader set of ideas, skills and innovative solotions.",
   cards = [
     {
-      imageSrc:
-        MemberTUA,
+      imageSrc: MemberTUA,
       position: "Director",
       name: "Dr. Tu Anh Trinh",
       links: [
@@ -78,8 +77,7 @@ export default ({
       ],
     },
     {
-      imageSrc:
-        MemberMAI,
+      imageSrc: MemberMAI,
       position: "Operation Manager",
       name: "M.Arch Mai Tran",
       links: [
@@ -98,8 +96,7 @@ export default ({
       ],
     },
     {
-      imageSrc:
-        MemberHAN,
+      imageSrc: MemberHAN,
       position: "Marketing Manager",
       name: "M.Sc Hanh An Le",
       links: [
@@ -118,8 +115,7 @@ export default ({
       ],
     },
     {
-      imageSrc:
-        MemberTRI,
+      imageSrc: MemberTRI,
       position: "Research Coordinator",
       name: "M.Sc Hoai Pham",
       links: [
@@ -138,8 +134,7 @@ export default ({
       ],
     },
     {
-      imageSrc:
-        MemberLV,
+      imageSrc: MemberLV,
       position: "StudioLab Administrator",
       name: "B.E Viet Le",
       links: [
@@ -158,8 +153,7 @@ export default ({
       ],
     },
     {
-      imageSrc:
-        MemberTAN,
+      imageSrc: MemberTAN,
       position: "IT Researcher",
       name: "B.Sc An Le",
       links: [
@@ -177,7 +171,159 @@ export default ({
         },
       ],
     },
-          ],
+  ],
+}) => {
+  return (
+    <Container>
+      <ContentWithPaddingXl>
+        <HeadingContainer>
+          {subheading && <Subheading>{subheading}</Subheading>}
+          {heading && <Heading>{heading}</Heading>}
+          {description && <Description>{description}</Description>}
+        </HeadingContainer>
+        <Cards>
+          {cards.map((card, index) => (
+            <Card key={index}>
+              <CardImage imageSrc={card.imageSrc} />
+              <CardContent>
+                <span className="position">{card.position}</span>
+                <span className="name">{card.name}</span>
+                <CardLinks>
+                  {card.links.map((link, linkIndex) => (
+                    <a key={linkIndex} className="link" href={link.url}>
+                      <link.icon className="icon" />
+                    </a>
+                  ))}
+                </CardLinks>
+              </CardContent>
+            </Card>
+          ))}
+        </Cards>
+      </ContentWithPaddingXl>
+    </Container>
+  );
+};
+
+export const Collaborator = ({
+  heading = "ISCM Core Members",
+  subheading = "Our Team",
+  description = "At ISCM, we bring together diverse team with diverse skillset, experience and background to produce a richer, broader set of ideas, skills and innovative solotions.",
+  cards = [
+    {
+      imageSrc: MemberTUA,
+      position: "Director",
+      name: "Dr. Tu Anh Trinh",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: MemberMAI,
+      position: "Operation Manager",
+      name: "M.Arch Mai Tran",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: MemberHAN,
+      position: "Marketing Manager",
+      name: "M.Sc Hanh An Le",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: MemberTRI,
+      position: "Research Coordinator",
+      name: "M.Sc Hoai Pham",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: MemberLV,
+      position: "StudioLab Administrator",
+      name: "B.E Viet Le",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: MemberTAN,
+      position: "IT Researcher",
+      name: "B.Sc An Le",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+  ],
 }) => {
   return (
     <Container>

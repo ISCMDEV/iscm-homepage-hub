@@ -4,6 +4,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading } from "components/misc/Headings";
+import { ContentWithPaddingXl } from "components/misc/Layouts";
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900 mb-10`;
 const Text = styled.div`
@@ -33,14 +34,14 @@ const Text = styled.div`
 export default ({ headingText = "Our Mission", textContent = " " }) => {
   return (
     // <AnimationRevealPage>
-      <Container>
-        {/* <ContentWithPaddingXl> */}
-          <HeadingRow>
-            <Heading>{headingText}</Heading>
-          </HeadingRow>
-          <Text>
-            <p className="">
-              {/* orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+    <Container>
+      <ContentWithPaddingXl>
+        <HeadingRow>
+          <Heading>{headingText}</Heading>
+        </HeadingRow>
+        <Text>
+          <p className="">
+            {/* orem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               scelerisque nibh non auctor mattis. Aenean imperdiet consequat ex.
               Etiam non ante rhoncus, porttitor sem eget, varius quam. Donec vel
               tempor tortor, et condimentum est. Vivamus ac vestibulum ligula.
@@ -61,11 +62,11 @@ export default ({ headingText = "Our Mission", textContent = " " }) => {
               sagittis dui quis nunc lobortis, sit amet rutrum lacus facilisis.
               Fusce eleifend vehicula lectus. Sed in posuere massa. Sed vehicula
               quis ipsum vitae dignissim. In varius tellus erat. */}
-              {textContent}
-            </p>
-          </Text>
-        {/* </ContentWithPaddingXl> */}
-      </Container>
+            {textContent}
+          </p>
+        </Text>
+      </ContentWithPaddingXl>
+    </Container>
     // </AnimationRevealPage>
   );
 };

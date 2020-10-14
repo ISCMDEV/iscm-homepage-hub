@@ -19,13 +19,13 @@ const Post = tw(
 const PostsContainer = tw.div`mt-12 flex flex-col sm:flex-row sm:justify-between lg:justify-start`;
 const Image = styled(motion.div)((props) => [
   `background-image: url("${props.imageSrc}");`,
-  tw`h-64 w-full bg-cover bg-center rounded`,
+  tw`w-full h-64 bg-center bg-cover rounded`,
 ]);
 const Title = tw.h5`mt-6 text-xl font-bold transition duration-300 group-hover:text-primary-500`;
 const Description = tw.p`mt-2 font-medium text-secondary-100 leading-loose text-sm`;
 const AuthorInfo = tw.div`align-bottom mt-6 flex items-center`;
 // const AuthorImage = tw.img`w-12 h-12 rounded-full`;
-const AuthorNameAndProfession = tw.div`ml-4`;
+const AuthorNameAndProfession = tw.div``;
 const AuthorName = tw.h6`font-semibold text-lg`;
 // const AuthorProfile = tw.p`text-secondary-100 text-sm`;
 
@@ -35,16 +35,16 @@ const RecentPostsContainer = styled.div`
     ${tw`flex flex-wrap lg:flex-col`}
   }
   ${Post} {
-    ${tw`flex justify-between mb-10 max-w-none w-full sm:w-1/2 lg:w-auto sm:odd:pr-12 lg:odd:pr-0 mr-0`}
+    ${tw`flex justify-between w-full mb-10 mr-0 max-w-none sm:w-1/2 lg:w-auto sm:odd:pr-12 lg:odd:pr-0`}
   }
   ${Title} {
-    ${tw`h-2/3 text-base xl:text-lg mt-0 mr-4 lg:max-w-xs`}
+    ${tw`mt-0 mr-4 text-base h-2/3 xl:text-lg lg:max-w-xs`}
   }
   ${AuthorName} {
-    ${tw`mt-3 text-sm text-secondary-100 font-normal leading-none`}
+    ${tw`mt-3 text-sm font-normal leading-none text-secondary-100`}
   }
   ${Image} {
-    ${tw`h-20 w-20 flex-shrink-0`}
+    ${tw`flex-shrink-0 w-20 h-20`}
   }
 `;
 const PopularPostsContainer = styled.div`
@@ -52,7 +52,7 @@ const PopularPostsContainer = styled.div`
   ${PostsContainer} {
     ${tw`flex flex-row h-5/6`}
   ${Post} {
-    ${tw`flex flex-col h-2/3 w-full sm:w-1/2 lg:w-full`}
+    ${tw`flex flex-col w-full h-2/3 sm:w-1/2 lg:w-full`}
     ${Image} {
       ${tw`sm:h-64 sm:min-h-64 sm:w-1/2 lg:w-full`}
     }
@@ -61,6 +61,13 @@ const PopularPostsContainer = styled.div`
     }
     ${Description} {
       ${tw`flex-grow`}
+    }
+    ${AuthorNameAndProfession}{
+      ${tw`flex-grow`}
+    }
+    ${AuthorName}{
+      ${tw`flex`}
+      ${css`justify-content: space-evenly`}
     }
   }
 `;

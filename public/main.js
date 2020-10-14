@@ -4,10 +4,21 @@ const fs = require("fs");
 const dirPath = path.join(__dirname, "../posts");
 const dirPathEvents = path.join(__dirname, "../events");
 const dirPathPapers = path.join(__dirname, "../papers");
+const dirPathMastersPrograms = path.join(__dirname, "../bachelors");
+const dirPathPHDsPrograms = path.join(__dirname, "../phds");
+const dirPathShortCourses = path.join(__dirname, "../courses");
+
 // const dirPathPages = path.join(__dirname, "../src/pages/content");
 let postlist = [];
 let eventslist = [];
 let paperslist = [];
+let bachelorslist = [];
+let bachelorsID = 1;
+let phdsID = 1;
+let coursesID = 1;
+
+let phdslist = [];
+let courseslist = [];
 // let pagelist = [];
 
 const months = {
@@ -274,7 +285,239 @@ const getPapers = () => {
   return;
 }; */
 
+const getProgramsBachelors = () => {
+  fs.readdir(dirPathMastersPrograms, (err, files) => {
+    if (err) {
+      return console.log("Failed to list contents of directory: " + err);
+    }
+    let ilist = [];
+    files.forEach((file, i) => {
+      let obj = {};
+      let post;
+      fs.readFile(
+        `${dirPathMastersPrograms}/${file}`,
+        "utf8",
+        (err, contents) => {
+          const getMetadataIndices = (acc, elem, i) => {
+            if (/^---/.test(elem)) {
+              acc.push(i);
+            }
+            return acc;
+          };
+          const parseMetadata = ({ lines, metadataIndices }) => {
+            if (metadataIndices.length > 0) {
+              let metadata = lines.slice(
+                metadataIndices[0] + 1,
+                metadataIndices[1]
+              );
+              metadata.forEach((line) => {
+                obj[line.split(": ")[0]] = line.split(": ")[1];
+              });
+              return obj;
+            }
+          };
+          const parseContent = ({ lines, metadataIndices }) => {
+            if (metadataIndices.length > 0) {
+              lines = lines.slice(metadataIndices[1] + 1, lines.length);
+            }
+            return lines.join("\n");
+          };
+          const lines = contents.split("\n");
+          const metadataIndices = lines.reduce(getMetadataIndices, []);
+          // console.log(metadataIndices);
+          const metadata = parseMetadata({ lines, metadataIndices });
+          // console.log(metadata);
+          const content = parseContent({ lines, metadataIndices });
+          const parsedDate = metadata.date
+            ? formatDate(metadata.date)
+            : new Date();
+          const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`;
+          // const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`;
+          // const date = new Date(datestring);
+          // const timestamp = date.getTime() / 1000;
+          post = {
+            id: bachelorsID++,
+            title: metadata.title ? metadata.title : "No title given",
+            author: metadata.author ? metadata.author : "No author given",
+            date: publishedDate ? publishedDate : "No date given",
+            time: parsedDate["time"],
+            thumbnail: metadata.thumbnail,
+            description: metadata.description,
+            content: content ? content : "No content given",
+          };
+          bachelorslist.push(post);
+          ilist.push(i);
+          // console.log(bachelorslist);
+          //SORTING BY NEWEST
+          if (ilist.length === files.length) {
+            const sortedList = bachelorslist.sort((a, b) => {
+              return a.id < b.id ? 1 : -1;
+            });
+            let data = JSON.stringify(sortedList);
+            fs.writeFileSync("src/bachelors.json", data);
+          }
+        }
+      );
+    });
+  });
+  return;
+};
+
+const getProgramsPHDS = () => {
+  fs.readdir(dirPathPHDsPrograms, (err, files) => {
+    if (err) {
+      return console.log("Failed to list contents of directory: " + err);
+    }
+    let ilist = [];
+    files.forEach((file, i) => {
+      let obj = {};
+      let post;
+      // let programID = 1;
+      fs.readFile(`${dirPathPHDsPrograms}/${file}`, "utf8", (err, contents) => {
+        const getMetadataIndices = (acc, elem, i) => {
+          if (/^---/.test(elem)) {
+            acc.push(i);
+          }
+          return acc;
+        };
+        const parseMetadata = ({ lines, metadataIndices }) => {
+          if (metadataIndices.length > 0) {
+            let metadata = lines.slice(
+              metadataIndices[0] + 1,
+              metadataIndices[1]
+            );
+            metadata.forEach((line) => {
+              obj[line.split(": ")[0]] = line.split(": ")[1];
+            });
+            return obj;
+          }
+        };
+        const parseContent = ({ lines, metadataIndices }) => {
+          if (metadataIndices.length > 0) {
+            lines = lines.slice(metadataIndices[1] + 1, lines.length);
+          }
+          return lines.join("\n");
+        };
+        const lines = contents.split("\n");
+        const metadataIndices = lines.reduce(getMetadataIndices, []);
+        // console.log(metadataIndices);
+        const metadata = parseMetadata({ lines, metadataIndices });
+        // console.log(metadata);
+        const content = parseContent({ lines, metadataIndices });
+        const parsedDate = metadata.date
+          ? formatDate(metadata.date)
+          : new Date();
+        const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`;
+        // const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`;
+        // const date = new Date(datestring);
+        // const timestamp = date.getTime() / 1000;
+        post = {
+          id: phdsID++,
+          title: metadata.title ? metadata.title : "No title given",
+          author: metadata.author ? metadata.author : "No author given",
+          date: publishedDate ? publishedDate : "No date given",
+          time: parsedDate["time"],
+          thumbnail: metadata.thumbnail,
+          description: metadata.description,
+          content: content ? content : "No content given",
+        };
+        phdslist.push(post);
+        ilist.push(i);
+        // console.log(bachelorslist);
+        //SORTING BY NEWEST
+        if (ilist.length === files.length) {
+          const sortedList = phdslist.sort((a, b) => {
+            return a.id < b.id ? 1 : -1;
+          });
+          let data = JSON.stringify(sortedList);
+          fs.writeFileSync("src/phds.json", data);
+        }
+      });
+    });
+  });
+  return;
+};
+
+const getProgramsCourses = () => {
+  fs.readdir(dirPathShortCourses, (err, files) => {
+    if (err) {
+      return console.log("Failed to list contents of directory: " + err);
+    }
+    let ilist = [];
+    files.forEach((file, i) => {
+      let obj = {};
+      let post;
+      // let programID = 1;
+      fs.readFile(`${dirPathShortCourses}/${file}`, "utf8", (err, contents) => {
+        const getMetadataIndices = (acc, elem, i) => {
+          if (/^---/.test(elem)) {
+            acc.push(i);
+          }
+          return acc;
+        };
+        const parseMetadata = ({ lines, metadataIndices }) => {
+          if (metadataIndices.length > 0) {
+            let metadata = lines.slice(
+              metadataIndices[0] + 1,
+              metadataIndices[1]
+            );
+            metadata.forEach((line) => {
+              obj[line.split(": ")[0]] = line.split(": ")[1];
+            });
+            return obj;
+          }
+        };
+        const parseContent = ({ lines, metadataIndices }) => {
+          if (metadataIndices.length > 0) {
+            lines = lines.slice(metadataIndices[1] + 1, lines.length);
+          }
+          return lines.join("\n");
+        };
+        const lines = contents.split("\n");
+        const metadataIndices = lines.reduce(getMetadataIndices, []);
+        // console.log(metadataIndices);
+        const metadata = parseMetadata({ lines, metadataIndices });
+        // console.log(metadata);
+        const content = parseContent({ lines, metadataIndices });
+        const parsedDate = metadata.date
+          ? formatDate(metadata.date)
+          : new Date();
+        const publishedDate = `${parsedDate["monthName"]} ${parsedDate["day"]}, ${parsedDate["year"]}`;
+        // const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`;
+        // const date = new Date(datestring);
+        // const timestamp = date.getTime() / 1000;
+
+        post = {
+          id: coursesID++,
+          title: metadata.title ? metadata.title : "No title given",
+          author: metadata.author ? metadata.author : "No author given",
+          date: publishedDate ? publishedDate : "No date given",
+          time: parsedDate["time"],
+          thumbnail: metadata.thumbnail,
+          description: metadata.description,
+          content: content ? content : "No content given",
+        };
+        courseslist.push(post);
+        ilist.push(i);
+        // console.log(courseslist);
+        //SORTING BY NEWEST
+        if (ilist.length === files.length) {
+          const sortedList = courseslist.sort((a, b) => {
+            return a.id < b.id ? 1 : -1;
+          });
+          let data = JSON.stringify(sortedList);
+          fs.writeFileSync("src/courses.json", data);
+        }
+      });
+    });
+  });
+  return;
+};
+
 getPosts();
 getEvents();
 getPapers();
+getProgramsBachelors();
+getProgramsPHDS();
+getProgramsCourses();
 // getPages();

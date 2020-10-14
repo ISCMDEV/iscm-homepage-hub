@@ -17,8 +17,8 @@ export default () => {
         subheading={<Subheading>6-week course </Subheading>}
         heading="VR course"
         buttonRounded={false}
-        primaryButtonUrl=" "
-        primaryButtonText="Register now"
+        primaryButtonUrl="courses/1"
+        primaryButtonText="Learn more"
         imageSrc="https://images.unsplash.com/photo-1550202256-47e53ffabc95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
         textOnLeft={false}
       />
@@ -26,7 +26,7 @@ export default () => {
         subheading={<Subheading>12-week course</Subheading>}
         heading="Smart city Courses"
         buttonRounded={false}
-        primaryButtonUrl=" "
+        primaryButtonUrl="courses/2"
         primaryButtonText="Learn more"
         imageSrc="https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
         textOnLeft={false}

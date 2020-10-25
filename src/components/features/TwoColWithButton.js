@@ -52,7 +52,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "This is an example text paragraphs.Add custom description by adding description properties to component",
+  description = " ",
   primaryButtonText = "Learn More",
   primaryButtonUrl = " ",
   imageSrc = TeamIllustrationSrc,

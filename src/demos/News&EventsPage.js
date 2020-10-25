@@ -16,7 +16,7 @@ export default () => {
             Upcoming Event.<HighlightedText>Universal Design Seminar</HighlightedText>
           </>
         }
-        description="2020 - the time of changes. Co-organizers: B+H Architects"
+        description="2020 - the time of changes. Co-organizers:"
         imageSrc="https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_960_720.jpg"
         imageCss={imageCss}
         imageDecoratorBlob={true}

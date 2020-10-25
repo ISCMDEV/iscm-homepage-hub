@@ -10,7 +10,7 @@ import { ReactComponent as ArrowLeftIcon } from "../../images/arrow-left-2-icon.
 import { ReactComponent as ArrowRightIcon } from "../../images/arrow-right-2-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-4.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-5.svg";
-
+import DirectorImage from "./../../images/HomePage/Directorimage.jpg";
 import "slick-carousel/slick/slick.css";
 
 const Container = tw.div`relative`;
@@ -77,28 +77,13 @@ export default () => {
   const testimonials = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+        DirectorImage,
       quote:
         "“At ISCM, “Smart City” is not about the destination, it is about the longlife journey. From our perspectives, cities are considered as organisms with full of cealess activities. In these activities, urban problems may emerge. To effectively solve these problems, we must prioritize them, allocate our limited assets and apply technology to create smart solutions. “Smart” is not only about applying advanced technology, but it also integrates all efficient resources as sustainable as possible. We are “shaping the unknown future” by our main fields of Smart Planning, Smart Design, Smart Management, Smart Transportation, and Integrated Application. We warmly welcome you to join our extensive network, be inspired and inspire the world by our innovation, ambition and creativity.",
       customerName: "Dr.Tu Anh Trinh",
       customerTitle: "Director, Institute of Smart City and Management"
     },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-      quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Adam Cuppy",
-      customerTitle: "Founder, EventsNYC"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",
-      quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Steven Marcetti",
-      customerTitle: "Event Manager, Brite"
-    }
+  
   ];
   return (
     <Container>

@@ -42,7 +42,7 @@ export default ({textOnLeft = false}) => {
     },
     {
       key: "Members",
-      value: "13",
+      value: "14",
     },
     {
       key: "Education Program",

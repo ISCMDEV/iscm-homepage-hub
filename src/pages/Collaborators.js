@@ -10,7 +10,7 @@ export default function CollabPage() {
     <AnimationRevealPage>
       {/* <Hero heading1="Our" heading2="People" /> */}
       <Collaborator
-        heading="Our Trusted Collaborators"
+        heading="Our Partners"
         subheading={<Subheading>Our Collaborators</Subheading>}
       />
     </AnimationRevealPage>

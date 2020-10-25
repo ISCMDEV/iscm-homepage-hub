@@ -11,12 +11,33 @@ import { SectionDescription } from "components/misc/Typography";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+import { ReactComponent as Website } from "images/WebsiteIcon.svg";
 import MemberTUA from "./../../images/People/TuA.jpg";
 import MemberMAI from "./../../images/People/MAI.JPG";
 import MemberHAN from "./../../images/People/HAN.JPG";
 import MemberTRI from "./../../images/People/TRI.jpg";
 import MemberTAN from "./../../images/People/TAN.JPG";
 import MemberLV from "./../../images/People/LV.jpg";
+import UNAI from "./../../images/Partners/UNAI.jpg";
+import OMG from "./../../images/Partners/OMG.png";
+import BH from "./../../images/Partners/BH.jpg";
+import HTE from "./../../images/Partners/HTE.jpg";
+import IOT from "./../../images/Partners/IOT.jpg";
+import KBET from "./../../images/Partners/KBET.jpg";
+import KIE from "./../../images/Partners/THEKIE.jpg";
+import HGU from "./../../images/Partners/HGU.jpg";
+import BTH from "./../../images/Partners/BTH.jpg";
+import POLIMI from "./../../images/Partners/POLIMI.jpg";
+import UT from "./../../images/Partners/UT.jpg";
+import HU from "./../../images/Partners/HU.jpg";
+import DQL from "./../../images/People/DQL.jpg";
+import SEO from "./../../images/People/DrDucksu.jpg";
+import KOO from "./../../images/People/DrKoo.jpg";
+import KIEN from "./../../images/People/DrToKien.jpg";
+import NAM from "./../../images/People/NAMLE.jpg";
+import CUYVERS from "./../../images/People/ProfCuyvers.jpg";
+import STEVEN from "./../../images/People/StevenPetit.jpg";
+import THANG from "./../../images/People/Thang.jpg"
 
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)``;
@@ -63,16 +84,19 @@ export default ({
       name: "Dr. Tu Anh Trinh",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "",
+          icon: Website,
         },
+      ],
+    },
+    {
+      imageSrc: SEO,
+      position: "International Coordinator",
+      name: "Dr. Ducksu Seo",
+      links: [
         {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "",
+          icon: Website,
         },
       ],
     },
@@ -82,16 +106,8 @@ export default ({
       name: "M.Arch Mai Tran",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "",
+          icon: Website,
         },
       ],
     },
@@ -101,16 +117,52 @@ export default ({
       name: "M.Sc Hanh An Le",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "",
+          icon: Website,
         },
+      ],
+    },
+    {
+      imageSrc: CUYVERS,
+      position: "Senior Lecturer",
+      name: "Prof. Rob Cuyvers",
+      links: [
         {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
+          url: "",
+          icon: Website,
         },
+      ],
+    },
+    {
+      imageSrc: KIEN,
+      position: "Senior Lecturer",
+      name: "Dr. To Kien",
+      links: [
         {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: NAM,
+      position: "Senior Lecturer",
+      name: "Dr. Nam Le",
+      links: [
+        {
+          url: "",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: KOO,
+      position: "Senior Lecturer",
+      name: "Dr. Chamun Koo",
+      links: [
+        {
+          url: "",
+          icon: Website,
         },
       ],
     },
@@ -120,16 +172,41 @@ export default ({
       name: "M.Sc Hoai Pham",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
+          url: "",
+          icon: Website,
         },
+      ],
+    },
+    {
+      imageSrc: STEVEN,
+      position: "Lecturer",
+      name: "M.Arch Steven Petit",
+      links: [
         {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
+          url: "",
+          icon: Website,
         },
+      ],
+    },
+    {
+      imageSrc: THANG,
+      position: "Lecturer",
+      name: "M.Arch Thang Trinh",
+      links: [
         {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: DQL,
+      position: "Lecturer",
+      name: "ME. Loc Duong Quy",
+      links: [
+        {
+          url: "",
+          icon: Website,
         },
       ],
     },
@@ -139,16 +216,8 @@ export default ({
       name: "B.E Viet Le",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "",
+          icon: Website,
         },
       ],
     },
@@ -158,16 +227,8 @@ export default ({
       name: "B.Sc An Le",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "",
+          icon: Website,
         },
       ],
     },
@@ -207,121 +268,139 @@ export default ({
 export const Collaborator = ({
   heading = "ISCM Core Members",
   subheading = "Our Team",
-  description = "At ISCM, we bring together diverse team with diverse skillset, experience and background to produce a richer, broader set of ideas, skills and innovative solotions.",
+  description = "",
   cards = [
     {
-      imageSrc: MemberTUA,
-      position: "Director",
-      name: "Dr. Tu Anh Trinh",
+      imageSrc: HGU,
+      position: " ",
+      name: "Handong Global University",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "http://www.handong.edu/eng/",
+          icon: Website,
         },
       ],
     },
     {
-      imageSrc: MemberMAI,
-      position: "Operation Manager",
-      name: "M.Arch Mai Tran",
+      imageSrc: HU,
+      position: " ",
+      name: "Hasselt University",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "https://www.uhasselt.be/",
+          icon: Website,
         },
       ],
     },
     {
-      imageSrc: MemberHAN,
-      position: "Marketing Manager",
-      name: "M.Sc Hanh An Le",
+      imageSrc: BTH,
+      position: " ",
+      name: "Blekinge Institute of Technology ",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "https://www.bth.se/eng/",
+          icon: Website,
         },
       ],
     },
     {
-      imageSrc: MemberTRI,
-      position: "Research Coordinator",
-      name: "M.Sc Hoai Pham",
+      imageSrc: UT,
+      position: " ",
+      name: "University of Trieste",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "https://www.units.it/en",
+          icon: Website,
         },
       ],
     },
     {
-      imageSrc: MemberLV,
-      position: "StudioLab Administrator",
-      name: "B.E Viet Le",
+      imageSrc: POLIMI,
+      position: " ",
+      name: "Politechnico Di Milano",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "https://www.polimi.it/",
+          icon: Website,
         },
       ],
     },
     {
-      imageSrc: MemberTAN,
-      position: "IT Researcher",
-      name: "B.Sc An Le",
+      imageSrc: KIE,
+      position: " ",
+      name: "THE KIE",
       links: [
         {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
+          url: "http://en.thekie.com/introduce",
+          icon: Website,
         },
       ],
+    },
+    {
+      imageSrc: KBET,
+      position: " ",
+      name: "Korea Institute of Building Energy Technology",
+      links: [
+        {
+          url: "http://www.kbet.or.kr/en/",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: IOT,
+      position: " ",
+      name: "IOTLink",
+      links: [
+        {
+          url: "https://iotlink.com.vn/",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: HTE,
+      position: " ",
+      name: "HTE Global",
+      links: [
+        {
+          url: "https://hteglobal.net/vi/trang-chu/",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: BH,
+      position: " ",
+      name: "B+H Architects",
+      links: [
+        {
+          url: "https://bharchitects.com/en/studio/ho-chi-minh-city/",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: OMG,
+      position: " ",
+      name: "OMGEVING",
+      links: [
+        {
+          url: "https://omgeving.be/",
+          icon: Website,
+        },
+      ],
+    },
+    {
+      imageSrc: UNAI,
+      position: " ",
+      name: "United Nations Academic Impact",
+      links: [
+        {
+          url: "https://academicimpact.un.org/",
+          icon: Website,
+        },
+       ],
     },
   ],
 }) => {

@@ -49,7 +49,7 @@ collections:
           options: ["PAPER", "RESEARCH"],
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "Bachelor Programs" # Used in routes, e.g., /admin/collections/blog
+  - name: "BachelorPrograms" # Used in routes, e.g., /admin/collections/blog
     label: "Bachelor Programs" # Used in the UI
     folder: "bachelors" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -61,7 +61,7 @@ collections:
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "PHD Programs" # Used in routes, e.g., /admin/collections/blog
+  - name: "PHDPrograms" # Used in routes, e.g., /admin/collections/blog
     label: "PHD Programs" # Used in the UI
     folder: "phds" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -73,7 +73,7 @@ collections:
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "Short-course" # Used in routes, e.g., /admin/collections/blog
+  - name: "Shortcourses" # Used in routes, e.g., /admin/collections/blog
     label: "Short-course" # Used in the UI
     folder: "courses" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection

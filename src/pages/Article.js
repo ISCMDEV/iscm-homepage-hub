@@ -111,6 +111,9 @@ export const coursesPosts = (props) => {
       fetchedPost.title = post.title ? post.title : "No title given";
       fetchedPost.date = post.date ? post.date : "No date given";
       fetchedPost.author = post.author ? post.author : "No author given";
+      fetchedPost.description = post.description
+        ? post.description
+        : "No description given";
       fetchedPost.content = post.content ? post.content : "No content given";
       postExists = true;
     }
@@ -138,6 +141,9 @@ export const bachelorsPosts = (props) => {
       fetchedPost.title = post.title ? post.title : "No title given";
       fetchedPost.date = post.date ? post.date : "No date given";
       fetchedPost.author = post.author ? post.author : "No author given";
+      fetchedPost.description = post.description
+        ? post.description
+        : "No description given";
       fetchedPost.content = post.content ? post.content : "No content given";
       postExists = true;
     }
@@ -165,6 +171,9 @@ export const phdsPosts = (props) => {
       fetchedPost.title = post.title ? post.title : "No title given";
       fetchedPost.date = post.date ? post.date : "No date given";
       fetchedPost.author = post.author ? post.author : "No author given";
+      fetchedPost.description = post.description
+        ? post.description
+        : "No description given";
       fetchedPost.content = post.content ? post.content : "No content given";
       postExists = true;
     }

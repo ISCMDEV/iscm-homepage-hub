@@ -52,7 +52,7 @@ const PopularPostsContainer = styled.div`
   ${PostsContainer} {
     ${tw`flex flex-row h-5/6`}
   ${Post} {
-    ${tw`flex flex-col w-full h-2/3 sm:w-1/2 lg:w-full`}
+    ${tw`flex flex-col w-full lg:mr-32 h-2/3 sm:w-1/2 lg:w-full`}
     ${Image} {
       ${tw`sm:h-64 sm:min-h-64 sm:w-1/2 lg:w-full`}
     }
@@ -67,7 +67,9 @@ const PopularPostsContainer = styled.div`
     }
     ${AuthorName}{
       ${tw`flex`}
-      ${css`justify-content: space-evenly`}
+      ${css`
+        justify-content: space-evenly;
+      `}
     }
   }
 `;
@@ -160,7 +162,7 @@ export default () => {
     <Container>
       {/* <ContentWithPaddingXl> */}
       <Row tw="pb-24">
-        <PopularPostsContainer>
+        <PopularPostsContainer className="col-1">
           <Heading>Popular Events</Heading>
           <PostsContainer>
             {popularPosts.map((post, index) => (
@@ -197,7 +199,7 @@ export default () => {
             ))}
           </PostsContainer>
         </PopularPostsContainer>
-        <RecentPostsContainer>
+        <RecentPostsContainer className="col-2">
           <Heading>Recent Posts</Heading>
           <PostsContainer>
             {recentPosts.map((post, index) => (

@@ -25,7 +25,7 @@ const Heading = tw(SectionHeading)`text-gray-900`;
 const SubHeading = tw(Subheading)`text-2xl`;
 const Posts = tw.div`mt-6 sm:-mr-8 flex flex-wrap`;
 const PostContainer = styled.div`
-  ${tw`mt-10 w-full sm:w-1/2 lg:w-1/3 sm:pr-8`}
+  ${tw`w-full mt-10 sm:w-1/2 lg:w-1/3 sm:pr-8`}
   ${(props) =>
     props.featured &&
     css`
@@ -37,10 +37,10 @@ const PostContainer = styled.div`
         ${tw`sm:h-96 sm:min-h-full sm:w-1/2 lg:w-2/3 sm:rounded-t-none sm:rounded-l-lg`}
       }
       ${Info} {
-        ${tw`sm:-mr-4 sm:pl-8 sm:flex-1 sm:rounded-none sm:rounded-r-lg sm:border-t-2 sm:border-l-0 h-full flex flex-col overflow-hidden`}
+        ${tw`flex flex-col h-full overflow-hidden sm:-mr-4 sm:pl-8 sm:flex-1 sm:rounded-none sm:rounded-r-lg sm:border-t-2 sm:border-l-0`}
       }
       ${Description} {
-        ${tw`text-sm mt-3 leading-loose text-gray-600 font-medium flex-grow`}
+        ${tw`flex-grow mt-3 text-sm font-medium leading-loose text-gray-600`}
       }
     `}
 `;
@@ -50,7 +50,7 @@ const Image = styled.div`
     css`
       background-image: url("${props.imageSrc}");
     `}
-  ${tw`h-72 w-full bg-cover bg-center rounded-t-lg`}
+  ${tw`w-full bg-center bg-cover rounded-t-lg h-72`}
 `;
 const Info = tw.div`flex-grow p-8 border-2 border-t-0 rounded-lg rounded-t-none`;
 const Subinfo = styled.div`
@@ -59,7 +59,7 @@ const Subinfo = styled.div`
     css`
       ${tw`flex flex-row justify-between`}
       ${CreationDate} {
-        ${tw`mt-0 tracking-widest leading-loose after:content after:block after:border-b-2 after:border-primary-500 after:w-8`}
+        ${tw`mt-0 leading-loose tracking-widest after:content after:block after:border-b-2 after:border-primary-500 after:w-8`}
       }
     `}
 `;
@@ -189,24 +189,7 @@ export const HomepageResearchs = ({
       featured: true,
     },
     getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-  ], */,
+    */,
 }) => {
   const shortenDescription = paperlist.map((post) => {
     return post.description.split(" ").slice(0, 30).join(" ") + "...";
@@ -216,7 +199,7 @@ export const HomepageResearchs = ({
   });
   return (
     <AnimationRevealPage>
-      <Container>
+      <Container className="container">
         {/* <ContentWithPaddingXl> */}
         <HeadingRow showResearchs>
           <SectionHeading>{headingText}</SectionHeading>
@@ -239,7 +222,6 @@ export const HomepageResearchs = ({
                     <Link to={`/article/papers/${post.id}`}>
                       <Title>{shortenCardtitle[index]}</Title>
                     </Link>
-                    {console.log(shortenDescription)}
                     <Description>{shortenDescription[index]}</Description>
                     <Author>by {post.author} </Author>
                   </Info>

@@ -10,6 +10,4 @@ Come & enjoy amazing artworks and technology (virtual reality, 3D printing...), 
 
 ![institute-yard](/images/kết-hợp-nghệ-thuật-và-công-nghệ-hướng-đến-thành-phố-thông-minh-đáng-sống-3-.jpg "institute-yard")
 
-<iframe name="iframe1" id="iframe1" src="https://www.youtube.com/embed/?25ln6bZocY&list=PLDcTT9CgLlTa0ZDJmSDjCamSo1YdCpRNm&fbclid=IwAR0s6C1kwSriI8CrTo139CLdxQmZLjl5_DfwSb4NzXzOI6AtbAYKT19pYcw&ab_channel=InstituteofSmartCityandManagement" 
-        frameborder="0" border="0" cellspacing="0"
-        style="border-style: none;width: 100%; height: 500px;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-25ln6bZocY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,6 +1,6 @@
 ---
 title: ISCM is on air after celebration of the launch event of SMARTCITY+ArtTech
-  Fusion 2021 .
+  Fusion 2021
 author: lptan
 date: 2021-01-08T09:25:00.000Z
 thumbnail: /images/kết-hợp-nghệ-thuật-và-công-nghệ-hướng-đến-thành-phố-thông-minh-đáng-sống-3-.jpg

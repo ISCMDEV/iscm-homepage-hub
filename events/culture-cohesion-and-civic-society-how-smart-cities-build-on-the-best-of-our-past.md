@@ -13,5 +13,5 @@ success, reflecting on three cases: Ho Chi Minh City and Hanoi (Vietnam), Amster
 
  You can now access the full webinar recording online:
 
-<div align="center"><iframe margin-top="30px" align="center" width="900" height="600" src="https://www.youtube.com/watch?v=S_382yGp7Hs&amp;t=1834" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div align="center"><iframe margin-top="30px" align="center" width="900" height="600" src="https://www.youtube.com/embed/watch?v=S_382yGp7Hs&amp;t=1834" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

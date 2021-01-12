@@ -9,7 +9,7 @@ thumbnail: /images/131670414_208153870856519_1810795680202214941_o.jpg
 Smart cities are often cast as the bridge to modernity; when our cities will be hyper connected and data-driven in design and function. The webinar explores how the preservation of socio-cultural assets of the past is foundational for social cohesion and
 success, reflecting on three cases: Ho Chi Minh City and Hanoi (Vietnam), Amsterdam (Netherlands) and Portland (USA) with shared experience from national and international experts.
 
-<div align="center"> <img align="center" width=100% src="/images/131670414_208153870856519_1810795680202214941_o.jpg"/> </div>
+<div align="center"> <img align="center" width="600px" src="/images/131670414_208153870856519_1810795680202214941_o.jpg"/> </div>
 
  You can now access the full webinar recording online:
 

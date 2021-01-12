@@ -10,4 +10,4 @@ Come & enjoy amazing artworks and technology (virtual reality, 3D printing...), 
 
 ![institute-yard](/images/kết-hợp-nghệ-thuật-và-công-nghệ-hướng-đến-thành-phố-thông-minh-đáng-sống-3-.jpg "institute-yard")
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/-25ln6bZocY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe align="center" width="80%" height="500" src="https://www.youtube.com/embed/-25ln6bZocY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

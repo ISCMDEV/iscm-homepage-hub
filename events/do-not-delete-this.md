@@ -10,4 +10,5 @@ Come & enjoy amazing artworks and technology (virtual reality, 3D printing...), 
 
 <div align="center"> <img align="center" width=100% src="/images/kết-hợp-nghệ-thuật-và-công-nghệ-hướng-đến-thành-phố-thông-minh-đáng-sống-3-.jpg"/> </div>
 
+<p>You can now access the full event recording online:</p>
 <div align="center"><iframe margin-top="30px" align="center" width="900" height="600" src="https://www.youtube.com/embed/-25ln6bZocY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

@@ -20,13 +20,11 @@ import ResponsiveModalContent from "../../helpers/ResponsiveModalContent.js";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
-import StudioLabImage1 from "./../../images/StudioLab/StudioLab1.jpg"
-import StudioLabImage2 from "./../../images/StudioLab/VR1.jpg"
-import StudioLabImage3 from "./../../images/StudioLab/3dP.jpg"
-import StudioLabImage4 from "./../../images/StudioLab/USIM.jpg"
-import StudioLabImage5 from "./../../images/StudioLab/Book.JPG"
-
-
+import StudioLabImage1 from "./../../images/StudioLab/StudioLab1.jpg";
+import StudioLabImage2 from "./../../images/StudioLab/VR1.jpg";
+import StudioLabImage3 from "./../../images/StudioLab/3dP.jpg";
+import StudioLabImage4 from "./../../images/StudioLab/USIM.jpg";
+import StudioLabImage5 from "./../../images/StudioLab/Book.JPG";
 
 const HeaderRow = tw.div`flex justify-center items-center flex-col xl:flex-col `;
 const Header = tw(SectionHeading)`
@@ -35,9 +33,9 @@ const Header = tw(SectionHeading)`
 const TabsControl = tw.div`flex flex-wrap bg-gray-200 px-2 py-2 rounded leading-none sm:mt-4 xl:mt-12 xl:mt-0`;
 
 const TabControl = styled.div`
-  ${tw`cursor-pointer px-8 py-6 mt-0 sm:mr-2 last:mr-0 text-gray-600 font-medium rounded-sm transition duration-300 text-sm sm:text-base w-1/2 sm:w-auto text-center`}
+  ${tw`w-1/2 px-8 py-6 mt-0 text-sm font-medium text-center text-gray-600 transition duration-300 rounded-sm cursor-pointer sm:mr-2 last:mr-0 sm:text-base sm:w-auto`}
   &:hover {
-    ${tw`bg-gray-300 text-gray-700`}
+    ${tw`text-gray-700 bg-gray-300`}
   }
   ${(props) => props.active && tw`bg-primary-700! text-gray-100!`}
 `;
@@ -55,12 +53,12 @@ const CardImageContainer = styled.div`
     css`
       background-image: url("${props.thumbnail}");
     `}
-  ${tw`h-56 xl:h-64 bg-center bg-cover relative rounded-t`}
+  ${tw`relative h-56 bg-center bg-cover rounded-t xl:h-64`}
 `;
 
 const CardHoverOverlay = styled(motion.div)`
   background-color: rgba(255, 255, 255, 0.5);
-  ${tw`absolute inset-0 flex justify-center items-center`}
+  ${tw`absolute inset-0 flex items-center justify-center`}
 `;
 const CardButton = tw(PrimaryButtonBase)`text-base`;
 
@@ -69,10 +67,10 @@ const CardTitle = tw.h5`lg:h-1/2 text-lg font-semibold group-hover:text-primary-
 // const CardContent = tw.p`mt-1 text-sm font-medium text-gray-600`;
 
 const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
-  ${tw`pointer-events-none -z-20 absolute right-0 top-0 h-64 w-64 opacity-15 transform translate-x-2/3 -translate-y-12 text-pink-400`}
+  ${tw`absolute top-0 right-0 w-64 h-64 text-pink-400 transform -translate-y-12 pointer-events-none -z-20 opacity-15 translate-x-2/3`}
 `;
 const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
-  ${tw`pointer-events-none -z-20 absolute left-0 bottom-0 h-80 w-80 opacity-15 transform -translate-x-2/3 text-primary-500`}
+  ${tw`absolute bottom-0 left-0 transform pointer-events-none -z-20 h-80 w-80 opacity-15 -translate-x-2/3 text-primary-500`}
 `;
 
 const StyledModal = styled(ReactModalAdapter)`
@@ -83,7 +81,7 @@ const StyledModal = styled(ReactModalAdapter)`
     }
   }
   &.mainHeroModal__content {
-    ${tw`xl:mx-auto m-4 sm:m-16 max-w-screen-xl absolute inset-0 flex justify-center items-center bg-primary-700 outline-none`}
+    ${tw`absolute inset-0 flex items-center justify-center max-w-screen-xl m-4 outline-none xl:mx-auto sm:m-16 bg-primary-700`}
   }
   .content {
     ${tw`w-full lg:p-16`}
@@ -94,8 +92,7 @@ const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-p
 const TABS = {
   News: [
     {
-      thumbnail:
-        StudioLabImage1,
+      thumbnail: StudioLabImage1,
       title: "News",
       content: "Some Random piece of news",
       price: "$5.99",
@@ -114,8 +111,7 @@ const TABS = {
       url: " ",
     },
     {
-      thumbnail:
-        StudioLabImage3,
+      thumbnail: StudioLabImage3,
       title: "News",
       content: "Some Random piece of news",
       price: "$7.99",
@@ -124,8 +120,7 @@ const TABS = {
       url: " ",
     },
     {
-      thumbnail:
-        StudioLabImage5,
+      thumbnail: StudioLabImage5,
       title: "News",
       content: "Some Random piece of news",
       price: "$8.99",
@@ -134,8 +129,7 @@ const TABS = {
       url: " ",
     },
     {
-      thumbnail:
-        StudioLabImage2,
+      thumbnail: StudioLabImage2,
       title: "News",
       content: "Some Random piece of news",
       price: "$7.99",
@@ -204,8 +198,7 @@ const TABS = {
       url: " ",
     },
     {
-      thumbnail:
-        StudioLabImage4,
+      thumbnail: StudioLabImage4,
       title: "News",
       content: "Some Random piece of news",
       price: "$8.99",
@@ -213,7 +206,6 @@ const TABS = {
       reviews: "12",
       url: " ",
     },
-    
   ],
   Events: [
     {
@@ -522,6 +514,9 @@ export default ({
   const shortenCardtitle = postlist.map((post) => {
     return post.title.split(" ").slice(0, 7).join(" ") + "...";
   });
+  const shortenEventsCardtitle = eventlist.map((post) => {
+    return post.title.split(" ").slice(0, 7).join(" ") + "...";
+  });
   return (
     <Container>
       <ContentWithPaddingXl>
@@ -601,7 +596,11 @@ export default ({
                           : `${post.id}`
                       }`}
                     >
-                      <CardTitle>{shortenCardtitle[index]}</CardTitle>
+                      <CardTitle>
+                        {activeTab.toLowerCase() === "events"
+                          ? shortenEventsCardtitle[index]
+                          : shortenCardtitle[index]}
+                      </CardTitle>
                     </Link>
                     <small>
                       Published on {post.date} by {post.author}
@@ -633,9 +632,7 @@ export const TwoLinesTabsGrid = ({
 }) => {
   const tabsKeys = Object.keys(tabs);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [imgSRC, setimgSRC] = useState(
-    ""
-  );
+  const [imgSRC, setimgSRC] = useState("");
   const toggleModal = () => setModalIsOpen(!modalIsOpen);
   return (
     <Container>

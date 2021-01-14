@@ -198,41 +198,39 @@ export const HomepageResearchs = ({
     return post.title.split(" ").slice(0, 10).join(" ") + "...";
   });
   return (
-    <AnimationRevealPage>
-      <Container className="container">
-        {/* <ContentWithPaddingXl> */}
-        <HeadingRow showResearchs>
-          <SectionHeading>{headingText}</SectionHeading>
-          <Link to="/research-development">
-            <ReadMoreButton>Read More</ReadMoreButton>
-          </Link>
-        </HeadingRow>
-        <Posts>
-          {posts.slice(0, 3).map((post, index) => (
-            <PostContainer key={index}>
-              {/* {console.log(posts)} */}
-              <Link to={`/article/papers/${post.id}`}>
-                <Post className="group" as="a" href={post.url}>
-                  <Image imageSrc={post.thumbnail} />
-                  <Info>
-                    <Subinfo>
-                      <Category>{post.category}</Category>
-                      <CreationDate>{post.date}</CreationDate>
-                    </Subinfo>
-                    <Link to={`/article/papers/${post.id}`}>
-                      <Title>{shortenCardtitle[index]}</Title>
-                    </Link>
-                    <Description>{shortenDescription[index]}</Description>
-                    <Author>by {post.author} </Author>
-                  </Info>
-                </Post>
-              </Link>
-            </PostContainer>
-          ))}
-        </Posts>
-        {/* </ContentWithPaddingXl> */}
-      </Container>
-    </AnimationRevealPage>
+    <Container className="container">
+      {/* <ContentWithPaddingXl> */}
+      <HeadingRow showResearchs>
+        <SectionHeading>{headingText}</SectionHeading>
+        <Link to="/research-development">
+          <ReadMoreButton>Read More</ReadMoreButton>
+        </Link>
+      </HeadingRow>
+      <Posts>
+        {posts.slice(0, 3).map((post, index) => (
+          <PostContainer key={index}>
+            {/* {console.log(posts)} */}
+            <Link to={`/article/papers/${post.id}`}>
+              <Post className="group" as="a" href={post.url}>
+                <Image imageSrc={post.thumbnail} />
+                <Info>
+                  <Subinfo>
+                    <Category>{post.category}</Category>
+                    <CreationDate>{post.date}</CreationDate>
+                  </Subinfo>
+                  <Link to={`/article/papers/${post.id}`}>
+                    <Title>{shortenCardtitle[index]}</Title>
+                  </Link>
+                  <Description>{shortenDescription[index]}</Description>
+                  <Author>by {post.author} </Author>
+                </Info>
+              </Post>
+            </Link>
+          </PostContainer>
+        ))}
+      </Posts>
+      {/* </ContentWithPaddingXl> */}
+    </Container>
   );
 };
 

@@ -77,14 +77,14 @@ const PostTextContainer = tw.div``;
 
 export default () => {
   // This setting is for animating the post background image on hover
-  const postBackgroundSizeAnimation = {
-    rest: {
-      backgroundSize: "100%",
-    },
-    hover: {
-      backgroundSize: "110%",
-    },
-  };
+  // const postBackgroundSizeAnimation = {
+  //   rest: {
+  //     backgroundSize: "100%",
+  //   },
+  //   hover: {
+  //     backgroundSize: "110%",
+  //   },
+  // };
 
   //Recommended: Only 2 Items
   const popularPosts = eventslist.slice(
@@ -177,7 +177,6 @@ export default () => {
                 >
                   <Image
                     transition={{ duration: 0.3 }}
-                    variants={postBackgroundSizeAnimation}
                     imageSrc={post.thumbnail}
                   />
                   <Link to={`/article/events/${post.id}`}>

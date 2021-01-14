@@ -10,14 +10,14 @@ import phdslists from "../phds.json";
 import courseslists from "../courses.json";
 
 import ScrollTop from "components/misc/ScrollTop";
-import styled from "styled-components";
-import tw from "twin.macro";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+// import styled from "styled-components";
+// import tw from "twin.macro";
+// import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 
-const PrimaryButton = styled(PrimaryButtonBase)((props) => [
-  tw`inline-block mx-auto mt-8 text-sm md:mt-8 md:mx-0`,
-  props.buttonRounded && tw`rounded-full`,
-]);
+// const PrimaryButton = styled(PrimaryButtonBase)((props) => [
+//   tw`inline-block mx-auto mt-8 text-sm md:mt-8 md:mx-0`,
+//   props.buttonRounded && tw`rounded-full`,
+// ]);
 export default (props) => {
   const validId = parseInt(props.match.params.id);
   if (!validId) {

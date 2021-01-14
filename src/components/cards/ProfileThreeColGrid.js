@@ -8,9 +8,6 @@ import {
   Subheading as SubheadingBase,
 } from "components/misc/Headings";
 import { SectionDescription } from "components/misc/Typography";
-import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
-import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
-import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 import { ReactComponent as Website } from "images/WebsiteIcon.svg";
 import MemberTUA from "./../../images/People/TuA.jpg";
 import MemberMAI from "./../../images/People/MAI.JPG";
@@ -37,7 +34,7 @@ import KIEN from "./../../images/People/DrToKien.jpg";
 import NAM from "./../../images/People/NAMLE.jpg";
 import CUYVERS from "./../../images/People/ProfCuyvers.jpg";
 import STEVEN from "./../../images/People/StevenPetit.jpg";
-import THANG from "./../../images/People/Thang.jpg"
+import THANG from "./../../images/People/Thang.jpg";
 
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)``;
@@ -51,12 +48,12 @@ const CardImage = styled.div`
     css`
       background-image: url("${props.imageSrc}");
     `}
-  ${tw`w-64 h-64 bg-contain bg-center rounded`}
+  ${tw`w-64 h-64 bg-center bg-contain rounded`}
 `;
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
   .position {
-    ${tw`uppercase font-bold tracking-widest text-xs text-primary-500`}
+    ${tw`text-xs font-bold tracking-widest uppercase text-primary-500`}
   }
   .name {
     ${tw`mt-1 text-xl font-medium text-gray-900`}
@@ -64,11 +61,11 @@ const CardContent = styled.div`
 `;
 
 const CardLinks = styled.div`
-  ${tw`mt-6 flex`}
+  ${tw`flex mt-6`}
   .link {
-    ${tw`mr-8 last:mr-0 text-gray-400 hocus:text-primary-500 transition duration-300`}
+    ${tw`mr-8 text-gray-400 transition duration-300 last:mr-0 hocus:text-primary-500`}
     .icon {
-      ${tw`fill-current w-6 h-6`}
+      ${tw`w-6 h-6 fill-current`}
     }
   }
 `;
@@ -400,7 +397,7 @@ export const Collaborator = ({
           url: "https://academicimpact.un.org/",
           icon: Website,
         },
-       ],
+      ],
     },
   ],
 }) => {

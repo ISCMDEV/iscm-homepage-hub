@@ -1,6 +1,6 @@
 import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
-import React from "react";
+import React, { Suspense } from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 /* Ready Made Pages (from demos folder) */
@@ -32,6 +32,8 @@ import {
 import Article from "pages/Article";
 import ScrollToTop from "components/misc/ScrollTop";
 import Notfound from "pages/Notfound.js";
+
+import { useTranslation } from "react-i18next";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;

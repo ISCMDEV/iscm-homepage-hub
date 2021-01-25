@@ -25,3 +25,10 @@ Delegate of Vietnam:
 </ul>
 Thanks to all students. Hope that we can meet in next year.
  </p>
+<div align="center"> <img align="center" width="80%" src="/images/05.08.20.01.jpg"/> </div>
+<div align="center"> <img align="center" width="80%" src="/images/05.08.20.02.jpg"/> </div>
+<div align="center"> <img align="center" width="80%" src="/images/05.08.20.03.jpg"/> </div>
+<div align="center"> <img align="center" width="80%" src="/images/05.08.20.04.jpg"/> </div>
+<div align="center"> <img align="center" width="80%" src="/images/05.08.20.05.jpg"/> </div>
+<div align="center"> <img align="center" width="80%" src="/images/05.08.20.06.jpg"/> </div>
+<div align="center"> <img align="center" width="80%" src="/images/05.08.20.07.jpg"/> </div>

@@ -8,6 +8,8 @@ thumbnail: /images/11.01.21.jpg
 
 Cities are becoming the predominant environment for living and working. They followed by intensive degradation, destruction, pollution, overpopulation and crime, so livability or quality of life in the city has become crucial.
 
+<div align="center"> <img align="center" width="80%" src="/images/11.01.21.jpg"/> </div>
+
 We may raise questions: What is the city we want to create in the future? What is the city in which we want to live? How to mitigate or solve urban issues nowadays toward sustainability?
 
 The long-term future sustainability will provided by use of urban smart solutions together by integrated platform of living lab citizen - academia - stakeholder and local authority approach, in odder to understanding the citizen's design science, by social framework of crowdsources as the important part for the planning of future cities.

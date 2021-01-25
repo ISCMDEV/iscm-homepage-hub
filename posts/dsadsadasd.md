@@ -1,7 +1,9 @@
 ---
-title: Hello World
-author: sadasdasdasdasdsa
-date: 2020-10-26T16:01:18.077Z
-thumbnail: /images/5b5c556acf23efe851e46dfc3ece8e44.jpg
+title: Urban Economic Development in Ho Chi Minh City – Current Issues and Solutions
+author: lptan
+date: 2020-07-15T16:01:18.077Z
+thumbnail: /images/16.07.20.jpg
 ---
-# dsadasdddddddddddddddddddd
+<p align=center>UEH organized a workshop on “Urban Economic Development in Ho Chi Minh City – Current Issues and Solutions” for the project led by Central Economic Commission <br> On the morning of July 15 2020, at Room. A101 (59C Nguyen Dinh Chieu Street, Ward 6, District 3, Ho Chi Minh City), UEH solemnly held the workshop “Urban Economic Development in Ho Chi Minh City: Current Issues and Solutions”. The workshop is to build the project “Urbanization and Urban Development in Vietnam through 2030, a vision towards 2045”, led by Central Economic Commission and relevant units. <br> On the behalf of the research team, Dr. Tú Anh Trinh – Director of Institute of Smart City and Management, had a presentation on current issues of urbanization, urban economic development in the period 2011-2020, lessons learned from other countries such as New York, Singapore, Paris, Amsterdam, and SWOT analysis of urbanization process in Vietnam. Proposed solutions by the research team are integrated solutions to enhance sustainable urbanization and urban development through 2030, a vision towards 2045. <br>During the workshop, delegates shared and discussed their ideas on current issues and solutions for urban economic development in Ho Chi Minh City. Hopefully, with efforts of the research team and valuable contributions of the workshop delegates, the project “Urbanization and uran economic development in Vietnam through 2030, a vision towards 2045” organized by Central Economic Commission is successfully completed. </p>
+
+<div align="center"> <img align="center" width="80%" src="/images/16.07.20.jpg"/> </div>

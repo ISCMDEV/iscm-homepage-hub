@@ -1,7 +1,7 @@
 ---
 title: ISCM Studio-Lab
 author: lptan
-date: 2021-04-13T19:53:00.000Z
+date: 2020-06-13T19:53:00.000Z
 thumbnail: /images/14.06.2020.jpg
 ---
 <p align="center"> ️🎉️🎉️🎉We can't wait to welcome all our friends, colleagues, partners and everybody who concerned to the ISCM studio-lab. We hope you have a great time with many wonderful experience at ISCM. 🙆🙆🙆💕💕💕 <br> 💪💪💪Institute of Smart City and Management (ISCM) were established with the goal of becoming a connector between universities, government  management agencies, research organizations, domestic and foreign companies and the local community. 🤝🤝🤝Together, we will research and propose smart strategies and creative solutions to solve urban problems and develop a better education towards sustainable urban development in Vietnam.👍👍👍 <p>

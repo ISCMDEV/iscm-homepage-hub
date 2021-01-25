@@ -9,5 +9,5 @@ thumbnail: /images/18.07.20.jpg
 
 Live streaming of kick off meetings is available to the public by visiting fanpage UEH - Institute of Smart City and Management
 
-<a href=" https://www.facebook.com/ISCM.ueh">Link fanpage</a>
+<a href=" https://www.facebook.com/ISCM.ueh">Link fanpage: https://www.facebook.com/ISCM.ueh</a>
 

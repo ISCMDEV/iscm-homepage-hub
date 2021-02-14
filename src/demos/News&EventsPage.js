@@ -13,7 +13,8 @@ export default () => {
       <Hero
         heading={
           <>
-            Upcoming Event.<HighlightedText>Universal Design Seminar</HighlightedText>
+            Upcoming Event.
+            <HighlightedText>Universal Design Seminar</HighlightedText>
           </>
         }
         description="2020 - the time of changes. Co-organizers:"
@@ -21,7 +22,7 @@ export default () => {
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Register"
-        primaryButtonUrl=" "
+        primaryButtonUrl="events/1610288460"
         watchVideoButtonText="Have a look"
       />
 

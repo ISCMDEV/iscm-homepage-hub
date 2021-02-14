@@ -13,6 +13,7 @@ import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.svg";
 import DesignIllustration from "../../images/design-illustration.svg";
 import { handleForm } from "components/misc/Formhandle.js";
+import { ConditionalLink } from "helpers/ConditionalRoutes.jsx";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -23,11 +24,11 @@ const Heading = tw.h1`font-black text-3xl md:text-5xl leading-snug max-w-3xl`;
 const Paragraph = tw.p`my-5 lg:my-8 text-sm lg:text-base font-medium text-gray-600 max-w-lg mx-auto lg:mx-0`;
 
 const Actions = tw.div`flex flex-col items-center sm:flex-row justify-center lg:justify-start mt-8`;
-const PrimaryButton = tw.button`font-bold px-8 lg:px-10 py-3 rounded bg-primary-800 text-gray-100 hocus:bg-primary-700 focus:shadow-outline focus:outline-none transition duration-300`;
+const PrimaryButton = tw.button`font-bold px-8 lg:px-10 py-3 rounded bg-primary-800 text-gray-100 hocus:bg-primary-700 focus:shadow-outline focus:outline-none transition duration-300 hover:cursor-pointer`;
 const WatchVideoButton = styled.button`
-  ${tw`mt-4 sm:mt-0 sm:ml-8 flex items-center text-secondary-300 transition duration-300 hocus:text-primary-400 focus:outline-none`}
+  ${tw`flex items-center mt-4 transition duration-300 sm:mt-0 sm:ml-8 text-secondary-300 hocus:text-primary-400 focus:outline-none`}
   .playIcon {
-    ${tw`stroke-1 w-12 h-12`}
+    ${tw`w-12 h-12 stroke-1`}
   }
   .playText {
     ${tw`ml-2 font-medium`}
@@ -38,10 +39,10 @@ const IllustrationContainer = tw.div`flex justify-center md:justify-end items-ce
 
 // Random Decorator Blobs (shapes that you see in background)
 const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
-  ${tw`pointer-events-none opacity-5 absolute left-0 bottom-0 h-64 w-64 transform -translate-x-2/3  -z-10`}
+  ${tw`absolute bottom-0 left-0 w-64 h-64 transform pointer-events-none opacity-5 -translate-x-2/3 -z-10`}
 `;
 const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
-  ${tw`pointer-events-none fill-current text-primary-500 opacity-25 absolute w-32 h-32 right-0 bottom-0 transform translate-x-10 translate-y-10 -z-10`}
+  ${tw`absolute bottom-0 right-0 w-32 h-32 transform translate-x-10 translate-y-10 opacity-25 pointer-events-none fill-current text-primary-500 -z-10`}
 `;
 
 const StyledModal = styled(ReactModalAdapter)`
@@ -49,7 +50,7 @@ const StyledModal = styled(ReactModalAdapter)`
     ${tw`fixed inset-0 z-50`}
   }
   &.mainHeroModal__content {
-    ${tw`xl:mx-auto m-4 sm:m-16 max-w-screen-xl absolute inset-0 flex justify-center items-center rounded-lg bg-gray-200 outline-none`}
+    ${tw`absolute inset-0 flex items-center justify-center max-w-screen-xl m-4 bg-gray-200 rounded-lg outline-none xl:mx-auto sm:m-16`}
   }
   .content {
     ${tw`w-full lg:p-16`}
@@ -61,7 +62,7 @@ export default ({
   heading = "Modern React Templates, Just For You",
   description = "Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
   primaryButtonText = "Get Started",
-  primaryButtonUrl = "#",
+  primaryButtonUrl = null,
   watchVideoButtonText = "Watch Video",
   watchVideoYoutubeUrl = "https://www.youtube.com/embed/YlGpTKWAibY",
   imageSrc = DesignIllustration,
@@ -83,12 +84,19 @@ export default ({
               <PrimaryButton as="a" onClick={handleForm}>
                 {primaryButtonText}
               </PrimaryButton>
-              <WatchVideoButton onClick={toggleModal}>
-                <span className="playIconContainer">
-                  <PlayIcon className="playIcon" />
-                </span>
-                <span className="playText">{watchVideoButtonText}</span>
-              </WatchVideoButton>
+              <ConditionalLink
+                to={`article/${primaryButtonUrl}`}
+                condition={primaryButtonUrl}
+              >
+                {watchVideoYoutubeUrl && (
+                  <WatchVideoButton onClick={toggleModal}>
+                    <span className="playIconContainer">
+                      <PlayIcon className="playIcon" />
+                    </span>
+                    <span className="playText">{watchVideoButtonText}</span>
+                  </WatchVideoButton>
+                )}
+              </ConditionalLink>
             </Actions>
           </LeftColumn>
           <RightColumn>

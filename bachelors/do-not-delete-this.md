@@ -45,9 +45,9 @@ description: "Kiến Trúc đô thị "
 <li>Viện Đô thị thông minh và quản lý</li>
 <li>Địa chỉ: 232/6 Võ Thị Sáu, P7, Quận 3</li>
 <li>Điện thoại: 028.39309589 - 028.39309269</li>
-<li>Email:<a href="iscm@ueh.edu.vn"> iscm@ueh.edu.vn</a></li>
-<li>Website:<a href="iscm.ueh.edu.vn"> iscm.ueh.edu.vn</a> </li>
-<li>Fanpage: <a href="facebook/iscm.ueh"> facebook/iscm.ueh</a></li>
+<li>Email:<a classname"an" href="iscm@ueh.edu.vn"> iscm@ueh.edu.vn</a></li>
+<li>Website:<a classname"an" href="iscm.ueh.edu.vn"> iscm.ueh.edu.vn</a> </li>
+<li>Fanpage: <a classname"an" href="facebook/iscm.ueh"> facebook/iscm.ueh</a></li>
 </ul>
 </p>
 

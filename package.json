@@ -29,7 +29,8 @@
   },
   "scripts": {
     "start": "node public/main.js && react-scripts start",
-    "build": "node public/main.js && react-scripts build"
+    "build": "node public/main.js && react-scripts build",
+    "server": "node public/main.js"
   },
   "eslintConfig": {
     "extends": "react-app"

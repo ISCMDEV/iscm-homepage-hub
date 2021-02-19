@@ -1,7 +1,7 @@
 ---
-title: Thông tin tuyển sinh
+title: Thông tin tuyển sinh Thạc Sĩ
 author: lptan
-date: 2021-02-17T13:18:34.378Z
+date: 2021-02-19T06:05:20.673Z
 thumbnail: /images/05.08.20.04.jpg
 description: Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuyển sinh Chương
   trình Thạc sĩ Điều hành cao cấp Quản lý đô thị thông minh và sáng tạo
@@ -18,7 +18,8 @@ description: Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuy
 
 <li><strong>Chương trình đào tạo và bằng cấp</strong></li> 
 
-<p align='center'>- Nội dung đào tạo: trong 24 tháng (64 tín chỉ) gồm các học phần và đồ án tốt nghiệp. Các học phần và chuyên đề được thiết kế gồm 3 phần chính: Phần kiến thức chung (11 tín chỉ), Phần kiến thức cơ sở và chuyên ngành (37 tín chỉ), đồ án tốt nghiệp (16 tín chỉ). </p>
+<p align='center'>- Nội dung đào tạo: trong 24 tháng (64 tín chỉ) gồm các học phần và đồ án tốt nghiệp. Các học phần và chuyên đề được thiết kế gồm 3 phần chính: Phần kiến thức chung (11 tín chỉ), Phần kiến thức cơ sở và chuyên ngành (37 tín chỉ), đồ án tốt nghiệp (16 tín chỉ). 
+</p>
 
 <p align='center'>- Lớp học được tổ chức vào vào các buổi tối trong tuần hoặc học thứ Bảy, Chủ nhật hàng tuần. </p> 
 
@@ -29,20 +30,26 @@ description: Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuy
 Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây: 
 
 <ol>
-<li>Điều kiện về thâm niên công tác và kinh nghiệm quản lý </li> </li> 
+<li>Điều kiện về thâm niên công tác và kinh nghiệm quản lý </li> 
+</li> 
 
-<dl>-Thí sinh dự thi chuyên ngành Quản lý đô thị thông minh và sáng tạo không cần xét thâm niên công tác. </dl>
+<dl>-Thí sinh dự thi chuyên ngành Quản lý đô thị thông minh và sáng tạo không cần xét thâm niên công tác. 
+</dl>
 
-<li> Điều kiện văn bằng </li>
+<li> Điều kiện văn bằng 
+</li>
 
-<dl>-Có bằng tốt nghiệp đại học thuộc một trong các khối ngành sau: kỹ thuật, kinh tế và quản lý. </dl>
+<dl>-Có bằng tốt nghiệp đại học thuộc một trong các khối ngành sau: kỹ thuật, kinh tế và quản lý. 
+</dl>
 
-<dl>Lưu ý: Các văn bằng tốt nghiệp đại học và bảng điểm do cơ sở đào tạo nước ngoài cấp phải được công chứng tiếng Việt và nộp kèm theo văn bản công nhận của Cục Quản lý chất lượng (thông tin về đăng ký công nhận văn bằng do nước ngoài cấp xem tại <a href="https://naric.edu.vn">https://naric.edu.vn</a>, mục Hướng dẫn quy trình CNVB do cơ sở giáo dục nước ngoài cấp). </dl>
+<dl>Lưu ý: Các văn bằng tốt nghiệp đại học và bảng điểm do cơ sở đào tạo nước ngoài cấp phải được công chứng tiếng Việt và nộp kèm theo văn bản công nhận của Cục Quản lý chất lượng (thông tin về đăng ký công nhận văn bằng do nước ngoài cấp xem tại <a href="https://naric.edu.vn">https://naric.edu.vn</a>, mục Hướng dẫn quy trình CNVB do cơ sở giáo dục nước ngoài cấp). 
+</dl>
 </ol>
 
 <li> <strong>Phương thức thi tuyển</strong>  
 
-<ol> <li> <strong>Nội dung thi tuyển</strong> </li>
+<ol> <li> <strong>Nội dung thi tuyển</strong> 
+</li>
 
 <dl> Việc thi tuyển vào chương trình bao gồm các phần sau: 
 
@@ -62,7 +69,8 @@ Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây:
 
 - Căn cứ danh sách thuộc diện xét trúng tuyển, Trường xác định điểm chuẩn được tính theo tổng điểm thi phần 2 và phần 4 (không cộng điểm môn Ngoại ngữ và phần 1) của từng thí sinh từ cao xuống thấp cho đến hết chỉ tiêu. Trường hợp có nhiều thí sinh cùng tổng điểm các môn thi thì xác định người trúng tuyển theo thứ tự ưu tiên như sau: Thí sinh là nữ; Người có điểm cao hơn của phần 4; Người được miễn thi môn ngoại ngữ hoặc người có điểm ngoại ngữ cao hơn. 
 
-</ol>
+
+</ol>
 
 <li> <strong> Chỉ tiêu tuyển sinh </strong> : 50 học viên </li>
 
@@ -77,35 +85,46 @@ Thí sinh được miễn thi môn ngoại ngữ trong kỳ thi tuyển sinh đ�
 - Có bằng tốt nghiệp đại học ngành ngôn ngữ nước ngoài; 
 
 - Có chứng chỉ trình độ ngoại ngữ tương đương B1 khung tham chiếu Châu Âu đối với 1 trong 6 ngoại ngữ: Anh, Pháp, Nga, Hoa, Đức, Nhật trong thời hạn 2 năm kể từ ngày cấp chứng chỉ đến ngày nộp hồ sơ dự thi (xem Phụ lục, Bảng tham chiếu quy đổi một số chứng chỉ ngoại ngữ). 
-</li>
+
+</li>
 <li><strong> Đối tượng và mức ưu tiên </strong>
-<dl><strong>Đối tượng ưu tiên:</strong> <dl>
-<ol type='a'>
-<li>Người có thời gian công tác hai năm liên tục trở lên (tính đến ngày hết hạn nộp hồ sơ đăng ký dự thi) tại các địa phương được quy định là Khu vực 1 trong Quy chế tuyển sinh đại học, cao đẳng hệ chính quy hiện hành. Trong trường hợp này thí sinh phải có quyết định tiếp nhận công tác hoặc điều động của cơ quan, tổ chức có thẩm quyền;  </li>
+<dl><strong>
+Đối tượng ưu tiên:</strong> 
+<dl>
 
-<li>Thương binh, người hưởng chính sách như thương binh; </li>
+<ol type='a'>
+<li>Người có thời gian công tác hai năm liên tục trở lên (tính đến ngày hết hạn nộp hồ sơ đăng ký dự thi) tại các địa phương được quy định là Khu vực 1 trong Quy chế tuyển sinh đại học, cao đẳng hệ chính quy hiện hành. Trong trường hợp này thí sinh phải có quyết định tiếp nhận công tác hoặc điều động của cơ quan, tổ chức có thẩm quyền;  
+</li>
 
-<li> Anh hùng lao động, anh hùng lực lượng vũ trang; </li>
+<li>Thương binh, người hưởng chính sách như thương binh; 
+</li>
+
+<li> Anh hùng lao động, anh hùng lực lượng vũ trang; 
+</li>
 
 <li>Người thuộc dân tộc thiểu số có hộ khẩu thường trú từ 2 năm trở lên ở địa phương được quy định tại Điểm a); </li>
 
 <li>Con liệt sĩ, con nạn nhân chất độc màu da cam.</li>
 </ol> 
 
-<dl> <strong>Mức ưu tiên: </strong>Người dự thi thuộc đối tượng ưu tiên đã kể trên (bao gồm cả người thuộc nhiều đối tượng ưu tiên) được cộng vào kết quả thi mười (10) điểm cho môn ngoại ngữ (thang điểm 100) nếu không thuộc diện được miễn thi ngoại ngữ và cộng một (01) điểm (thang điểm 10) cho môn thi phần 2. </dl>
+<dl> <strong>Mức ưu tiên: </strong>Người dự thi thuộc đối tượng ưu tiên đã kể trên (bao gồm cả người thuộc nhiều đối tượng ưu tiên) được cộng vào kết quả thi mười (10) điểm cho môn ngoại ngữ (thang điểm 100) nếu không thuộc diện được miễn thi ngoại ngữ và cộng một (01) điểm (thang điểm 10) cho môn thi phần 2. 
+</dl>
 
 <dl> <strong>Các loại giấy tờ cần nộp để hưởng chính sách ưu tiên </strong></dl>
 
 <ul> 
-<li>Hợp đồng lao động (có công chứng), quyết định tiếp nhận hoặc điều động công tác của cấp có thẩm quyền và xác nhận của UBND phường, xã về việc cơ quan đó đóng tại địa bàn được ưu tiên (cho đối tượng a); </li>
+<li>Hợp đồng lao động (có công chứng), quyết định tiếp nhận hoặc điều động công tác của cấp có thẩm quyền và xác nhận của UBND phường, xã về việc cơ quan đó đóng tại địa bàn được ưu tiên (cho đối tượng a); 
+</li>
 
-<li>Bản sao (có công chứng) thẻ thương binh/bệnh binh hoặc các loại giấy tờ có liên quan (cho các đối tượng b, c, đ); </li>
+<li>Bản sao (có công chứng) thẻ thương binh/bệnh binh hoặc các loại giấy tờ có liên quan (cho các đối tượng b, c, đ); 
+</li>
 
 <li>Bản sao (có công chứng) CMND, giấy khai sinh hoặc hộ khẩu và xác nhận của xã/phường nơi thí sinh cư trú (cho đối tượng d).</li>
 </ul>
 </li> 
 
-<li> <strong>Hồ sơ dự tuyển </strong> </li
+<li> <strong>Hồ sơ dự tuyển 
+</strong> </li
 
 Thí sinh dự thi phải nộp đầy đủ hồ sơ đăng ký dự thi, gồm: 
 
@@ -127,7 +146,8 @@ Thí sinh dự thi phải nộp đầy đủ hồ sơ đăng ký dự thi, gồm
 
 <dl>Chương trình tổ chức giới thiệu nội dung, phương pháp thi tuyển và phát tài liệu hướng dẫn ôn thi. Lịch cụ thể sẽ được công bố trên website của Viện Đào tạo Sau đại học - Trường Đại học Kinh tế TP. Hồ Chí Minh. 
 
-Ôn tập GMAT và Anh văn: sẽ thông báo lịch cụ thể sau </dl>
+Ôn tập GMAT và Anh văn: sẽ thông báo lịch cụ thể sau 
+</dl>
 
 <li> <strong>Lệ phí thi tuyển sinh dự kiến: </strong> </li>
 
@@ -139,16 +159,20 @@ Thí sinh dự thi phải nộp đầy đủ hồ sơ đăng ký dự thi, gồm
 
 <li><strong> Thời gian và địa điểm nhận hồ sơ:</strong></li>
 <ul> 
-<li><strong>Thời gian: </strong>Hạn chót 26/02/2021 </li>
+<li><strong>Thời gian: </strong>
+Hạn chót 26/02/2021 
+</li>
 <li><strong>Địa điểm:</strong> Viện Đào tạo Sau đại học, Trường ĐH Kinh tế TP. Hồ Chí Minh - Số 59C Nguyễn Đình Chiểu, P. Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh</li> 
 
 <li><strong>Thời gian thi tuyển dự kiến: </strong> Ngày 28/3/2021</li> 
 
-<li><strong>Thời gian khai giảng dự kiến: </strong> Tháng 04/2021</li>
+<li><strong>Thời gian khai giảng dự kiến: 
+</strong> Tháng 04/2021</li>
 </ul>
 
 
-<li><strong>Địa chỉ liên hệ: </strong> </li>Viện Đào tạo Sau đại học - Trường Đại học Kinh tế TP. Hồ Chí Minh. 
+<li><strong>Địa chỉ liên hệ: </strong> 
+</li>Viện Đào tạo Sau đại học - Trường Đại học Kinh tế TP. Hồ Chí Minh. 
 
 Số 59C Nguyễn Đình Chiểu, Quận 3, TP. Hồ Chí Minh - Điện thoại: (028)38295437 - (028)38235277. 
 
@@ -162,7 +186,7 @@ Video giới thiệu về chương trình:
 
 Flyer về chương trình học tại link:  
 
-https://drive.google.com/.../1WAMo2-c.../view... 
+<a href="https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing">https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing</a>
 
 </ol> 
 </p>

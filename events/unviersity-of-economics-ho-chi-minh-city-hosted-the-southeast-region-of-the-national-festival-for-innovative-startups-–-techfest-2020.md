@@ -5,6 +5,7 @@ author: lptan
 date: 2020-11-25T05:36:00.000Z
 thumbnail: /images/25.11.2020.jpg
 ---
+
 <p align="center"> On November 24, 2020, Unviersity of Economics Ho Chi Minh City hosted the Southeast Region of the national festival for innovative startups – TECHFEST 2020. Being a part of the festival, Institute of Smart City and Management (ISCM) successfully held the workshop “SMARTCITY+ Initiative” with the main theme “Tech & Urban Transformation and Human-Centered Approach” includes technology exhibition and application, forums for exchanging view on technology applications in urban development process and urban problem solving, together with human-centered approaches to smart city. </p>
 
 <div align="center"> <img align="center" width="80%" src="/images/25.11.2020.jpg"/> </div>

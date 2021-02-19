@@ -6,4 +6,5 @@ thumbnail: /images/netlifyicon.png
 description: Applied Science
 category: RESEARCH
 ---
+
 Applied Science

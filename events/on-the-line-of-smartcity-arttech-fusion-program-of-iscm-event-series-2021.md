@@ -4,6 +4,7 @@ author: lptan
 date: 2021-01-10T21:21:00.000Z
 thumbnail: /images/11.01.21.jpg
 ---
+
 <p align="center"> We would like to invite you to participate the webinar “Livable smart city: how to build up for the sustainable future city”, with our international and local experts and professors of Vietnam, America, Belgium and England.
 
 Cities are becoming the predominant environment for living and working. They followed by intensive degradation, destruction, pollution, overpopulation and crime, so livability or quality of life in the city has become crucial.
@@ -22,4 +23,5 @@ Institute of Smart city and management, 232/6 Vo Thi Sau street, Ward 7, Distric
 
 Register to attend online:
 <a href="https://uehvn.webex.com/webappng/sites/uehvn/meeting/download/35dc742c572a4ecba1741170b552f248?siteurl=uehvn&MTID=me3d2401ad36963ad49b9366da2edf1f9"> https://uehvn.webex.com/uehvn/j.php </a>
+
 </p>

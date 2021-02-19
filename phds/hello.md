@@ -184,7 +184,7 @@ Video giới thiệu về chương trình:
 
 Flyer về chương trình học tại link:  
 
-https://drive.google.com/.../1WAMo2-c.../view... 
+<a href="https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing">https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing</a>
 
 </ol> 
 </p>

@@ -7,6 +7,8 @@ import logo from "../../images/logo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import { Subheading as SubheadingBase } from "components/misc/Headings.js";
+const FooterTabs = tw.div`font-medium lg:text-xl xl:text-xl`;
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -22,7 +24,7 @@ const Links = tw.a`border-b-2 border-transparent hocus:text-gray-300 hocus:borde
 
 const SocialLinksContainer = tw.div`mt-10`;
 const SocialLink = styled.a`
-  ${tw`cursor-pointer inline-block text-gray-100 hover:text-gray-500 transition duration-300 mx-4`}
+  ${tw`inline-block mx-4 text-gray-100 transition duration-300 cursor-pointer hover:text-gray-500`}
   svg {
     ${tw`w-5 h-5`}
   }
@@ -38,6 +40,10 @@ export default () => {
             <LogoImg src={logo} />
             {/* <LogoText>ISCM</LogoText> */}
           </LogoContainer>
+          <br />
+          <SubheadingBase>
+            INSTITUTE OF SMART CITY AND MANAGEMENT
+          </SubheadingBase>
           <LinksContainer>
             <Link to="/">
               <Links>Home</Links>
@@ -54,12 +60,39 @@ export default () => {
             <Link to="/studiolab">
               <Links>StudioLab</Links>
             </Link>
-            <Link to="/education">
+            <Links to="/education">
               <Links>Education</Links>
-            </Link>
+            </Links>
             <Link to="/people">
               <Links>People</Links>
             </Link>
+          </LinksContainer>
+          <br />
+          <FooterTabs>Contacts</FooterTabs>
+          <LinksContainer style={{ marginTop: "1rem" }}>
+            <Links>Address: 232/6 Võ Thị Sáu, P7, Quận 3</Links>
+            <Links>Telephone: 028.39309589 - 028.39309269</Links>
+            <Links>
+              Email:
+              <a classname="contact-mail" href="iscm@ueh.edu.vn">
+                {" "}
+                iscm@ueh.edu.vn
+              </a>
+            </Links>
+            <Links>
+              Website:
+              <a classname="contact-website" href="iscm.ueh.edu.vn">
+                {" "}
+                iscm.ueh.edu.vn
+              </a>{" "}
+            </Links>
+            <Links>
+              Fanpage:{" "}
+              <a classname="contact-socialmedia" href="facebook/iscm.ueh">
+                {" "}
+                facebook/iscm.ueh
+              </a>
+            </Links>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://www.facebook.com/ISCM.ueh">

@@ -15,7 +15,7 @@ export default () => {
       <WallOfText headingText=" " />
       <MainFeature1
         subheading={<Subheading>bachelor programs</Subheading>}
-        heading="Bachelor of Architecture and Urban Design"
+        heading="Bachelor of Architectural and Urban Design inclusive Smart City"
         description="In a rapid changing world, from your home to a giant building, from your neighborhood to your city, Architecture and Urban Design always play a key role in all those things. As a bachelor student of Architecture and Urban Design at ISCM-UEH, you will have the chance to design from the very first day of your studies with a program focusing on problem-solving studios and technology application."
         buttonRounded={false}
         primaryButtonText="Learn more"

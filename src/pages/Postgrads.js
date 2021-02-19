@@ -15,8 +15,8 @@ export default () => {
       <WallOfText headingText="OUR PHD/MASTERS PROGRAMS" />
       <MainFeature1
         subheading={<Subheading>MASTER PROGRAMS</Subheading>}
-        heading="THIS IS THE FULLNAME FOR MASTER PROGRAMS"
-        description = "test1"
+        heading="EXECUTIVE MASTER OF SMART CITY AND INNOVATION MANAGEMENT"
+        description = "Chương trình Thạc sĩ điều hành cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City and Innovation Management) trang bị cho người học có trình độ chuyên môn sâu, có năng lực làm chủ các lĩnh vực quản lý, khoa học công nghệ có liên quan đến các giải pháp tích hợp quy hoạch, thiết kế đô thị, đặc biệt là các đô thị thông minh."
         primaryButtonUrl="phds/1"
         buttonRounded={false}
         primaryButtonText="Learn more"
@@ -24,8 +24,8 @@ export default () => {
       />
       <MainFeature1
         subheading={<Subheading>PHD PROGRAMS</Subheading>}
-        heading="THIS IS THE FULLNAME FOR PHD PROGRAMS"
-        description = "test 2"
+        heading="PHD PROGRAMS"
+        description = "Coming Soon"
         primaryButtonUrl="phds/2"
         buttonRounded={false}
         primaryButtonText="Learn more "

@@ -48,27 +48,27 @@ Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây:
 
 <li> <strong>Phương thức thi tuyển</strong>  
 
-<ol> <li> <strong>Nội dung thi tuyển</strong> 
-</li>
+<ol> 
+<li> <strong>Nội dung thi tuyển</strong> </li>
+<dl> Việc thi tuyển vào chương trình bao gồm các phần sau: </dl>
+<ul>
 
-<dl> Việc thi tuyển vào chương trình bao gồm các phần sau: 
+<li>Phần 1: Đánh giá hồ sơ về quá trình học tập, công tác của thí sinh.  </li>
 
-- Phần 1: Đánh giá hồ sơ về quá trình học tập, công tác của thí sinh.  
+<li>Phần 2: Thi kiểm tra năng lực tư duy dạng GMAT.  </li>
 
-- Phần 2: Thi kiểm tra năng lực tư duy dạng GMAT. 
+<li>Phần 3: Kiểm tra trình độ ngoại ngữ theo quy định tuyển sinh đào tạo trình độ thạc sĩ của Trường Đại học Kinh tế TP. Hồ Chí Minh  </li>
 
-- Phần 3: Kiểm tra trình độ ngoại ngữ theo quy định tuyển sinh đào tạo trình độ thạc sĩ của Trường Đại học Kinh tế TP. Hồ Chí Minh 
-
-- Phần 4: Phỏng vấn nhằm đánh giá động cơ và khả năng hoàn thành khóa học; kiểm tra kiến thức và kinh nghiệm xử lý tình huống thực tế. 
-
-</dl>
+<li>Phần 4: Phỏng vấn nhằm đánh giá động cơ và khả năng hoàn thành khóa học; kiểm tra kiến thức và kinh nghiệm xử lý tình huống thực tế.  </li>
+</ul>
 
 <li> <strong> Phương thức xét tuyển </strong> </li>
+<ul>
+<li>Điều kiện xét trúng tuyển: Thí sinh thuộc diện xét trúng tuyển phải đạt 50% của thang điểm đối với mỗi phần thi (sau khi đã cộng điểm ưu tiên). </li>
 
-- Điều kiện xét trúng tuyển: Thí sinh thuộc diện xét trúng tuyển phải đạt 50% của thang điểm đối với mỗi phần thi (sau khi đã cộng điểm ưu tiên). 
-
-- Căn cứ danh sách thuộc diện xét trúng tuyển, Trường xác định điểm chuẩn được tính theo tổng điểm thi phần 2 và phần 4 (không cộng điểm môn Ngoại ngữ và phần 1) của từng thí sinh từ cao xuống thấp cho đến hết chỉ tiêu. Trường hợp có nhiều thí sinh cùng tổng điểm các môn thi thì xác định người trúng tuyển theo thứ tự ưu tiên như sau: Thí sinh là nữ; Người có điểm cao hơn của phần 4; Người được miễn thi môn ngoại ngữ hoặc người có điểm ngoại ngữ cao hơn. 
-
+<li>Căn cứ danh sách thuộc diện xét trúng tuyển, Trường xác định điểm chuẩn được tính theo tổng điểm thi phần 2 và phần 4 (không cộng điểm môn Ngoại ngữ và phần 1) của từng thí sinh từ cao xuống thấp cho đến hết chỉ tiêu. Trường hợp có nhiều thí sinh cùng tổng điểm các môn thi thì xác định người trúng tuyển theo thứ tự ưu tiên như sau: Thí sinh là nữ; Người có điểm cao hơn của phần 4; Người được miễn thi môn ngoại ngữ hoặc người có điểm ngoại ngữ cao hơn. 
+</li>
+</ul>
 
 </ol>
 
@@ -176,15 +176,15 @@ Hạn chót 26/02/2021
 
 Số 59C Nguyễn Đình Chiểu, Quận 3, TP. Hồ Chí Minh - Điện thoại: (028)38295437 - (028)38235277. 
 
-Website: <a href="http://sdh.ueh.edu.vn"> http://sdh.ueh.edu.vn</a>
+<b>Website:</b> <a href="http://sdh.ueh.edu.vn"> http://sdh.ueh.edu.vn</a>
 
-Video giới thiệu về chương trình: 
+<b>Video giới thiệu về chương trình: </b>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NrtYcJBrxaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  
 
-Flyer về chương trình học tại link:  
+<b>Flyer về chương trình học tại link: </b> 
 
 <a href="https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing">https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing</a>
 

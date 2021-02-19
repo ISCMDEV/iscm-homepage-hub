@@ -1,5 +1,5 @@
 ---
-title: Thông tin tuyển sinh
+title: Thông tin tuyển sinh Thạc Sĩ
 author: lptan
 date: 2021-02-19T06:05:20.673Z
 thumbnail: /images/05.08.20.04.jpg

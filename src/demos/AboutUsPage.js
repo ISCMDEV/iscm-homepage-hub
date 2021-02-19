@@ -13,6 +13,7 @@ import { CustomBanner as Banner } from "components/hero/BackgroundAsImageWithCen
 import UniversitiesIconImage from "images/university.svg";
 import CompaniesIconImage from "images/company.svg";
 import CommunityLoveIconImage from "images/community.svg";
+import Testimonial from "components/testimonials/TwoColumnWithImage.js";
 
 const Subheading = tw.span`uppercase tracking-wider`;
 export default () => {
@@ -39,7 +40,7 @@ export default () => {
         textOnLeft={false}
       />
       <WallOfText textContent="Enhancing urban quality and environment by excellent education, in-depth research and problem-solving projects in terms of “Think Globally - Act Locally”. Educating new generation students for creative and critical thinking, global knowledge, professional skills, sustainability perception.Developing the most advanced integrated Smart City StudioLab system with sufficient spaces and equipment for comprehensive and in-depth analysis.Impacting on urban planning, design and management by changing the way of thinking and involvement of the community, local authority and stakeholders."/>
-
+      <Testimonial />
       <Features
         subheading={<Subheading>Core Values</Subheading>}
         heading="Core Values"

@@ -55,7 +55,7 @@ export default ({
           <Dropdown>
             <NavDropdownContent>Overview</NavDropdownContent>
             <Link to="/network">
-              <NavDropdownContent>Networks</NavDropdownContent>
+              <NavDropdownContent>Network</NavDropdownContent>
             </Link>
           </Dropdown>
         </NavLink>

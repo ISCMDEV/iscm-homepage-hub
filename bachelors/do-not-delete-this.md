@@ -2,7 +2,7 @@
 title: Architectural and Urban Design inclusive Smart City Program
 author: ISCM
 date: 2021-02-18T08:17:04.835Z
-thumbnail: /images/5e552d0482a8d87735122ec713e48697.jpg
+thumbnail: /images/flyer-bachelor-1-copy.jpg
 description: "Kiến Trúc đô thị "
 ---
 <p>

@@ -1,6 +1,6 @@
 ---
 title: Thông tin tuyển sinh Thạc Sĩ
-author: lptan
+author: ISCM
 date: 2021-02-19T07:41:09.331Z
 thumbnail: /images/05.08.20.04.jpg
 description: Thông tin tuyển sinh thạc sĩ

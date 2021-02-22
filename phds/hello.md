@@ -1,11 +1,10 @@
 ---
 title: Thông tin tuyển sinh
-author: lptan
+author: ISCM
 date: 2021-02-19T03:10:07.776Z
 thumbnail: /images/5e552d0482a8d87735122ec713e48697.jpg
 description: Thông tin tuyển sinh
 ---
-
 <p align="center"> 
 <b>Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuyển sinh Chương trình Thạc sĩ Điều hành cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City and Innovation Management) năm 2021 như sau: </b>
 <ol>
@@ -51,21 +50,17 @@ Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây:
 
 <dl> Việc thi tuyển vào chương trình bao gồm các phần sau:
 
-- Phần 1: Đánh giá hồ sơ về quá trình học tập, công tác của thí sinh.
-
-- Phần 2: Thi kiểm tra năng lực tư duy dạng GMAT.
-
-- Phần 3: Kiểm tra trình độ ngoại ngữ theo quy định tuyển sinh đào tạo trình độ thạc sĩ của Trường Đại học Kinh tế TP. Hồ Chí Minh
-
-- Phần 4: Phỏng vấn nhằm đánh giá động cơ và khả năng hoàn thành khóa học; kiểm tra kiến thức và kinh nghiệm xử lý tình huống thực tế.
+* Phần 1: Đánh giá hồ sơ về quá trình học tập, công tác của thí sinh.
+* Phần 2: Thi kiểm tra năng lực tư duy dạng GMAT.
+* Phần 3: Kiểm tra trình độ ngoại ngữ theo quy định tuyển sinh đào tạo trình độ thạc sĩ của Trường Đại học Kinh tế TP. Hồ Chí Minh
+* Phần 4: Phỏng vấn nhằm đánh giá động cơ và khả năng hoàn thành khóa học; kiểm tra kiến thức và kinh nghiệm xử lý tình huống thực tế.
 
 </dl>
 
 <li> <strong> Phương thức xét tuyển </strong> </li>
 
-- Điều kiện xét trúng tuyển: Thí sinh thuộc diện xét trúng tuyển phải đạt 50% của thang điểm đối với mỗi phần thi (sau khi đã cộng điểm ưu tiên).
-
-- Căn cứ danh sách thuộc diện xét trúng tuyển, Trường xác định điểm chuẩn được tính theo tổng điểm thi phần 2 và phần 4 (không cộng điểm môn Ngoại ngữ và phần 1) của từng thí sinh từ cao xuống thấp cho đến hết chỉ tiêu. Trường hợp có nhiều thí sinh cùng tổng điểm các môn thi thì xác định người trúng tuyển theo thứ tự ưu tiên như sau: Thí sinh là nữ; Người có điểm cao hơn của phần 4; Người được miễn thi môn ngoại ngữ hoặc người có điểm ngoại ngữ cao hơn.
+* Điều kiện xét trúng tuyển: Thí sinh thuộc diện xét trúng tuyển phải đạt 50% của thang điểm đối với mỗi phần thi (sau khi đã cộng điểm ưu tiên).
+* Căn cứ danh sách thuộc diện xét trúng tuyển, Trường xác định điểm chuẩn được tính theo tổng điểm thi phần 2 và phần 4 (không cộng điểm môn Ngoại ngữ và phần 1) của từng thí sinh từ cao xuống thấp cho đến hết chỉ tiêu. Trường hợp có nhiều thí sinh cùng tổng điểm các môn thi thì xác định người trúng tuyển theo thứ tự ưu tiên như sau: Thí sinh là nữ; Người có điểm cao hơn của phần 4; Người được miễn thi môn ngoại ngữ hoặc người có điểm ngoại ngữ cao hơn.
 
 </ol>
 
@@ -75,13 +70,10 @@ Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây:
 
 Thí sinh được miễn thi môn ngoại ngữ trong kỳ thi tuyển sinh đào tạo trình độ thạc sĩ năm 2021 khi thuộc một trong các trường hợp sau đây:
 
-- Có bằng tốt nghiệp đại học, thạc sĩ, tiến sĩ được đào tạo toàn thời gian ở nước ngoài, được cơ quan có thẩm quyền công nhận văn bằng theo quy định hiện hành;
-
-- Có bằng tốt nghiệp đại học chương trình tiên tiến theo Đề án của Bộ Giáo dục và Đào tạo về đào tạo chương trình tiên tiến ở một số trường đại học của Việt Nam hoặc bằng kỹ sư chất lượng cao (PFIEV) được Ủy ban bằng cấp kỹ sư (CT1, Pháp) công nhận, có đối tác nước ngoài cùng cấp bằng;
-
-- Có bằng tốt nghiệp đại học ngành ngôn ngữ nước ngoài;
-
-- Có chứng chỉ trình độ ngoại ngữ tương đương B1 khung tham chiếu Châu Âu đối với 1 trong 6 ngoại ngữ: Anh, Pháp, Nga, Hoa, Đức, Nhật trong thời hạn 2 năm kể từ ngày cấp chứng chỉ đến ngày nộp hồ sơ dự thi (xem Phụ lục, Bảng tham chiếu quy đổi một số chứng chỉ ngoại ngữ).
+* Có bằng tốt nghiệp đại học, thạc sĩ, tiến sĩ được đào tạo toàn thời gian ở nước ngoài, được cơ quan có thẩm quyền công nhận văn bằng theo quy định hiện hành;
+* Có bằng tốt nghiệp đại học chương trình tiên tiến theo Đề án của Bộ Giáo dục và Đào tạo về đào tạo chương trình tiên tiến ở một số trường đại học của Việt Nam hoặc bằng kỹ sư chất lượng cao (PFIEV) được Ủy ban bằng cấp kỹ sư (CT1, Pháp) công nhận, có đối tác nước ngoài cùng cấp bằng;
+* Có bằng tốt nghiệp đại học ngành ngôn ngữ nước ngoài;
+* Có chứng chỉ trình độ ngoại ngữ tương đương B1 khung tham chiếu Châu Âu đối với 1 trong 6 ngoại ngữ: Anh, Pháp, Nga, Hoa, Đức, Nhật trong thời hạn 2 năm kể từ ngày cấp chứng chỉ đến ngày nộp hồ sơ dự thi (xem Phụ lục, Bảng tham chiếu quy đổi một số chứng chỉ ngoại ngữ).
 
 </li>
 <li><strong> Đối tượng và mức ưu tiên </strong>
@@ -125,19 +117,14 @@ Thí sinh được miễn thi môn ngoại ngữ trong kỳ thi tuyển sinh đ�
 
 Thí sinh dự thi phải nộp đầy đủ hồ sơ đăng ký dự thi, gồm:
 
-- Phiếu đăng ký dự thi và lý lịch khoa học có nhận xét của Thủ trưởng cơ quan quản lý; ảnh có đóng dấu giáp lai (theo mẫu).
-
-- Bản tự giới thiệu về năng lực và động cơ học tập (theo mẫu). Tổng độ dài không quá 7 trang giấy A4.
-
-- Bản sao công chứng các giấy tờ (khi nộp hồ sơ cần mang theo bản chính để đối chiếu):
-
+* Phiếu đăng ký dự thi và lý lịch khoa học có nhận xét của Thủ trưởng cơ quan quản lý; ảnh có đóng dấu giáp lai (theo mẫu).
+* Bản tự giới thiệu về năng lực và động cơ học tập (theo mẫu). Tổng độ dài không quá 7 trang giấy A4.
+* Bản sao công chứng các giấy tờ (khi nộp hồ sơ cần mang theo bản chính để đối chiếu):
 * Bằng và bảng điểm tốt nghiệp đại học.
-
 * Các văn bằng, chứng chỉ chứng minh quá trình học tập và các khóa bồi dưỡng kiến thức chuyên môn nghiệp vụ đã tham gia (nếu có).
-
 * Các loại bằng khen, giấy khen và minh chứng thành tích nổi bật trong quá trình học tập, công tác (nếu có).
 
-- Hai ảnh màu cỡ 3 x 4 cm (lưu ý: ghi rõ họ, tên, ngày sinh ở phía sau mỗi ảnh) và hai phong bì có dán tem ghi địa chỉ liên lạc của thí sinh.
+\- Hai ảnh màu cỡ 3 x 4 cm (lưu ý: ghi rõ họ, tên, ngày sinh ở phía sau mỗi ảnh) và hai phong bì có dán tem ghi địa chỉ liên lạc của thí sinh.
 
 <li> <strong>Giới thiệu nội dung thi tuyển</strong> </li>
 
@@ -149,9 +136,8 @@ Thí sinh dự thi phải nộp đầy đủ hồ sơ đăng ký dự thi, gồm
 
 <li> <strong>Lệ phí thi tuyển sinh dự kiến: </strong> </li>
 
-- Hồ sơ dự thi đầu vào: 120.000 đ/thí sinh
-
-- Lệ phí tuyển sinh: 1.650.000 đ/thí sinh
+* Hồ sơ dự thi đầu vào: 120.000 đ/thí sinh
+* Lệ phí tuyển sinh: 1.650.000 đ/thí sinh
 
 <li> <strong> Kinh phí đào tạo: Học phí dự kiến năm 2021 là: </strong>2.000.000 đ/tín chỉ </li>
 

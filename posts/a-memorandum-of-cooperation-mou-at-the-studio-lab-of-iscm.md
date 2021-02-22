@@ -1,6 +1,6 @@
 ---
 title: A memorandum of cooperation (MoU) at the studio-lab of ISCM
-author: lptan
+author: ISCM
 date: 2021-01-25T18:07:00.557Z
 thumbnail: /images/mou.01.07.20.jpg
 ---

@@ -9,7 +9,7 @@ description: "Kiến Trúc đô thị "
 <strong>Tên chương trình (Name of Program)</strong>: Kiến trúc đô thị
 <br>
 <br>
-<b>Ngành / chuyên ngành đào tạo (Major / Minor)</b>: Architectural and Urban Design inclusive Smart City - 
+<b>Ngành / chuyên ngành đào tạo (Major / Minor)</b>: Architectural and Urban Design inclusive Smart City
 <br>
 <br>
 <b>Tổng thời gian đào tạo (Academic duration)</b>: 3,5 năm

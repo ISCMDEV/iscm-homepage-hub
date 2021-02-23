@@ -10,8 +10,6 @@ description: Thông tin tuyển sinh
 
 <br>
 
-<p>
-
 <strong>Tên chương trình (Name of Program): </strong> Quản lý Đô thị Thông minh và Sáng tạo</p>
 
 <strong> Ngành/Chuyên ngành đào tạo (Major/Minor): </strong> Executive Master of Smart City and Innovation Management (Thạc sĩ Điều hành cao cấp Quản lý Đô thị Thông minh và Sáng tạo</li>
@@ -21,10 +19,6 @@ description: Thông tin tuyển sinh
 <strong>Trình độ đào tạo: </strong> Thạc sĩ
 
 <strong>Số tín chỉ (Number of Credit): </strong> 64 tín chỉ (Phần Kiến thức chung: 11 tín chỉ, phần Kiến thức cơ sở ngành và chuyên ngành: 37 tín chỉ, đồ án tốt nghiệp: 16 tín chỉ)
-
-</p>
-
-<p>
 
 <ol>
 

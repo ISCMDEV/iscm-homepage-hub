@@ -31,7 +31,7 @@ description: Thông tin tuyển sinh
 
    \- Chương trình được xây dựng tích hợp, cập nhật thường xuyên và kết hợp lý thuyết với thực tiễn. Học tập thông qua các hoạt động seminar chuyên đề, online và offline, tham gia các studio thực tế và gặp gỡ các chuyên gia hàng đầu trong lẫn ngoài nước. 
 
-   \-Cơ sở vật chất hiện đại cùng StudioLab Đô thị thông minh giúp học viên thực hành và tiếp cận với thực tiễn nhiều hơn. 
+   \- Cơ sở vật chất hiện đại cùng StudioLab Đô thị thông minh giúp học viên thực hành và tiếp cận với thực tiễn nhiều hơn. 
 
    \- Đặc biệt là cơ hội học tập liên kết với các trường trên thế giới để nhận song bằng.
 3. <strong>Điều kiện dự thi</strong>

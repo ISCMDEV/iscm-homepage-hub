@@ -40,7 +40,7 @@ description: Thông tin tuyển sinh
 
       <i> Điều kiện văn bằng </i>
 
-   \- Có bằng tốt nghiệp đại học khối ngành khoa học tự nhiên và công nghệ phải học bổ sung kiến thức các môn: Kinh tế vi mô, Kinh tế vĩ mô, Quản trị học và Nguyên lý Tài chính - Ngân hàng. 
+   \- Có bằng tốt nghiệp đại học các ngành kinh tế, kinh doanh và quản lý, kiến trúc và quy hoạch được dự thi ngay. 
 
    \- Có bằng tốt nghiệp đại học khối ngành khoa học tự nhiên và công nghệ phải học bổ sung kiến thức các môn: Kinh tế vi mô, Kinh tế vĩ mô, Quản trị học và Nguyên lý Tài chính - Ngân hàng.
 

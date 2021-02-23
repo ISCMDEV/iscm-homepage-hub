@@ -52,6 +52,18 @@ description: Thông tin tuyển sinh
    \- Phần 4: Phỏng vấn nhằm đánh giá động cơ và khả năng hoàn thành khóa học; kiểm tra kiến thức và kinh nghiệm xử lý tình huống thực tế.
 5. <strong> Liên lạc:</strong> <dl>
 
+   Viện Đô thị thông minh và quản lý
+
+   Địa chỉ: 232/6 Võ Thị Sáu, phường Võ Thị Sáu, quận 3, thành phố Hồ Chí Minh
+
+   Điện thoại: 028.39309589 - 028.39309269
+
+   Email: iscm@ueh.edu.vn
+
+   Website: iscm.ueh.edu.vn
+
+   Fanpage: facebook.com/iscm.ueh
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NrtYcJBrxaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <dl>
 
 <ul><p>Xem Flyer về chương trình học <strong><a href="https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing"> tại đây</a></strong></p>

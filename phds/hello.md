@@ -36,11 +36,17 @@ description: Thông tin tuyển sinh
    \- Đặc biệt là cơ hội học tập liên kết với các trường trên thế giới để nhận song bằng.
 3. <strong>Điều kiện dự thi</strong>
 
-   Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây:
+      Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây:
 
-   <i> Điều kiện văn bằng </i>
+      <i> Điều kiện văn bằng </i>
 
    \- Có bằng tốt nghiệp đại học khối ngành khoa học tự nhiên và công nghệ phải học bổ sung kiến thức các môn: Kinh tế vi mô, Kinh tế vĩ mô, Quản trị học và Nguyên lý Tài chính - Ngân hàng. 
+
+   \- Có bằng tốt nghiệp đại học khối ngành khoa học tự nhiên và công nghệ phải học bổ sung kiến thức các môn: Kinh tế vi mô, Kinh tế vĩ mô, Quản trị học và Nguyên lý Tài chính - Ngân hàng.
+
+   \- Có bằng tốt nghiệp đại học khối ngành khoa học xã hội và nhân văn khác và ngành ngoại ngữ phải học bổ sung kiến thức các môn: Toán cao cấp, Xác suất thống kê, Kinh tế vi mô, Kinh tế vĩ mô, Quản trị học và Nguyên lý Tài chính - Ngân hàng.
+
+   Lưu ý: Các văn bằng tốt nghiệp đại học và bảng điểm do cơ sở đào tạo nước ngoài cấp phải được công chứng tiếng Việt và nộp kèm theo văn bản công nhận của Cục Quản lý chất lượng (thông tin về đăng ký công nhận văn bằng do nước ngoài cấp xem tại https://naric.edu.vn, mục Hướng dẫn quy trình CNVB do cơ sở giáo dục nước ngoài cấp).
 4. <strong>Nội dung thi tuyển</strong>
 
    \- Phần 1: Đánh giá hồ sơ về quá trình học tập, công tác của thí sinh. Điểm hồ sơ được xác định dựa trên các tiêu chí về: chức vụ, kinh nghiệm chuyên môn và quản lý, phạm vi ảnh hưởng của đơn vị công tác, quá trình đào tạo và phẩm chất, năng lực cá nhân thí sinh.

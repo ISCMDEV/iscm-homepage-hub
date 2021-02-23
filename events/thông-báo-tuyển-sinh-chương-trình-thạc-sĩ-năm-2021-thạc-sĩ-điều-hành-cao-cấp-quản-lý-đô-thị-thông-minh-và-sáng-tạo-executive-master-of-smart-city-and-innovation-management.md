@@ -1,12 +1,10 @@
 ---
-title: "Thông báo tuyển sinh chương trình Thạc sĩ năm 2021: Thạc sĩ điều hành
-  cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City
-  and Innovation Management)"
+title: Thông báo tuyển sinh chương trình Thạc sĩ năm 2021
 author: ISCM
 date: 2021-02-23T07:00:46.427Z
 thumbnail: /images/master-09-720.png
 ---
-![](/images/netlifyicon.png)
+![](/images/master-17-1256.png)
 
 <p align="justify"> 
 <b>Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuyển sinh Chương trình Thạc sĩ Điều hành cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City and Innovation Management) năm 2021 như sau: </b>

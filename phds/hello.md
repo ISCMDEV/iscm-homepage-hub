@@ -76,7 +76,7 @@ Thí sinh đăng ký dự thi cần thỏa mãn các điều kiện sau đây:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NrtYcJBrxaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<ul><li>Xem Flyer về chương trình học <a href="https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing"><strong> tại đây</strong></a></li></ul>
+<ul><li>Xem Flyer về chương trình học <strong><a href="https://drive.google.com/file/d/1WAMo2-c-CvR1InQlmyy1cRGHwnzGzPW-/view?usp=sharing"> tại đây</a></strong></li></ul>
 
 </ol> 
 </p>

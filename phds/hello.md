@@ -10,21 +10,27 @@ description: Thông tin tuyển sinh
 
 <br>
 
-<li><strong>Tên chương trình (Name of Program): </strong> Quản lý Đô thị Thông minh và Sáng tạo </li>
+<p>
 
-<li> <strong> Ngành/Chuyên ngành đào tạo (Major/Minor): </strong> Executive Master of Smart City and Innovation Management (Thạc sĩ Điều hành cao cấp Quản lý Đô thị Thông minh và Sáng tạo</li>
+<strong>Tên chương trình (Name of Program): </strong> Quản lý Đô thị Thông minh và Sáng tạo</p>
 
-<li><strong>Tổng thời gian đào tạo (Academic duration): </strong> 24 tháng (2 năm) </li>
+<strong> Ngành/Chuyên ngành đào tạo (Major/Minor): </strong> Executive Master of Smart City and Innovation Management (Thạc sĩ Điều hành cao cấp Quản lý Đô thị Thông minh và Sáng tạo</li>
 
-<li><strong>Trình độ đào tạo: </strong> Thạc sĩ </li>
+<strong>Tổng thời gian đào tạo (Academic duration): </strong> 24 tháng (2 năm)
 
-<li><strong>Số tín chỉ (Number of Credit): </strong> 64 tín chỉ (Phần Kiến thức chung: 11 tín chỉ, phần Kiến thức cơ sở ngành và chuyên ngành: 37 tín chỉ, đồ án tốt nghiệp: 16 tín chỉ) </li>
+<strong>Trình độ đào tạo: </strong> Thạc sĩ
+
+<strong>Số tín chỉ (Number of Credit): </strong> 64 tín chỉ (Phần Kiến thức chung: 11 tín chỉ, phần Kiến thức cơ sở ngành và chuyên ngành: 37 tín chỉ, đồ án tốt nghiệp: 16 tín chỉ)
+
+</p>
 
 <p>
 
 <ol>
 
 1. <strong> Giới thiệu chung</strong>
+
+   Chương trình Thạc sĩ điều hành cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City and Innovation Management) trang bị cho người học có trình độ chuyên môn sâu, có năng lực làm chủ các lĩnh vực quản lý, khoa học công nghệ có liên quan đến các giải pháp tích hợp quy hoạch, thiết kế đô thị, đặc biệt là các đô thị thông minh. Kết thúc khóa đào tạo, người học được trang bị phương pháp tư duy logic, kiến thức quản lý và khoa học cơ sở vững chắc, kiến thức chuyên môn trình độ cao và kỹ năng thực hành tốt, có khả năng nghiên cứu khoa học độc lập, sáng tạo và giải quyết tốt những vấn đề quản lý, khoa học, công nghệ trong lĩnh vực đô thị nói chung và đô thị thông minh nói riêng, thích hợp với tiến bộ chung của môi trường kinh tế - xã hội.
 2. <strong> Đặc điểm nổi bật:  </strong>
 
    \- Chương trìnhh trang bị kiến thức về các lĩnh vực quy hoạch đô thị, khoa học công nghệ, thiết kế, đổi mới sáng tạo và các kỹ năng về quản lý. 
@@ -41,8 +47,6 @@ description: Thông tin tuyển sinh
    <i> Điều kiện văn bằng </i>
 
    \- Có bằng tốt nghiệp đại học khối ngành khoa học tự nhiên và công nghệ phải học bổ sung kiến thức các môn: Kinh tế vi mô, Kinh tế vĩ mô, Quản trị học và Nguyên lý Tài chính - Ngân hàng. 
-
-   <p><i> Lưu ý: Các văn bằng tốt nghiệp đại học và bảng điểm do cơ sở đào tạo nước ngoài cấp phải được công chứng tiếng Việt và nộp kèm theo văn bản công nhận của Cục Quản lý chất lượng (thông tin về đăng ký công nhận văn bằng do nước ngoài cấp xem tại <a href="https://naric.edu.vn">https://naric.edu.vn </a>, mục Hướng dẫn quy trình CNVB do cơ sở giáo dục nước ngoài cấp) </i></p>
 4. <strong>Nội dung thi tuyển</strong>
 
    \- Phần 1: Đánh giá hồ sơ về quá trình học tập, công tác của thí sinh. Điểm hồ sơ được xác định dựa trên các tiêu chí về: chức vụ, kinh nghiệm chuyên môn và quản lý, phạm vi ảnh hưởng của đơn vị công tác, quá trình đào tạo và phẩm chất, năng lực cá nhân thí sinh.

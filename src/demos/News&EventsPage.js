@@ -22,7 +22,7 @@ export default () => {
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Register"
-        primaryButtonUrl="events/1610288460"
+        primaryButtonUrl="events/1614038400"
         watchVideoButtonText="Have a look"
       />
 

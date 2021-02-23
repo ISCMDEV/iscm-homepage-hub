@@ -8,6 +8,7 @@ import paperslists from "../papers.json";
 import bachelorslists from "../bachelors.json";
 import phdslists from "../phds.json";
 import courseslists from "../courses.json";
+import peoplelists from "../people.json";
 
 import ScrollTop from "components/misc/ScrollTop";
 // import styled from "styled-components";
@@ -19,8 +20,11 @@ import ScrollTop from "components/misc/ScrollTop";
 //   props.buttonRounded && tw`rounded-full`,
 // ]);
 export default (props) => {
-  const validId = parseInt(props.match.params.id);
+  const postId = props.match.params.id;
+  console.log(postId, typeof postId);
+  const validId = parseInt(postId);
   if (!validId) {
+    console.log("id notvalid", typeof validId);
     return <Redirect to="/404" />;
   }
   const fetchedPost = {};
@@ -35,6 +39,37 @@ export default (props) => {
     }
   });
   if (postExists === false) {
+    return <Redirect to="/404" />;
+  }
+  return (
+    <AnimationRevealPage>
+      <ScrollTop />
+      <Features {...fetchedPost} />
+    </AnimationRevealPage>
+  );
+};
+export const peopleProfiles = (props) => {
+  const postId = props.match.params.id;
+  const validId = postId.trim();
+  if (!validId) {
+    console.log("id notvalid", typeof validId);
+    return <Redirect to="/404" />;
+  }
+  const fetchedPost = {};
+  let postExists = false;
+  peoplelists.forEach((post, i) => {
+    console.log(validId, post.id.trim());
+    console.log(typeof validId, typeof post.id);
+    console.log(validId === post.id.trim());
+    if (validId === post.id.trim()) {
+      fetchedPost.title = post.title ? post.title : "No title given";
+      fetchedPost.date = post.date ? post.date : "No date given";
+      fetchedPost.content = post.content ? post.content : "No content given";
+      postExists = true;
+    }
+  });
+  if (postExists === false) {
+    console.log("Post does not exist");
     return <Redirect to="/404" />;
   }
   return (

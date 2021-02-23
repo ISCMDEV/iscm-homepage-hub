@@ -28,6 +28,7 @@ import {
   phdsPosts as Phds,
   bachelorsPosts as Bachelors,
   coursesPosts as Courses,
+  peopleProfiles as People,
 } from "pages/Article";
 import Article from "pages/Article";
 import ScrollToTop from "components/misc/ScrollTop";
@@ -111,6 +112,11 @@ export default function App() {
             exact
             path="/phds/:id"
             render={(props) => <Phds {...props} />}
+          ></Route>
+          <Route
+            exact
+            path="/people/:id"
+            render={(props) => <People {...props} />}
           ></Route>{" "}
         </Switch>
         <ContactForm />

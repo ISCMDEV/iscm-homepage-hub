@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro";
@@ -79,155 +80,85 @@ export default ({
       imageSrc: MemberTUA,
       position: "Director",
       name: "Dr. Tu Anh Trinh",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "tuanh",
     },
     {
       imageSrc: SEO,
       position: "International Coordinator",
       name: "Dr. Ducksu Seo",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: MemberMAI,
       position: "Operation Manager",
       name: "M.Arch Mai Tran",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: MemberHAN,
       position: "Marketing Manager",
       name: "M.Sc Hanh An Le",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: CUYVERS,
       position: "Senior Lecturer",
       name: "Prof. Rob Cuyvers",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: KIEN,
       position: "Senior Lecturer",
       name: "Dr. To Kien",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: NAM,
       position: "Senior Lecturer",
       name: "Dr. Nam Le",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: KOO,
       position: "Senior Lecturer",
       name: "Dr. Chamun Koo",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: MemberTRI,
       position: "Research Coordinator",
       name: "M.Sc Hoai Pham",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: STEVEN,
       position: "Lecturer",
       name: "M.Arch Steven Petit",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: THANG,
       position: "Lecturer",
       name: "M.Arch Thang Trinh",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: DQL,
       position: "Lecturer",
       name: "ME. Loc Duong Quy",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: MemberLV,
       position: "StudioLab Administrator",
       name: "B.E Viet Le",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "",
     },
     {
       imageSrc: MemberTAN,
       position: "IT Researcher",
       name: "B.Sc An Le",
-      links: [
-        {
-          url: "",
-          icon: Website,
-        },
-      ],
+      url: "lptan",
     },
   ],
 }) => {
@@ -242,18 +173,13 @@ export default ({
         <Cards>
           {cards.map((card, index) => (
             <Card key={index}>
-              <CardImage imageSrc={card.imageSrc} />
-              <CardContent>
-                <span className="position">{card.position}</span>
-                <span className="name">{card.name}</span>
-                <CardLinks>
-                  {card.links.map((link, linkIndex) => (
-                    <a key={linkIndex} className="link" href={link.url}>
-                      <link.icon className="icon" />
-                    </a>
-                  ))}
-                </CardLinks>
-              </CardContent>
+              <Link to={`people/${card.url}`}>
+                <CardImage imageSrc={card.imageSrc} />
+                <CardContent>
+                  <span className="position">{card.position}</span>
+                  <span className="name">{card.name}</span>
+                </CardContent>
+              </Link>
             </Card>
           ))}
         </Cards>

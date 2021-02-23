@@ -6,7 +6,7 @@ thumbnail: /images/master-17-1256.png
 description: Thông tin tuyển sinh
 ---
 <p align="justify"> 
-<b>Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuyển sinh Chương trình Thạc sĩ Điều hành cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City and Innovation Management) năm 2021 như sau: </b>
+<b>Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuyển sinh Chương trình Thạc sĩ Điều hành cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City and Innovation Management) năm 2021 như sau: </b></p>
 
 <br>
 
@@ -19,6 +19,8 @@ description: Thông tin tuyển sinh
 <li><strong>Trình độ đào tạo: </strong> Thạc sĩ </li>
 
 <li><strong>Số tín chỉ (Number of Credit): </strong> 64 tín chỉ (Phần Kiến thức chung: 11 tín chỉ, phần Kiến thức cơ sở ngành và chuyên ngành: 37 tín chỉ, đồ án tốt nghiệp: 16 tín chỉ) </li>
+
+<p>
 
 <ol>
 
@@ -40,7 +42,7 @@ description: Thông tin tuyển sinh
 
    \- Có bằng tốt nghiệp đại học khối ngành khoa học tự nhiên và công nghệ phải học bổ sung kiến thức các môn: Kinh tế vi mô, Kinh tế vĩ mô, Quản trị học và Nguyên lý Tài chính - Ngân hàng. 
 
-   <i> Lưu ý: Các văn bằng tốt nghiệp đại học và bảng điểm do cơ sở đào tạo nước ngoài cấp phải được công chứng tiếng Việt và nộp kèm theo văn bản công nhận của Cục Quản lý chất lượng (thông tin về đăng ký công nhận văn bằng do nước ngoài cấp xem tại <a href="https://naric.edu.vn">https://naric.edu.vn </a>, mục Hướng dẫn quy trình CNVB do cơ sở giáo dục nước ngoài cấp) </i></p>
+   <p><i> Lưu ý: Các văn bằng tốt nghiệp đại học và bảng điểm do cơ sở đào tạo nước ngoài cấp phải được công chứng tiếng Việt và nộp kèm theo văn bản công nhận của Cục Quản lý chất lượng (thông tin về đăng ký công nhận văn bằng do nước ngoài cấp xem tại <a href="https://naric.edu.vn">https://naric.edu.vn </a>, mục Hướng dẫn quy trình CNVB do cơ sở giáo dục nước ngoài cấp) </i></p>
 4. <strong>Nội dung thi tuyển</strong>
 
    \- Phần 1: Đánh giá hồ sơ về quá trình học tập, công tác của thí sinh. Điểm hồ sơ được xác định dựa trên các tiêu chí về: chức vụ, kinh nghiệm chuyên môn và quản lý, phạm vi ảnh hưởng của đơn vị công tác, quá trình đào tạo và phẩm chất, năng lực cá nhân thí sinh.

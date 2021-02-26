@@ -146,7 +146,7 @@ Thí sinh dự thi phải nộp đầy đủ hồ sơ đăng ký dự thi, gồm
 <li><strong> Thời gian và địa điểm nhận hồ sơ:</strong></li>
 <ul> 
 <li><strong>Thời gian: </strong>
-Hạn chót 26/02/2021 
+Hạn chót 12/03/2021 
 </li>
 <li><strong>Địa điểm:</strong> 232/6 Võ Thị Sáu, phường Võ Thị Sáu, quận 3, thành phố Hồ Chí Minh</li>
 

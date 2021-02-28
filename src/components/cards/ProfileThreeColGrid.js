@@ -37,16 +37,16 @@ import CUYVERS from "./../../images/People/ProfCuyvers.jpg";
 import STEVEN from "./../../images/People/StevenPetit.jpg";
 import THANG from "./../../images/People/Thang.jpg";
 
-import LeeJuhoo from "./../../images/People/AdvisoryBoard/leejuho.jpg"
-import Hyung from "./../../images/People/AdvisoryBoard/hyung.png"
-import ParkYoungJune from "./../../images/People/AdvisoryBoard/park.png"
-import Khuatviethung from "./../../images/People/AdvisoryBoard/khuatviethung.jpg"
-import Nguyendongphong from "./../../images/People/AdvisoryBoard/nguyendongphong.jpg"
+import LeeJuhoo from "./../../images/People/AdvisoryBoard/leejuho.jpg";
+import Hyung from "./../../images/People/AdvisoryBoard/hyung.png";
+import ParkYoungJune from "./../../images/People/AdvisoryBoard/park.png";
+import Khuatviethung from "./../../images/People/AdvisoryBoard/khuatviethung.jpg";
+import Nguyendongphong from "./../../images/People/AdvisoryBoard/nguyendongphong.jpg";
 
-import Elena from "./../../images/People/AdjunctProfs/elena.jpg"
-import Leejongsang from "./../../images/People/AdjunctProfs/leejongsang.JPG"
-import Nord from "./../../images/People/AdjunctProfs/nord.JPG"
-import Kwon from "./../../images/People/AdjunctProfs/kwon.jpg"
+import Elena from "./../../images/People/AdjunctProfs/elena.jpg";
+import Leejongsang from "./../../images/People/AdjunctProfs/leejongsang.JPG";
+import Nord from "./../../images/People/AdjunctProfs/nord.JPG";
+import Kwon from "./../../images/People/AdjunctProfs/kwon.jpg";
 
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)``;
@@ -60,12 +60,12 @@ const CardImage = styled.div`
     css`
       background-image: url("${props.imageSrc}");
     `}
-  ${tw`w-64 h-64 bg-center mx-auto bg-contain rounded`}
+  ${tw`w-64 h-64 bg-center rounded`}
 `;
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
   .position {
-    ${tw`text-xs text-center font-bold tracking-widest uppercase text-primary-500`}
+    ${tw`text-xs font-bold tracking-widest text-center uppercase text-primary-500`}
   }
   .name {
     ${tw`mt-1 text-xl font-medium text-gray-900`}
@@ -392,19 +392,22 @@ export const AdjunctProfs = ({
     },
     {
       imageSrc: Leejongsang,
-      position: "Faculty of Community Development, College of Industrial Science Kongju National University",
+      position:
+        "Faculty of Community Development, College of Industrial Science Kongju National University",
       name: "Prof. Lee Jongsang",
       url: "coming",
     },
     {
       imageSrc: Nord,
-      position: "Department of Spatial Planning, Blekinge Institute of Technology",
+      position:
+        "Department of Spatial Planning, Blekinge Institute of Technology",
       name: "Prof. Catharina Nord",
       url: "coming",
     },
     {
       imageSrc: Kwon,
-      position: "Department of Civil and Environmental Engineering, Seoul National University",
+      position:
+        "Department of Civil and Environmental Engineering, Seoul National University",
       name: "Prof. Kwon Youngsang",
       url: "coming",
     },
@@ -588,7 +591,9 @@ export const Collaborator = ({
             <Card key={index}>
               <CardImage imageSrc={card.imageSrc} />
               <CardContent text-align="center" margin="auto">
-                <span className="position" text-align="center">{card.position}</span>
+                <span className="position" text-align="center">
+                  {card.position}
+                </span>
                 <span className="name">{card.name}</span>
                 <CardLinks>
                   {card.links.map((link, linkIndex) => (

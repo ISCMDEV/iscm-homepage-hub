@@ -6,7 +6,7 @@ import Hero from "components/hero/TwoColumnWithVideo.js";
 import TabGrid from "components/cards/TabCardGrid.js";
 
 export default () => {
-  const HighlightedText = tw.span`bg-primary-800 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedText = tw.span`bg-primary-800 text-center text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const imageCss = tw`rounded-4xl`;
   return (
     <AnimationRevealPage>
@@ -14,14 +14,14 @@ export default () => {
         heading={
           <>
             Upcoming Event.
-            <HighlightedText>Universal Design Seminar</HighlightedText>
+            <HighlightedText>ArtTech Fusion for future Smart Cities</HighlightedText>
           </>
         }
-        description="2020 - the time of changes. Co-organizers:"
+        description="2021 - the time of changes. Co-organizers:"
         imageSrc="https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_960_720.jpg"
         imageCss={imageCss}
         imageDecoratorBlob={true}
-        primaryButtonText="Register"
+        primaryButtonText="Detail"
         primaryButtonUrl="events/1614038400"
         watchVideoButtonText="Have a look"
       />

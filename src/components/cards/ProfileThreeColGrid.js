@@ -59,8 +59,10 @@ const CardImage = styled.div`
   ${(props) =>
     css`
       background-image: url("${props.imageSrc}");
+      background-size: cover;
+      background-position: center;
     `}
-  ${tw`w-64 h-64 bg-center rounded`}
+  ${tw`w-64 h-64 mx-auto bg-center rounded`}
 `;
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
@@ -206,31 +208,31 @@ export const AdvisoryBoard = ({
   cards = [
     {
       imageSrc: LeeJuhoo,
-      position: "Chairman",
+      position: "Chairman,The Education Commission AISA Former Minister of Education of Korea",
       name: "Dr. Lee Ju-ho",
       url: "coming",
     },
     {
       imageSrc: Hyung,
-      position: "Principle Strategy Advisor",
+      position: "Principle Strategy Advisor, RMS Consulting Former Vice Minister of ICT of Korea",
       name: "Dr. Hyung Tae Gun",
       url: "coming",
     },
     {
       imageSrc: ParkYoungJune,
-      position: "Chairman",
+      position: "Chairman, J. Mediator Former Vice Minister of Industry of Korea",
       name: "Dr. Park Young June",
       url: "coming",
     },
     {
       imageSrc: Khuatviethung,
-      position: "Executive Vice Chairman",
+      position: "Executive Vice Chairman, National Traffic Safety Committee of Vietnam",
       name: "Dr. Khuat Viet Hung",
       url: "coming",
     },
     {
       imageSrc: Nguyendongphong,
-      position: "Chairman",
+      position: "Chairman, University Council University of Economics Ho Chi Minh City",
       name: "Prof. Dr. Nguyen Dong Phong",
       url: "coming",
     },

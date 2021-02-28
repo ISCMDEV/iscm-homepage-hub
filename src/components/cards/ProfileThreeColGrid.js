@@ -37,6 +37,17 @@ import CUYVERS from "./../../images/People/ProfCuyvers.jpg";
 import STEVEN from "./../../images/People/StevenPetit.jpg";
 import THANG from "./../../images/People/Thang.jpg";
 
+import LeeJuhoo from "./../../images/People/AdvisoryBoard/leejuho.jpg"
+import Hyung from "./../../images/People/AdvisoryBoard/hyung.png"
+import ParkYoungJune from "./../../images/People/AdvisoryBoard/park.png"
+import Khuatviethung from "./../../images/People/AdvisoryBoard/khuatviethung.jpg"
+import Nguyendongphong from "./../../images/People/AdvisoryBoard/nguyendongphong.jpg"
+
+import Elena from "./../../images/People/AdjunctProfs/elena.jpg"
+import Leejongsang from "./../../images/People/AdjunctProfs/leejongsang.JPG"
+import Nord from "./../../images/People/AdjunctProfs/nord.JPG"
+import Kwon from "./../../images/People/AdjunctProfs/kwon.jpg"
+
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)``;
 const Subheading = tw(SubheadingBase)`text-center mb-3`;
@@ -48,6 +59,8 @@ const CardImage = styled.div`
   ${(props) =>
     css`
       background-image: url("${props.imageSrc}");
+      background-size: cover;
+      background-position: center; 
     `}
   ${tw`w-64 h-64 bg-center bg-contain rounded`}
 `;
@@ -86,7 +99,7 @@ export default ({
       imageSrc: SEO,
       position: "International Coordinator",
       name: "Dr. Ducksu Seo",
-      url: "",
+      url: "ducksuseo",
     },
     {
       imageSrc: MemberMAI,
@@ -159,6 +172,243 @@ export default ({
       position: "IT Researcher",
       name: "B.Sc An Le",
       url: "lptan",
+    },
+  ],
+}) => {
+  return (
+    <Container>
+      <ContentWithPaddingXl>
+        <HeadingContainer>
+          {subheading && <Subheading>{subheading}</Subheading>}
+          {heading && <Heading>{heading}</Heading>}
+          {description && <Description>{description}</Description>}
+        </HeadingContainer>
+        <Cards>
+          {cards.map((card, index) => (
+            <Card key={index}>
+              <Link to={`people/${card.url}`}>
+                <CardImage imageSrc={card.imageSrc} />
+                <CardContent>
+                  <span className="position">{card.position}</span>
+                  <span className="name">{card.name}</span>
+                </CardContent>
+              </Link>
+            </Card>
+          ))}
+        </Cards>
+      </ContentWithPaddingXl>
+    </Container>
+  );
+};
+
+export const AdvisoryBoard = ({
+  heading = "ISCM Core Advisory Board",
+  subheading = "Our Advisory Board",
+  description = "",
+  cards = [
+    {
+      imageSrc: LeeJuhoo,
+      position: "Chairman",
+      name: "Dr. Lee Ju-ho",
+      url: "tuanh",
+    },
+    {
+      imageSrc: Hyung,
+      position: "Principle Strategy Advisor",
+      name: "Dr. Hyung Tae Gun",
+      url: "ducksuseo",
+    },
+    {
+      imageSrc: ParkYoungJune,
+      position: "Chairman",
+      name: "Dr. Park Young June",
+      url: "rob",
+    },
+    {
+      imageSrc: Khuatviethung,
+      position: "Executive Vice Chairman",
+      name: "Dr. Khuat Viet Hung",
+      url: "tokien",
+    },
+    {
+      imageSrc: Nguyendongphong,
+      position: "Chairman",
+      name: "Prof. Dr. Nguyen Dong Phong",
+      url: "maitran",
+    },
+  ],
+}) => {
+  return (
+    <Container>
+      <ContentWithPaddingXl>
+        <HeadingContainer>
+          {subheading && <Subheading>{subheading}</Subheading>}
+          {heading && <Heading>{heading}</Heading>}
+          {description && <Description>{description}</Description>}
+        </HeadingContainer>
+        <Cards>
+          {cards.map((card, index) => (
+            <Card key={index}>
+              <Link to={`people/${card.url}`}>
+                <CardImage imageSrc={card.imageSrc} />
+                <CardContent>
+                  <span className="position">{card.position}</span>
+                  <span className="name">{card.name}</span>
+                </CardContent>
+              </Link>
+            </Card>
+          ))}
+        </Cards>
+      </ContentWithPaddingXl>
+    </Container>
+  );
+};
+
+export const CoreMembers = ({
+  heading = "ISCM Core Members",
+  subheading = "Our Core Members",
+  description = "",
+  cards = [
+    {
+      imageSrc: MemberTUA,
+      position: "Director",
+      name: "Dr. Tu Anh Trinh",
+      url: "tuanh",
+    },
+    {
+      imageSrc: SEO,
+      position: "International Coordinator",
+      name: "Dr. Ducksu Seo",
+      url: "ducksuseo",
+    },
+    {
+      imageSrc: CUYVERS,
+      position: "Senior Lecturer",
+      name: "Prof. Rob Cuyvers",
+      url: "rob",
+    },
+    {
+      imageSrc: KIEN,
+      position: "Senior Lecturer",
+      name: "Dr. To Kien",
+      url: "tokien",
+    },
+    {
+      imageSrc: MemberMAI,
+      position: "Operation Manager",
+      name: "M.Arch Mai Tran",
+      url: "maitran",
+    },
+    {
+      imageSrc: MemberHAN,
+      position: "Marketing Manager",
+      name: "M.Sc Hanh An Le",
+      url: "hanhan",
+    },
+    {
+      imageSrc: MemberTRI,
+      position: "Research Coordinator",
+      name: "M.Sc Hoai Pham",
+      url: "hoaipham",
+    },
+    {
+      imageSrc: MemberLV,
+      position: "StudioLab Administrator",
+      name: "B.E Viet Le",
+      url: "vietle",
+    },
+    {
+      imageSrc: MemberTAN,
+      position: "IT Researcher",
+      name: "B.Sc An Le",
+      url: "lptan",
+    },
+    {
+      imageSrc: NAM,
+      position: "Senior Lecturer",
+      name: "Dr. Nam Le",
+      url: "",
+    },
+    {
+      imageSrc: KOO,
+      position: "Senior Lecturer",
+      name: "Dr. Chamun Koo",
+      url: "",
+    },
+    {
+      imageSrc: STEVEN,
+      position: "Lecturer",
+      name: "M.Arch Steven Petit",
+      url: "",
+    },
+    {
+      imageSrc: THANG,
+      position: "Lecturer",
+      name: "M.Arch Thang Trinh",
+      url: "",
+    },
+    {
+      imageSrc: DQL,
+      position: "Lecturer",
+      name: "ME. Loc Duong Quy",
+      url: "",
+    },
+  ],
+}) => {
+  return (
+    <Container>
+      <ContentWithPaddingXl>
+        <HeadingContainer>
+          {subheading && <Subheading>{subheading}</Subheading>}
+          {heading && <Heading>{heading}</Heading>}
+          {description && <Description>{description}</Description>}
+        </HeadingContainer>
+        <Cards>
+          {cards.map((card, index) => (
+            <Card key={index}>
+              <Link to={`people/${card.url}`}>
+                <CardImage imageSrc={card.imageSrc} />
+                <CardContent>
+                  <span className="position">{card.position}</span>
+                  <span className="name">{card.name}</span>
+                </CardContent>
+              </Link>
+            </Card>
+          ))}
+        </Cards>
+      </ContentWithPaddingXl>
+    </Container>
+  );
+};
+
+export const AdjunctProfs = ({
+  heading = "ISCM Core Members",
+  subheading = "Our Professors",
+  description = "At ISCM, we bring together diverse team with diverse skillset, experience and background to produce a richer, broader set of ideas, skills and innovative solotions.",
+  cards = [
+    {
+      imageSrc: Elena,
+      position: "Associate Professor in Town Planning, University of Trieste",
+      name: "Prof. Elena Marchigiani",
+      url: "",
+    },
+    {
+      imageSrc: Leejongsang,
+      position: "Faculty of Community Development, College of Industrial Science Kongju National University",
+      name: "Prof. Lee Jongsang",
+      url: "",
+    },
+    {
+      imageSrc: Nord,
+      position: "Department of Spatial Planning, Blekinge Institute of Technology",
+      name: "Prof. Catharina Nord",
+      url: "",
+    },
+    {
+      imageSrc: Kwon,
+      position: "Department of Civil and Environmental Engineering, Seoul National University",
+      name: "Prof. Kwon Youngsang",
+      url: "",
     },
   ],
 }) => {
@@ -339,8 +589,8 @@ export const Collaborator = ({
           {cards.map((card, index) => (
             <Card key={index}>
               <CardImage imageSrc={card.imageSrc} />
-              <CardContent>
-                <span className="position">{card.position}</span>
+              <CardContent text-align="center" margin="auto">
+                <span className="position" text-align="center">{card.position}</span>
                 <span className="name">{card.name}</span>
                 <CardLinks>
                   {card.links.map((link, linkIndex) => (

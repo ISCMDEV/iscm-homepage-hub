@@ -19,14 +19,31 @@ const StyledHeader = styled(Header)`
 const NavLink = tw(NavLinkBase)`
   sm:text-base sm:mx-6
 `;
+ 
+const NavLink2 = tw.a`
+  sm:flex-none sm:text-base sm:mx-6
+  rounded-sm px-3 py-1 hover:bg-gray-100 
+`;
+
+const NavLinks2 = tw.ul`
+inline-block bg-black flex-none
+mx-auto
+`;
 
 // Dropdown part of navbar header
 const Dropdown = tw.div`
   absolute mt-1 
 `;
 
-const Dropdown2 = styled(Dropdown)`
-  right: -45px;
+const DropdownGroup = tw.div`
+  absolute mt-1 left-auto h-auto w-auto
+`;
+
+const Dropdown2 = tw.div`
+  absolute 
+  w-auto 
+  bg-gray-100
+  md:flex-none
 `;
 
 const Dropdown3 = styled(Dropdown)`
@@ -42,6 +59,29 @@ const NavDropdownContent = styled(NavLink)`
   ${tw`relative hidden bg-white z-30 p-4`}
 `;
 
+const NavDropdownContentTesting = styled(NavLink)`
+  // on hover of navlink
+  ${NavLink}:hover & {
+    display: block;
+    margin: 0;
+    background-color:white;
+    z-index:100;
+    text-align:center;
+  }
+  //styling of dropdown elements
+  ${tw`relative hidden bg-black z-30 p-4`}
+`;
+
+
+const NavDropdownContent2 = styled(NavDropdownContent)`
+  hover & {
+    display: hidden;
+    margin: 0;
+    left: 10px;
+  }
+  ${tw`relative hidden bg-black z-30 p-4`}
+`;
+
 const Container = tw.div`relative `;
 const FlexSettings = tw.div`flex lg:flex-row bg-gray-100 justify-center`;
 const PaddingAndMargin = tw.div` mt-0 xl:pl-10 py-8`;
@@ -55,7 +95,20 @@ export default ({
           <Dropdown>
             <NavDropdownContent>Overview</NavDropdownContent>
             <Link to="/network">
-              <NavDropdownContent>Network</NavDropdownContent>
+            <NavDropdownContent>Network
+                <Link to="/prof">
+                  <NavDropdownContentTesting>Higher Education</NavDropdownContentTesting>
+                </Link>
+                <Link to="/prof">
+                  <NavDropdownContentTesting>NGOs</NavDropdownContentTesting>
+                </Link>
+                <Link to="/prof">
+                  <NavDropdownContentTesting>Authorities</NavDropdownContentTesting>
+                </Link>
+                <Link to="/prof">
+                  <NavDropdownContentTesting>Companies</NavDropdownContentTesting>
+                </Link>
+              </NavDropdownContent>
             </Link>
           </Dropdown>
         </NavLink>
@@ -69,15 +122,38 @@ export default ({
       <Link to="/research-development">
         <NavLink>R&D</NavLink>
       </Link>
-      <Link to="/people">
+      <Link to="/people/">
         <NavLink tw="relative">
           People
-          <Dropdown2>
-            <NavDropdownContent>Our members</NavDropdownContent>
-            <Link to="/collaborators">
-              <NavDropdownContent>Collaborators</NavDropdownContent>
+          <Dropdown3>
+            <Link to="/people/tuanh">
+              <NavDropdownContent>Leaders
+                <NavLinks2>
+                  <Link to="/advisoryboard">
+                      <NavDropdownContentTesting>Advisory Board</NavDropdownContentTesting>
+                  </Link>
+                  <Link to="/people/tuanh">
+                    <NavDropdownContentTesting>Leader</NavDropdownContentTesting>
+                  </Link>
+                </NavLinks2>
+              </NavDropdownContent>
             </Link>
-          </Dropdown2>
+            <Link to="/people">
+              <NavDropdownContent>Members
+                <NavLinks2>
+                  <Link to="/coremembers">
+                    <NavDropdownContentTesting>Core Members</NavDropdownContentTesting>
+                  </Link>
+                  <Link to="/adjunctprofs">
+                    <NavDropdownContentTesting>Adjunct Proffessors</NavDropdownContentTesting>
+                  </Link>
+                  <Link to="/collaborators">
+                    <NavDropdownContentTesting>Expert Networks</NavDropdownContentTesting>
+                  </Link>
+                </NavLinks2>  
+              </NavDropdownContent>              
+            </Link>
+          </Dropdown3>
         </NavLink>
       </Link>
       <Link to="/education">

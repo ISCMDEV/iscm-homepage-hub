@@ -9,6 +9,6 @@ export default () => (
     <Hero heading1="Our NetWork" heading2=" " />
     <Features />
     {/* <Blog /> */}
-    <Testimonial />
+    {/* <Testimonial /> */}
   </AnimationRevealPage>
 );

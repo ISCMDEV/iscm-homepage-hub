@@ -52,8 +52,9 @@ const CardImageContainer = styled.div`
   ${(props) =>
     css`
       background-image: url("${props.thumbnail}");
+      margin: auto
     `}
-  ${tw`relative h-56 bg-center bg-cover rounded-t xl:h-64`}
+  ${tw`relative h-56 self-center bg-center bg-cover rounded-t xl:h-64`}
 `;
 
 const CardHoverOverlay = styled(motion.div)`

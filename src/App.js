@@ -13,6 +13,8 @@ import RANDDPAGE from "demos/RandDPage.js";
 import EDUPAGE from "demos/EducationPage.js";
 import PEOPLEPAGE from "demos/PeoplePage.js";
 
+// import tuanhprofile from "./people/tuanh-profile.md";
+
 import Header from "./components/headers/CustomHeader";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import ContactForm from "components/forms/SimpleContactUs";
@@ -21,7 +23,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CollabPage from "pages/Collaborators";
 import Undergrads from "pages/Undergrads";
 import Postgrads from "pages/Postgrads";
+import Proffessors from "pages/Proffessors";
+import Coremember from "pages/CoreMembers";
 import Shortcourses from "pages/Shortcourses";
+import AdvisoryBoard from "pages/AdvisoryBoard";
 import {
   eventsPosts as Events,
   paperPosts as Papers,
@@ -68,6 +73,12 @@ export default function App() {
           <Route exact path="/people">
             <PEOPLEPAGE />
           </Route>
+          <Route exact path="/advisoryboard">
+            <AdvisoryBoard />
+          </Route>
+          <Route exact path="/coremembers">
+            <Coremember />
+          </Route>
           <Route exact path="/collaborators">
             <CollabPage />
           </Route>
@@ -79,6 +90,9 @@ export default function App() {
           </Route>
           <Route exact path="/shortcourses">
             <Shortcourses />
+          </Route>
+          <Route exact path="/adjunctprofs">
+            <Proffessors/>
           </Route>
           <Route exact path="/404">
             <Notfound />

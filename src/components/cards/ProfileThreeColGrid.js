@@ -59,8 +59,6 @@ const CardImage = styled.div`
   ${(props) =>
     css`
       background-image: url("${props.imageSrc}");
-      background-size: cover;
-      background-position: center; 
     `}
   ${tw`w-64 h-64 bg-center mx-auto bg-contain rounded`}
 `;
@@ -105,67 +103,67 @@ export default ({
       imageSrc: MemberMAI,
       position: "Operation Manager",
       name: "M.Arch Mai Tran",
-      url: "",
+      url: "maitran",
     },
     {
       imageSrc: MemberHAN,
       position: "Marketing Manager",
       name: "M.Sc Hanh An Le",
-      url: "",
+      url: "hanhan",
     },
     {
       imageSrc: CUYVERS,
       position: "Senior Lecturer",
       name: "Prof. Rob Cuyvers",
-      url: "",
+      url: "rob",
     },
     {
       imageSrc: KIEN,
       position: "Senior Lecturer",
       name: "Dr. To Kien",
-      url: "",
+      url: "tokien",
     },
     {
       imageSrc: NAM,
       position: "Senior Lecturer",
       name: "Dr. Nam Le",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: KOO,
       position: "Senior Lecturer",
       name: "Dr. Chamun Koo",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: MemberTRI,
       position: "Research Coordinator",
       name: "M.Sc Hoai Pham",
-      url: "",
+      url: "hoaipham",
     },
     {
       imageSrc: STEVEN,
       position: "Lecturer",
       name: "M.Arch Steven Petit",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: THANG,
       position: "Lecturer",
       name: "M.Arch Thang Trinh",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: DQL,
       position: "Lecturer",
       name: "ME. Loc Duong Quy",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: MemberLV,
       position: "StudioLab Administrator",
       name: "B.E Viet Le",
-      url: "",
+      url: "vietle",
     },
     {
       imageSrc: MemberTAN,
@@ -210,31 +208,31 @@ export const AdvisoryBoard = ({
       imageSrc: LeeJuhoo,
       position: "Chairman",
       name: "Dr. Lee Ju-ho",
-      url: "tuanh",
+      url: "coming",
     },
     {
       imageSrc: Hyung,
       position: "Principle Strategy Advisor",
       name: "Dr. Hyung Tae Gun",
-      url: "ducksuseo",
+      url: "coming",
     },
     {
       imageSrc: ParkYoungJune,
       position: "Chairman",
       name: "Dr. Park Young June",
-      url: "rob",
+      url: "coming",
     },
     {
       imageSrc: Khuatviethung,
       position: "Executive Vice Chairman",
       name: "Dr. Khuat Viet Hung",
-      url: "tokien",
+      url: "coming",
     },
     {
       imageSrc: Nguyendongphong,
       position: "Chairman",
       name: "Prof. Dr. Nguyen Dong Phong",
-      url: "maitran",
+      url: "coming",
     },
   ],
 }) => {
@@ -327,31 +325,31 @@ export const CoreMembers = ({
       imageSrc: NAM,
       position: "Senior Lecturer",
       name: "Dr. Nam Le",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: KOO,
       position: "Senior Lecturer",
       name: "Dr. Chamun Koo",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: STEVEN,
       position: "Lecturer",
       name: "M.Arch Steven Petit",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: THANG,
       position: "Lecturer",
       name: "M.Arch Thang Trinh",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: DQL,
       position: "Lecturer",
       name: "ME. Loc Duong Quy",
-      url: "",
+      url: "coming",
     },
   ],
 }) => {
@@ -390,25 +388,25 @@ export const AdjunctProfs = ({
       imageSrc: Elena,
       position: "Associate Professor in Town Planning, University of Trieste",
       name: "Prof. Elena Marchigiani",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: Leejongsang,
       position: "Faculty of Community Development, College of Industrial Science Kongju National University",
       name: "Prof. Lee Jongsang",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: Nord,
       position: "Department of Spatial Planning, Blekinge Institute of Technology",
       name: "Prof. Catharina Nord",
-      url: "",
+      url: "coming",
     },
     {
       imageSrc: Kwon,
       position: "Department of Civil and Environmental Engineering, Seoul National University",
       name: "Prof. Kwon Youngsang",
-      url: "",
+      url: "coming",
     },
   ],
 }) => {

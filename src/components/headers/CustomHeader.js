@@ -96,16 +96,16 @@ export default ({
             <NavDropdownContent>Overview</NavDropdownContent>
             <Link to="/network">
             <NavDropdownContent>Network
-                <Link to="/prof">
+                <Link to="/collaborators">
                   <NavDropdownContentTesting>Higher Education</NavDropdownContentTesting>
                 </Link>
-                <Link to="/prof">
+                <Link to="/collaborators">
                   <NavDropdownContentTesting>NGOs</NavDropdownContentTesting>
                 </Link>
-                <Link to="/prof">
+                <Link to="/collaborators">
                   <NavDropdownContentTesting>Authorities</NavDropdownContentTesting>
                 </Link>
-                <Link to="/prof">
+                <Link to="/collaborators">
                   <NavDropdownContentTesting>Companies</NavDropdownContentTesting>
                 </Link>
               </NavDropdownContent>

@@ -62,12 +62,12 @@ const CardImage = styled.div`
       background-size: cover;
       background-position: center; 
     `}
-  ${tw`w-64 h-64 bg-center bg-contain rounded`}
+  ${tw`w-64 h-64 bg-center mx-auto bg-contain rounded`}
 `;
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
   .position {
-    ${tw`text-xs font-bold tracking-widest uppercase text-primary-500`}
+    ${tw`text-xs text-center font-bold tracking-widest uppercase text-primary-500`}
   }
   .name {
     ${tw`mt-1 text-xl font-medium text-gray-900`}

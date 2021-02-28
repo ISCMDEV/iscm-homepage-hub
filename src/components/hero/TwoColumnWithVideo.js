@@ -14,6 +14,7 @@ import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.sv
 import DesignIllustration from "../../images/design-illustration.svg";
 import { handleForm } from "components/misc/Formhandle.js";
 import { ConditionalLink } from "helpers/ConditionalRoutes.jsx";
+import { Link } from "react-router-dom";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -62,7 +63,7 @@ export default ({
   heading = "Modern React Templates, Just For You",
   description = "Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
   primaryButtonText = "Get Started",
-  primaryButtonUrl = null,
+  primaryButtonUrl = "article/events/1610065500",
   watchVideoButtonText = "Watch Video",
   watchVideoYoutubeUrl = "https://www.youtube.com/embed/-25ln6bZocY",
   imageSrc = DesignIllustration,
@@ -81,13 +82,15 @@ export default ({
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
             <Actions>
-              <PrimaryButton as="a" onClick={handleForm}>
-                {primaryButtonText}
-              </PrimaryButton>
-              <ConditionalLink
-                to={`article/${primaryButtonUrl}`}
-                condition={primaryButtonUrl}
-              >
+              <Link to={primaryButtonUrl}>
+                <PrimaryButton as="a" onClick={handleForm}>
+                  {primaryButtonText}
+                </PrimaryButton>
+              </Link>
+              {/* <ConditionalLink
+                to={`article/${watchVideoYoutubeUrl}`}
+                condition={watchVideoYoutubeUrl}
+              > */}
                 {watchVideoYoutubeUrl && (
                   <WatchVideoButton onClick={toggleModal}>
                     <span className="playIconContainer">
@@ -96,7 +99,7 @@ export default ({
                     <span className="playText">{watchVideoButtonText}</span>
                   </WatchVideoButton>
                 )}
-              </ConditionalLink>
+              {/* </ConditionalLink> */}
             </Actions>
           </LeftColumn>
           <RightColumn>

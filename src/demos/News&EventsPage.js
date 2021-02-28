@@ -4,7 +4,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import TabGrid from "components/cards/TabCardGrid.js";
-
+import Hero2 from "components/hero/TwoColumnWithVideoLink.js"
 export default () => {
   const HighlightedText = tw.span`bg-primary-800 text-center text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const imageCss = tw`rounded-4xl`;
@@ -18,12 +18,29 @@ export default () => {
           </>
         }
         description="2021 - the time of changes. Co-organizers:"
-        imageSrc="https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_960_720.jpg"
+        imageSrc="images/kết-hợp-nghệ-thuật-và-công-nghệ-hướng-đến-thành-phố-thông-minh-đáng-sống-3-.jpg"
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Detail"
-        primaryButtonUrl="events/1614038400"
+        primaryButtonUrl="article/events/1610065500"
         watchVideoButtonText="Have a look"
+        watchVideoYoutubeUrl="https://www.youtube.com/embed/-25ln6bZocY"
+      />
+      <Hero2
+      heading={
+        <>
+          Competition
+          <HighlightedText>ArtTech Fusion for future Smart Cities</HighlightedText>
+        </>
+      }
+      description="2021 - the time of changes. Co-organizers:"
+      imageSrc="images/futurecity.jpg"
+      imageCss={imageCss}
+      imageDecoratorBlob={true}
+      primaryButtonText="Detail"
+      primaryButtonUrl="http://iscmfuturecity.ueh.edu.vn/"
+      watchVideoButtonText="Have a look"
+      watchVideoYoutubeUrl="https://www.youtube.com/embed/juLuhNmmvtQ"
       />
 
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}

@@ -22,7 +22,7 @@ export default () => {
         imageCss={imageCss}
         imageDecoratorBlob={true}
         primaryButtonText="Detail"
-        primaryButtonUrl="article/events/1610065500"
+        primaryButtonUrl="article/events/1610097900"
         watchVideoButtonText="Have a look"
         watchVideoYoutubeUrl="https://www.youtube.com/embed/-25ln6bZocY"
       />
@@ -30,10 +30,10 @@ export default () => {
       heading={
         <>
           Competition
-          <HighlightedText>ArtTech Fusion for future Smart Cities</HighlightedText>
+          <HighlightedText>Smart Design for Post-Pandemic World</HighlightedText>
         </>
       }
-      description="2021 - the time of changes. Co-organizers:"
+      description="2020 - the time of changes. Co-organizers:"
       imageSrc="images/futurecity.jpg"
       imageCss={imageCss}
       imageDecoratorBlob={true}

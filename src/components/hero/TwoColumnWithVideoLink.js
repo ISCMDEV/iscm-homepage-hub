@@ -82,7 +82,7 @@ export default ({
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
             <Actions>
-              <a href={primaryButtonUrl}>
+              <a target="_blank" href={primaryButtonUrl}>
                 <PrimaryButton as="a" >
                   {primaryButtonText}
                 </PrimaryButton>

@@ -1,6 +1,5 @@
 ---
-title: Workshop and webinar international week "Staycation, the hospitable city
-  - Why not?"
+title: Workshop and webinarweek "Staycation, the hospitable city - Why not?"
 author: iamvan
 date: 2021-03-01T08:00:00.000Z
 thumbnail: public/images/1920x1080.jpg

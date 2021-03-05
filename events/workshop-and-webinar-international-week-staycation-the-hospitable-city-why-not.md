@@ -2,7 +2,7 @@
 title: Workshop and webinar week "Staycation, the hospitable city - Why not?"
 author: iamvan
 date: 2021-03-01T08:00:00.000Z
-thumbnail: public/images/1920x1080.jpg
+thumbnail: /images/1920x1080.jpg
 ---
 On March 1st, 2021, the opening ceremony of workshop week with the theme “Global Strategies for Local Tourism” was successfully organized. 
 

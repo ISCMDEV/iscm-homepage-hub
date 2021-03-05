@@ -21,20 +21,20 @@ The event occurred from March 1st to 5th was conducted by the Institute of Smart
 
 <div class="headline_div_class" style="font-family: 'Roboto Condensed', Helvetica, Arial; text-transform: uppercase; font-weight: bold; font-style: italic; text-shadow: rgba(89, 133, 255, 0.3) 2px 2px; color: blue; opacity: 0.8; width: 90%; text-align: center;"><span class="headline_symbol_span_left" style="vertical-align: super; margin-right: -10px; font-size: 24px;">◤ </span><span style="font-size: 14pt;">The workshop week “Global strategies for local tourism”</span><span class="headline_symbol_span_right" style="vertical-align: sub; margin-left: -5px; font-size: 24px;">◢</span></div>
 
-<div align="center"> <img align="center" width=100% src="/images/1920x1080.jpg"/> </div>
+<div align="center"> <img align="center" width=80% src="/images/1920x1080.jpg"/> </div>
 
 ▶ With the participation of experts from many countries, we together discussed and proposed ideas to revive the tourism industry after the pandemic. And not only that students from domestic and foreign universities are divided into different teams to raise their views and ideas on this theme.
 
-<div align="center"> <img align="center" width=100% src="/images/wsstudio1.jpg"/> </div>
+<div align="center"> <img align="center" width=80% src="/images/wsstudio1.jpg"/> </div>
 
 <br>
 
-<div align="center"> <img align="center" width=100% src="/images/wsstudio3.jpg"/> </div>
+<div align="center"> <img align="center" width=80% src="/images/wsstudio3.jpg"/> </div>
 
 <br>
 
 <div class="headline_div_class" style="font-family: 'Roboto Condensed', Helvetica, Arial; text-transform: uppercase; font-weight: bold; font-style: italic; text-shadow: rgba(89, 133, 255, 0.3) 2px 2px; color: blue; opacity: 0.8; width: 90%; text-align: center;"><span class="headline_symbol_span_left" style="vertical-align: super; margin-right: -10px; font-size: 24px;">◤ </span><span style="font-size: 14pt;">The webinar “Future City: Tourism Resilience for the post-pandemic world”</span><span class="headline_symbol_span_right" style="vertical-align: sub; margin-left: -5px; font-size: 24px;">◢</span></div>
 
-<div align="center"> <img align="center" width=100% src="/images/1920x1080-web.jpg"/> </div>
+<div align="center"> <img align="center" width=80% src="/images/1920x1080-web.jpg"/> </div>
 
 ▶ Accompanying the workshop week was a webinar on March 2nd to look back and analyze in-depth the Covid-19 pandemic and the current revitalization of the local tourism industry.

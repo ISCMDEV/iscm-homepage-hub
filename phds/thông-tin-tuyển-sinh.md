@@ -5,7 +5,6 @@ date: 2021-02-19T07:41:09.331Z
 thumbnail: /images/05.08.20.04.jpg
 description: Thông tin tuyển sinh thạc sĩ
 ---
-
 <p align='center'> <b>Trường Đại học Kinh tế TP. Hồ Chí Minh thông báo tuyển sinh Chương trình Thạc sĩ Điều hành cao cấp Quản lý đô thị thông minh và sáng tạo (Executive Master of Smart City and Innovation Management) năm 2021 như sau: </b> </p>
 <ol>
 <li> <b> Mục tiêu và đối tượng đào tạo
@@ -155,10 +154,10 @@ Thí sinh được miễn thi môn ngoại ngữ trong kỳ thi tuyển sinh đ�
 </li>
 
 <ul>
-<li>Phiếu đăng ký dự thi và lý lịch khoa học có nhận xét của Thủ trưởng cơ quan quản lý; ảnh có đóng dấu giáp lai (theo mẫu). 
+<li>Phiếu đăng ký dự thi và lý lịch khoa học có nhận xét của Thủ trưởng cơ quan quản lý; ảnh có đóng dấu giáp lai ([theo mẫu](https://sdh.ueh.edu.vn/uploads/files/2020.%C4%90KDT-LL01.%20M%E1%BA%AAU%20%C4%90%C4%82NG%20K%C3%9D%20D%E1%BB%B0%20THI%20v%C3%A0%20M%E1%BA%AAU%20L%C3%9D%20L%E1%BB%8ACH%20%20-%20CAO%20H%E1%BB%8CC402.docx)). 
 </li>
 
-<li>Bản tự giới thiệu về năng lực và động cơ học tập (theo mẫu). Tổng độ dài không quá 7 trang giấy A4. 
+<li>Bản tự giới thiệu về năng lực và động cơ học tập ([theo mẫu](https://sdh.ueh.edu.vn/uploads/files/17269793175db10e64888aa_EMBA-2020-BanTuGioiThieuVeNangLucVaDongCoHocTap.doc)). Tổng độ dài không quá 7 trang giấy A4. 
 </li>
 
 </ul>

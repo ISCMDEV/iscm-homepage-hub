@@ -13,7 +13,23 @@ export default () => {
       <Hero
         heading={
           <>
-            Upcoming Event.
+            Upcoming Event
+            <HighlightedText>A New Understanding Of The Imperative Of Healthy City Design</HighlightedText>
+          </>
+        }
+        description="2021 - the time of changes. Co-organizers:"
+        imageSrc="images/b-h-iscm-webinar-poster_1920x1080.png"
+        imageCss={imageCss}
+        imageDecoratorBlob={true}
+        primaryButtonText="Detail"
+        primaryButtonUrl="article/events/1615891380"
+        watchVideoButtonText="Have a look"
+        watchVideoYoutubeUrl=""
+      />
+      <Hero
+        heading={
+          <>
+            Event
             <HighlightedText>ArtTech Fusion for future Smart Cities</HighlightedText>
           </>
         }

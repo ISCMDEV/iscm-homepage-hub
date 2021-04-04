@@ -1,6 +1,6 @@
 ---
-title: "Thiết kế đô thị: tầm nhìn vững chắc cho đô thị bền vững"
-author: Hoangoanh
+title: Thiết kế đô thị tầm nhìn vững chắc cho đô thị bền vững
+author: ISCM
 date: 2021-04-04T06:20:42.481Z
 thumbnail: /images/b-h-iscm-webinar-poster_500x333.png
 ---

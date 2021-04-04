@@ -6,7 +6,7 @@ thumbnail: /images/apr221competitionposter.jpg
 ---
 <p align="center"> <!--StartFragment-->
 
-\****Vietnamese below****
+\***\*Vietnamese below\****
 
 Following the great success of the 1st international online international design competition in 2019 with the theme "Future City: Smart design for the post-pandemic world", the annual contest launched by the Institute of Smart Cities and Management. - University of Economics Ho Chi Minh City collaborated with nearly 20 partners is held the second time in 2021 with the theme "SMARTCITY+"
 
@@ -84,6 +84,3 @@ Hạn chót nộp bài: **31/8/2021**
 <!--EndFragment-->
 
 <!--EndFragment--> </p>
-
-<div align="center"> <img align="center" width="80%" src="/images/mou.01.07.20.01.jpg"/> </div>
-<div align="center"> <img align="center" width="80%" src="/images/mou.01.07.20.02.jpg"/> </div>

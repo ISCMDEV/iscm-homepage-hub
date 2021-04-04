@@ -25,6 +25,12 @@ description: "Kiến Trúc đô thị "
 <br>
 	Ngoài ra, sau khi tốt nghiệp chương trình đại học, sinh viên có thể tiếp tục học thêm 2 năm thạc sỹ và sẽ được cấp song bằng thạc sỹ và bằng Kiến trúc sư là chương trình hướng tới kiểm định theo tiêu chuẩn ASIIN, châu Âu.
 </p
+
+![](/images/e29ad16bc60d34536d1c.jpg)
+
+![](/images/05f50e041962eb3cb273.jpg)
+
+
 <b>Đặc điểm nổi bật:</b>
 <ul>
 <li>Chương trình tạo nên một công dân toàn cầu thông thạo kiến thức về thiết kế, quy hoạch phát triển đô thị và thiết kế đô thị theo chuẩn quốc tế, sử dụng tiếng Anh thành thạo làm cơ sở cho quá trình học tập suốt đời của sinh viên.

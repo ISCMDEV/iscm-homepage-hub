@@ -1,12 +1,12 @@
 ---
-title: "Thiết kế đô thị: tầm nhìn vững chắc cho đô thị bền vững"
+title: Thiết kế đô thị tầm nhìn vững chắc cho đô thị bền vững
 author: Hoangoanh
 date: 2021-04-04T06:20:42.481Z
 thumbnail: /images/b-h-iscm-webinar-poster_500x333.png
 ---
 <!--StartFragment-->
 
-*Ngày 25/3, tại Hồ Chí Minh, Viện Đô thị thông minh và Quản lý hợp tác cùng B+H đã tổ chức buổi webinar chủ đề: “A new understanding of the imperative of healthy city design”. Buổi webinar nằm trong khuôn khổ chuỗi sự kiện Smart City 2021 của Viện Đô thị thông minh và Quản lý, Đại học Kinh tế TP. Hồ Chí Minh.*
+***Ngày 25/3, tại Hồ Chí Minh, Viện Đô thị thông minh và Quản lý hợp tác cùng B+H đã tổ chức buổi webinar chủ đề: “A new understanding of the imperative of healthy city design”. Buổi webinar nằm trong khuôn khổ chuỗi sự kiện Smart City 2021 của Viện Đô thị thông minh và Quản lý, Đại học Kinh tế TP. Hồ Chí Minh.***
 
 Những thách thức mới trong thời đại mới
 

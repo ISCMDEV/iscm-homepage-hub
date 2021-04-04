@@ -2,7 +2,7 @@
 title: INTERNATIONAL DESIGN COMPETITION SMARTCITY+
 author: Hoangoanh
 date: 2021-04-04T05:50:50.544Z
-thumbnail: /images/banner-facebook.jpg
+thumbnail: /images/thumbnail.jpg
 ---
 <p align="center"> <!--StartFragment-->
 

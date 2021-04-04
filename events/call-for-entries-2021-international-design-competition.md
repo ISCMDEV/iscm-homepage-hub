@@ -1,5 +1,5 @@
 ---
-title: SMARTCITY+
+title: "2021 INTERNATIONAL DESIGN COMPETITION: SMARTCITY+"
 author: Hoangoanh
 date: 2021-04-04T05:06:22.479Z
 thumbnail: /images/apr221competitionposter.jpg

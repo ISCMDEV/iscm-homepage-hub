@@ -3,12 +3,14 @@ title: Architectural and Urban Design inclusive Smart City Program
 author: ISCM
 date: 2021-02-18T08:17:04.835Z
 thumbnail: /images/flyer-bachelor-1-copy.jpg
-description: "Kiến Trúc đô thị "
+description: Kiến trúc và Thiết kế Đô thị Thông minh
 ---
 <p>
-<strong>Tên chương trình (Name of Program)</strong>: Kiến trúc đô thị
-<br>
-<br>
+<strong>Tên chương trình (Name of Program)</strong>: <!--StartFragment-->
+
+Kiến trúc và Thiết kế Đô thị Thông minh
+
+<!--EndFragment-->
 <b>Ngành / chuyên ngành đào tạo (Major / Minor)</b>: Architectural and Urban Design inclusive Smart City
 <br>
 <br>
@@ -30,8 +32,8 @@ description: "Kiến Trúc đô thị "
 
 ![](/images/05f50e041962eb3cb273.jpg)
 
-
 <b>Đặc điểm nổi bật:</b>
+
 <ul>
 <li>Chương trình tạo nên một công dân toàn cầu thông thạo kiến thức về thiết kế, quy hoạch phát triển đô thị và thiết kế đô thị theo chuẩn quốc tế, sử dụng tiếng Anh thành thạo làm cơ sở cho quá trình học tập suốt đời của sinh viên.
 </li>
@@ -69,7 +71,12 @@ description: "Kiến Trúc đô thị "
 </li>
 <li>Website:<a classname"an" href="https://iscm.ueh.edu.vn"> iscm.ueh.edu.vn</a> 
 </li>
-<li>Fanpage: <a classname"an" href="https://www.facebook.com/ISCM.UEH/"> facebook/iscm.ueh</a></li>
+<li>Fanpage: <a classname"an" href="https://www.facebook.com/ISCM.UEH/"> facebook/iscm.ueh</a></li></li>
+<li>Youtube:<a classname"an" href="<!--StartFragment-->
+
+[https://www.youtube.com/watch?v=Zxk7H2GSZOg](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZxk7H2GSZOg%26fbclid%3DIwAR06BBGrltFVoC2BUVi2bEpcpW6Qe_rf0ktGeWei9him0eO8LfbJz3Te3IM&h=AT2F8oxB_opKGabRfIuvKYD9wp6jIjN6RYGfNDnvVs8vqvhbmu4fs1wgaNh_g84W-_zXt7OQ0TNEc9Mr2dZWtshaQX0ECQwCKqXqzu0DwMG4W7hMD1Q1p-o3-FBqDMuY1cfg&__tn__=-UK-R&c[0]=AT0UmwlWQbtdUpwY32lLjP43UpyHdXZJhxljqSRXkhzBFpW_fQkte00wXIpBPXzOgiwmIWmHCWfD4u-kM4d-YcLls39XSa-L1sZGXqembWxZBq8MOHgt54pUQprhs4whHLfJYvfQeoej75VE9gLKAnxWXAtu44gbBHMwEo-X40ftqE0j9pENl5XNsR2SkgswUTR2)
+
+<!--EndFragment-->"> iscm.ueh.edu.vn</a> 
 </ul>
 
 </p>

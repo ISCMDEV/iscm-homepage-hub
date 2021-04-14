@@ -4,7 +4,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import TabGrid from "components/cards/TabCardGrid.js";
-import Hero2 from "components/hero/TwoColumnWithVideoLink.js"
+import Hero2 from "components/hero/TwoColumnWithVideoLink.js";
+import BGd from "images/People/BGdense.jpg";
 export default () => {
   const HighlightedText = tw.span`bg-primary-800 text-center text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const imageCss = tw`rounded-4xl`;
@@ -34,7 +35,7 @@ export default () => {
         </>
       }
       description="The 2nd international design competition for Architecture and Urban Design Students"
-      imageSrc="images/futurecity.jpg"
+      imageSrc= {BGd}
       imageCss={imageCss}
       imageDecoratorBlob={true}
       primaryButtonText="Detail"

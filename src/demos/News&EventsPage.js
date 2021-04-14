@@ -13,27 +13,11 @@ export default () => {
       <Hero
         heading={
           <>
-            Upcoming Event
-            <HighlightedText>A New Understanding Of The Imperative Of Healthy City Design</HighlightedText>
-          </>
-        }
-        description="2021 - the time of changes. Co-organizers:"
-        imageSrc="images/b-h-iscm-webinar-poster_1920x1080.png"
-        imageCss={imageCss}
-        imageDecoratorBlob={true}
-        primaryButtonText="Detail"
-        primaryButtonUrl="article/events/1615891380"
-        watchVideoButtonText="Have a look"
-        watchVideoYoutubeUrl=""
-      />
-      <Hero
-        heading={
-          <>
             Event
             <HighlightedText>ArtTech Fusion for future Smart Cities</HighlightedText>
           </>
         }
-        description="2021 - the time of changes. Co-organizers:"
+        description="2021 - the time of changes."
         imageSrc="images/kết-hợp-nghệ-thuật-và-công-nghệ-hướng-đến-thành-phố-thông-minh-đáng-sống-3-.jpg"
         imageCss={imageCss}
         imageDecoratorBlob={true}
@@ -46,16 +30,16 @@ export default () => {
       heading={
         <>
           Competition
-          <HighlightedText>Smart Design for Post-Pandemic World</HighlightedText>
+          <HighlightedText>Smartcity+</HighlightedText>
         </>
       }
-      description="2020 - the time of changes. Co-organizers:"
+      description="The 2nd international design competition for Architecture and Urban Design Students"
       imageSrc="images/futurecity.jpg"
       imageCss={imageCss}
       imageDecoratorBlob={true}
       primaryButtonText="Detail"
-      primaryButtonUrl="http://iscmfuturecity.ueh.edu.vn/"
-      watchVideoButtonText="Have a look"
+      primaryButtonUrl="https://iscm.ueh.edu.vn/article/events/1617515400"
+      watchVideoButtonText="Have a look at our first competition"
       watchVideoYoutubeUrl="https://www.youtube.com/embed/juLuhNmmvtQ"
       />
 

@@ -77,8 +77,7 @@ Kiến trúc và Thiết kế Đô thị Thông minh
 
 <li>Youtube:<a classname"an" href=
 
-<div align="center"><iframe margin-top="30px" align="center" width="900" height="600" src="https://www.youtube.com/watch?v=on_ZGjx4p5U&t=11s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
+<div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/on_ZGjx4p5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <!--EndFragment-->
 

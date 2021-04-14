@@ -30,7 +30,7 @@ export default () => {
       <Hero2
       heading={
         <>
-          Competition
+          International Design Competition
           <HighlightedText>Smartcity+</HighlightedText>
         </>
       }

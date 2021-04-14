@@ -11,6 +11,7 @@ description: Kiến trúc và Thiết kế Đô thị Thông minh
 Kiến trúc và Thiết kế Đô thị Thông minh
 
 <!--EndFragment-->
+
 <b>Ngành / chuyên ngành đào tạo (Major / Minor)</b>: Architectural and Urban Design inclusive Smart City
 <br>
 <br>
@@ -26,6 +27,7 @@ Kiến trúc và Thiết kế Đô thị Thông minh
 	<p align='justify'>Chương trình đào tạo ngành Kiến trúc đô thị, chuyên ngành Architectural and Urban Design inclusive Smart City cung cấp các kiến thức chuyên ngành Kiến trúc và Thiết kế đô thị, đặc biệt về Đô thị thông minh. Sinh viên được đào tạo để tham gia vào các dự án phát triển, quy hoạch, thiết kế đô thị, thiết kế kiến trúc và cảnh quan, ứng dụng công nghệ và tích hợp để phát triển, quy hoạch và thiết kế đô thị thông minh hướng tới phát triển bền vững. Chuyên ngành đòi hỏi khả năng tư duy sáng tạo, kỹ năng tổng hợp và trình độ quốc tế để phối hợp nhiều lĩnh vực khác nhau như kiến trúc, cảnh quan, giao thông và kỹ thuật hạ tầng, kinh tế, xã hội, môi trường và công nghệ. Sau khi tốt nghiệp, sinh viên có khả năng làm việc tại các đơn vị công, tư, quốc tế, các tổ chức phi chính phủ, quản lý nhà nước trong lĩnh vực phát triển, quy hoạch, xây dựng và thiết kế kiến trúc, đô thị và đô thị thông minh... 
 <br>
 	Ngoài ra, sau khi tốt nghiệp chương trình đại học, sinh viên có thể tiếp tục học thêm 2 năm thạc sỹ và sẽ được cấp song bằng thạc sỹ và bằng Kiến trúc sư là chương trình hướng tới kiểm định theo tiêu chuẩn ASIIN, châu Âu.
+
 </p
 
 ![](/images/e29ad16bc60d34536d1c.jpg)
@@ -72,12 +74,13 @@ Kiến trúc và Thiết kế Đô thị Thông minh
 <li>Website:<a classname"an" href="https://iscm.ueh.edu.vn"> iscm.ueh.edu.vn</a> 
 </li>
 <li>Fanpage: <a classname"an" href="https://www.facebook.com/ISCM.UEH/"> facebook/iscm.ueh</a></li></li>
+
 <li>Youtube:<a classname"an" href=
 
-[https://www.youtube.com/watch?v=Zxk7H2GSZOg](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZxk7H2GSZOg%26fbclid%3DIwAR06BBGrltFVoC2BUVi2bEpcpW6Qe_rf0ktGeWei9him0eO8LfbJz3Te3IM&h=AT2F8oxB_opKGabRfIuvKYD9wp6jIjN6RYGfNDnvVs8vqvhbmu4fs1wgaNh_g84W-_zXt7OQ0TNEc9Mr2dZWtshaQX0ECQwCKqXqzu0DwMG4W7hMD1Q1p-o3-FBqDMuY1cfg&__tn__=-UK-R&c[0]=AT0UmwlWQbtdUpwY32lLjP43UpyHdXZJhxljqSRXkhzBFpW_fQkte00wXIpBPXzOgiwmIWmHCWfD4u-kM4d-YcLls39XSa-L1sZGXqembWxZBq8MOHgt54pUQprhs4whHLfJYvfQeoej75VE9gLKAnxWXAtu44gbBHMwEo-X40ftqE0j9pENl5XNsR2SkgswUTR2)
+<div align="center"><iframe margin-top="30px" align="center" width="900" height="600" src="https://www.youtube.com/watch?v=on_ZGjx4p5U&t=11s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 
 <!--EndFragment-->
-
 
 </ul>
 

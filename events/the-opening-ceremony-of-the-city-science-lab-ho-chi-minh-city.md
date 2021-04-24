@@ -6,8 +6,6 @@ thumbnail: /images/175917630_285309613140944_6003099751305773364_n.jpg
 ---
 <!--StartFragment-->
 
-**THE OPENING CEREMONY OF THE CITY SCIENCE LAB @ HO CHI MINH CITY**
-
 In the morning of April 22, 2021, the opening ceremony of the City Science Lab @ Ho Chi Minh City (CSL @ HCMC) was successfully celebrated at 422 Vo Van Kiet street, Co Giang ward, District 1.
 
 The event was attended by distinguished guests including Mr. Le Hoa Binh, Vice Chairman of the HCMC People’s Committee and other representatives from the local authorities and universities. The representatives from UEH consisted of Prof.Dr. Su Dinh Thanh – UEH President, Dr. Tú Anh Trinh – Director of Institute of Smart City and Management (ISCM).
@@ -39,8 +37,6 @@ At the ceremony, Prof. Dr. Su Dinh Thanh cut the ribbon and sent his best wishes
 *[https://www.youtube.com/watch?v=NrtYcJBrxaU](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNrtYcJBrxaU%26fbclid%3DIwAR0HYoEHGCGenpmx_jvA8dZYSYvn7YS6OOxH4ghktX0Q4NBi8TYLA9rF3xk&h=AT3at9ji7Gsx2NRyhAHOsUDteVEMFlz79mcWYvGvoOfzpk6RRefR303j-wKoi1sj8VWk2UXk8Mb7BN9222WPYrexY8mum3e8wefR-GyEkhuyJM7UtK8YVkN_Y7X8Uw9_BG-A&__tn__=-UK-R&c[0]=AT3Bf3oMpUjKWfeFHCmOq0Akp3voqvu0lBryt7T4VGKXAFXnN3l5Y7h1LvGWKXcDSSRRLooFvcujx6bjiIU_JKuEP3GmDy4TbyutzoKyfnGoxvememrKR_2u9-kyzi9dQ-_rzxtVA58orgLwG-cbrMjJ8pfDhZxHhS7HPxwoTbhkRRLFbU2vF69lxXYW3afCkrCm)…*
 
 \-----------
-
-**LỄ KHÁNH THÀNH PHÒNG NGHIÊN CỨU KHOA HỌC ĐÔ THỊ THÀNH PHỐ HỒ CHÍ MINH**
 
 Sáng ngày 22/4/2021, buổi lễ khánh thành Phòng Nghiên cứu Khoa học đô thị Thành phố Hồ Chí Minh đã diễn ra thành công tốt đẹp tại cao ốc BMC số 422 Võ Văn Kiệt, phường Cô Giang, Quận 1. 
 

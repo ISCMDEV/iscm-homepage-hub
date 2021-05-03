@@ -21,7 +21,7 @@ Kiến trúc và Thiết kế Đô thị Thông minh.
 <br><br>
 <b>Mã ngành:</b> 7580104
 <br><br>
-<b>Số tín chỉ:</b> 127 (Kiến thức đại cương: 30 tín chỉ, kiến thức cơ sở ngành: 32 tín chỉ, kiến thức chuyên ngành: 55 tín chỉ, các học phần tự chọn: 10 tín chỉ)
+<b>Số tín chỉ:</b> 125 (Kiến thức đại cương: 30 tín chỉ, kiến thức cơ sở ngành: 30 tín chỉ, kiến thức chuyên ngành: 55 tín chỉ, các học phần tự chọn: 10 tín chỉ)
 <br><br>
 <b>Giới thiệu chung:</b>
 

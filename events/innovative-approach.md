@@ -1,39 +1,37 @@
 ---
-title: INNOVATIVE APPROACH
+title: SUSTAINABLE TRANSPORT SAFETY
 author: ISCM
-date: 2020-09-24T07:00:00.000Z
-thumbnail: /images/119214266_169601484711758_1312991167218899403_n.jpg
+date: 2020-09-23T07:00:00.000Z
+thumbnail: /images/119189155_169033904768516_5813721095301478734_n.jpg
 ---
 <!--StartFragment-->
 
-To adapt to rapid-development and urbanization, what innovative and innovative approaches will be suitable to solve or eliminate urban issues toward smart cities development? This question will be discussed to inspire "Innovative Approach" in the Panel Discussion No 3 which hosted & invited experts from top-list universities and Institutes as ISCM-UEH, Ton Duc Thang University (Vietnam), LeCnam (France), Japan. This panel discussion is one of the activities of the the event Series "Shaping the unknown future toward smart city" which are organized by Institute of Smart City (ISCM), University of Economics and Ho Chi Minh City (UEH) - Vietnam and more than 20 local and international universities, companies, NGOs, local authority around the world.
+Transport safety has always been a thorny issue that accounts for the majority of society's concern, especially with the continued proliferation of private vehicles day by day. Applying digital innovation & modern technology into transportation is no longer strange issues; however, whether we apply efficiently in each context or each country or not - how does it change the people's behavior as well as the impact to gender?
 
-Participants will be acknowledged according to sessions on Thursday 24th September 2020 at 2.00pm –3.10pm (UTC+7):
+To tackle this question, the panel discussion No 2 "Sustainable Transportation Safety" in the Event Series "Shaping the unknown future toward smart city" which are organized by Institute of Smart City (ISCM), University of Economics and Ho Chi Minh City (UEH) - Vietnam and more than 20 local and international universities, companies, NGOs, local authority around the world; which was hosted by ISCM - UEH (Vietnam), IMOB – Hasselt University (Belgium) and WiTL, and collaborators: University of Melbourne (Australia), University of the Philippines, Xavier University-Ateneo de Cagayan (Phillippine), Universiti Teknologi MARA (Malaysia) and Thammasat University (Thailand), on Wednesday 23rd September 2020 to discuss about various interesting topics as:
 
-From Smart Detector and Eco-Material to Apply Science Incubator;
+How digital innovation and technology advance road safety education and lifelong learning?
 
-Smart, Innovative and Livable Towns: Case Studies from Japan and a Visionary Model for Vietnam
+Utilizing intelligent services to enhance the quality of transport education system
 
-Smart cities and scenario planning: how to anticipate the “unthinkable”?
+Gender equality with reflection from Australia, Malaysia, Phillippines & Thailand on women in transport safety toward smart city development
 
 With our speakers:
 
-Prof. Karim Medjad, CNAM university, France
+Prof. Geert Wets, Director, Transportation Research Institute, Hasselt University, Belgium
 
-Dr. To Kien, Affiliate of Institute of Smart City and Management, UEH, Senior Planner and Manager, Eight-Japan Engineering Consultant Inc. Japan
+Dr. Derlie Mateo-Babiano, Urban Planning Major Coordinator, Faculty of Architecture, Building and Planning, The University of Melbourne , Australia
 
-Dr. Vu Kim Oanh, International Coordinator, CNAM university, France
+Assoc.Prof Sheilah Gaabucayan, School of Urban and Regional Planning, Research and Extension Fellow, National Center for Transportation Studies, University of the Philippines, Philippines
 
-Dr. Tu Anh Trinh, Director, Institute of Smart City and Management, University of Economics HCMC, Vietnam
+Assoc.Prof. Masria Mustafa, Faculty of Civil Engineering, Universiti Teknologi MARA, Malaysia
 
-Dr. Pham Anh Duc, Vice Dean, Faculty of Environment and Labour Safety, Ton Duc Thang University, Vietnam
+Assoc.Prof Anabel A. ABuzo, Director of the Engineering Resource Center, Civil Engineering Department, Xavier University-Ateneo de Cagayan, Philippines
 
-Dr. Tang Van Tai, Faculty of Environment and Labour Safety, Ton Duc Thang University, Vietnam
+Assoc.Prof.Pawinee IAMTRAKUL (Ph.D), Director, Center of Excellence in Urban Mobility Research and Innovation, Faculty of Architecture and Planning, Thammasat University, Thailand
 
-Nguyen Thi Phuong Thao, Head, UEH Institute of Innovation, University of Economics HCMC, Vietnam
+Dr. Tu Anh Trinh, Director, Institute of Smart City and Management (ISCM), University of Economics HCMC, Vietnam
 
-Join us on Thursday, 24th September 2020 at 2.00pm –3.10pm (UTC+7).
-
-
+Join us on Wednesday, 23rd September 2020 at 2.00pm –3.10pm (UTC+7)
 
 <!--EndFragment-->

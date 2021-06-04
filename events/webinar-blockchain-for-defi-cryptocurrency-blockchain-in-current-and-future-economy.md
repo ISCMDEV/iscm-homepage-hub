@@ -1,6 +1,6 @@
 ---
-title: "BLOCKCHAIN FOR DEFI & CRYPTOCURRENCY: BLOCKCHAIN IN CURRENT AND FUTURE
-  ECONOMY"
+title: "Blockchain for DeFi & Cryptocurrency: Blockchain in current and future
+  economy"
 author: ISCM
 date: 2021-06-04T14:25:34.526Z
 thumbnail: /images/blockchain.jpg.png

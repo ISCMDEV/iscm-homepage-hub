@@ -3,7 +3,7 @@ title: "Blockchain for DeFi & Cryptocurrency: Blockchain in current and future
   economy"
 author: ISCM
 date: 2021-06-04T14:25:34.526Z
-thumbnail: /images/blockchain.jpg.png
+thumbnail: /images/poster3jpg.jpg
 ---
 <!--StartFragment-->
 
@@ -13,7 +13,7 @@ In the wave of the 4.0 industrial revolution, blockchain is regarded as the “k
 
 To address this question, ISCM, UII, FTI of University of Economics HCMC and Saxion University of Applied Sciences, in collaboration with our international partners, would like to invite you to a webinar titled Blockchain for DeFi & Cryptocurrency: Blockchain in current and future economy. In this webinar, you will gain insights from our experts and learn more about the life of a smart city.
 
-<div align="center"> <img align="center" width=80% src="/images/poster2_full.png"/> </div>
+<div align="center"> <img align="center" width=80% src="/images/poster3jpg.jpg"/> </div>
 
 **Time:** 3 P.M – 5 P.M (UTC+7) – June 21st and 22nd, 2021
 

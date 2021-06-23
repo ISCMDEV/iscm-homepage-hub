@@ -11,15 +11,17 @@ thumbnail: /images/23.6.1.png
 
 Do you think about one day, all transactions and information exchange will take place with only an integrated number sequence and are not affected by intermediaries? That is probably achievable in the near future when the digital economy or more precisely blockchain technology is growing stronger than ever before.
 
-**\
-Security - a vital element of the 4.0 revolution**
+
+
+**Security - a vital element of the 4.0 revolution**
 
 In the digital society, people can unconsciously and easily give away their data through online transactions or the smallest acts in real life. Therefore, the security factor in transactions, management, etc is gradually being put on top. With the ability to share information, transparent data, save storage space and high security, blockchain is considered one of the breakthrough technologies and is gradually changing the way people recognize the world. .
 
 Although outstanding with the advantages of security, transparency, ... but the current blockchain still has certain weaknesses such as difficulty in changing wrong data or high development costs, etc. - According to Dr. Chhay Lin Lim - Lecturer & Researcher at Saxion UAS Blockchain Research Institute. As recently, McDonald's may allow payment in Bitcoin, but the cost of payment is many times greater than the cost of the items.
 
-**\
-Fintech - potential and development**
+
+
+**Fintech - potential and development**
 
 It can be said that one of the fastest growing areas today is FinTech, especially in Asia - one of the markets with the most potential and enthusiasm. The overall picture of the Asean Fintech business model shows that digital payments are gradually taking over the market share with 26% of the firms adopting the method, followed by AL/ML/Big Data with 15%. It can be seen that in the past, payment was mainly used in cash, but now, most people have preferred to switch to digital payment for convenience and security.
 
@@ -53,15 +55,9 @@ Có thể nói, một trong những lĩnh vực phát triển mạnh mẽ nhất
 
 Covid-19 là yếu tố thúc đẩy quá trình phát triển của DeFi (Decentralized finance - Tài chính phi tập trung là một hình thức tài chính dựa trên blockchain)  theo nhận định của Tiến sĩ Andry Alamsyah - Giảng viên và nhà nghiên cứu tại Telkom University Indonesia. Các nhà tạo lập thị trường tự động đang tạo ra hàng trăm triệu đô khối lượng giao dịch mỗi ngày, các giao thức cho vay phi tập trung cũng thu được hàng tỷ đô trong các hợp đồng của mình.
 
-
-
 Song hành cùng với Covid-19 thì tình hình tiền ảo trải qua biến động một cách khó lường. Giá trị của Bitcoin đã giảm tới 50% chỉ trong vòng một ngày do khủng hoảng kinh tế toàn thế giới tuy nhiên chỉ trong vòng 9 tháng sau, Bitcoin đã tăng vượt ngưỡng kỷ lục khiến giới đầu tư tài chính lao đao trong suốt một thời gian. 
 
-
-
 Có thể blockchain đã thật sự thay đổi không chỉ về nền kinh tế, tài chính,... mà làm thay đổi những nhân định về thế giới tương lai, đòi hỏi con người hiểu công nghệ hơn và có những phương án dự trù để thích nghi với thế giới mới - thế giới số.
-
-
 
 Với sự tham gia trao đổi của các giáo sư, chuyên gia đến từ ĐH Kinh tế TP. Hồ Chí Minh và Saxion University of Applied Sciences, cùng các đối tác, người tham dự, buổi webinar đã được diễn ra thành công và đặt ra nhiều vấn đề mở với mong muốn hướng đến và thúc đẩy một thành phố thông minh, đáng sống trong tương lai.
 

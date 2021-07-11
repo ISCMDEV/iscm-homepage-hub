@@ -14,6 +14,8 @@ import UniversitiesIconImage from "images/university.svg";
 import CompaniesIconImage from "images/company.svg";
 import CommunityLoveIconImage from "images/community.svg";
 import Testimonial from "components/testimonials/TwoColumnWithImage.js";
+import ourVision from "../images/OurVision.jpg"
+import DevelopmentProgram from "../images/DevelopmentProgram.jpg"
 
 const Subheading = tw.span`uppercase tracking-wider`;
 export default () => {
@@ -27,7 +29,7 @@ export default () => {
         buttonRounded={false}
         primaryButtonText="Meet The Team"
         primaryButtonUrl="people"
-        imageSrc="https://cdn.pixabay.com/photo/2015/01/09/11/09/startup-594091_960_720.jpg"
+        imageSrc={ourVision}
       />
       <MainFeature1
         heading="Development Programs"
@@ -36,7 +38,7 @@ export default () => {
         buttonRounded={false}
         primaryButtonText="Find out more"
         primaryButtonUrl="research-development"
-        imageSrc="https://cdn.pixabay.com/photo/2016/11/29/09/32/concept-1868728_960_720.jpg"
+        imageSrc={DevelopmentProgram}
         textOnLeft={false}
       />
       <WallOfText textContent="Enhancing urban quality and environment by excellent education, in-depth research and problem-solving projects in terms of “Think Globally - Act Locally”. Educating new generation students for creative and critical thinking, global knowledge, professional skills, sustainability perception.Developing the most advanced integrated Smart City StudioLab system with sufficient spaces and equipment for comprehensive and in-depth analysis.Impacting on urban planning, design and management by changing the way of thinking and involvement of the community, local authority and stakeholders."/>

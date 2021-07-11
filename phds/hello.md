@@ -10,7 +10,7 @@ description: Thông tin tuyển sinh
 
 <br>
 
-<strong>Tên chương trình (Name of Program): </strong> Quản lý Đô thị Thông minh và Sáng tạo</p>
+<strong>Tên chương trình(Name of Program): </strong> Quản lý Đô thị Thông minh và Sáng tạo</p>
 
 <strong> Ngành/Chuyên ngành đào tạo (Major/Minor): </strong> Executive Master of Smart City and Innovation Management (Thạc sĩ Điều hành cao cấp Quản lý Đô thị Thông minh và Sáng tạo</li>
 

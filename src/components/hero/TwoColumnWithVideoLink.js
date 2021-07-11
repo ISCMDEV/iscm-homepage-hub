@@ -82,11 +82,11 @@ export default ({
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
             <Actions>
-              <a target="_blank" href={primaryButtonUrl}>
+              <Link to={primaryButtonUrl}>
                 <PrimaryButton as="a" >
                   {primaryButtonText}
                 </PrimaryButton>
-              </a>
+              </Link>
               {/* <ConditionalLink
                 to={`article/${watchVideoYoutubeUrl}`}
                 condition={watchVideoYoutubeUrl}

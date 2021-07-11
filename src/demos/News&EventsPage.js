@@ -39,7 +39,7 @@ export default () => {
       imageCss={imageCss}
       imageDecoratorBlob={true}
       primaryButtonText="Detail"
-      primaryButtonUrl="https://iscm.ueh.edu.vn/article/events/1617515400"
+      primaryButtonUrl="/competition"
       watchVideoButtonText="Have a look at our first competition"
       watchVideoYoutubeUrl="https://www.youtube.com/embed/juLuhNmmvtQ"
       />

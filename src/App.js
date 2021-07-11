@@ -3,7 +3,6 @@ import "styles/globalStyles.css";
 import React, { Suspense } from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
-/* Ready Made Pages (from demos folder) */
 import HOMEPAGE from "demos/HomePage.js";
 import NETWORKPAGE from "demos/NetworkPage.js";
 import ABOUTUSPAGE from "demos/AboutUsPage.js";
@@ -12,6 +11,7 @@ import STUDIOLABPAGE from "demos/StudioLabPage.js";
 import RANDDPAGE from "demos/RandDPage.js";
 import EDUPAGE from "demos/EducationPage.js";
 import PEOPLEPAGE from "demos/PeoplePage.js";
+import COMPETITIONPAGE from "demos/Competition.js";
 
 // import tuanhprofile from "./people/tuanh-profile.md";
 
@@ -38,15 +38,20 @@ import {
 import Article from "pages/Article";
 import ScrollToTop from "components/misc/ScrollTop";
 import Notfound from "pages/Notfound.js";
-
-import { useTranslation } from "react-i18next";
-
+import CompetitionHeader from "components/headers/CompetitionHeader";
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
     <div className="div">
       <Router>
-        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Header />
+          </Route>
+          <Route exact path="/competition">
+            <CompetitionHeader />
+          </Route>
+        </Switch>
         <ScrollToTop />
         <Switch>
           <Route exact path="/">
@@ -92,7 +97,10 @@ export default function App() {
             <Shortcourses />
           </Route>
           <Route exact path="/adjunctprofs">
-            <Proffessors/>
+            <Proffessors />
+          </Route>
+          <Route exact path="/competition">
+            <COMPETITIONPAGE />
           </Route>
           <Route exact path="/404">
             <Notfound />

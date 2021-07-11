@@ -63,7 +63,7 @@ const CardHoverOverlay = styled(motion.div)`
 const CardButton = tw(PrimaryButtonBase)`text-base`;
 
 const CardText = tw.div`flex-grow p-4 text-gray-900`;
-const CardTitle = tw.h5`lg:h-1/2 text-lg font-semibold group-hover:text-primary-500`;
+const CardTitle = tw.h5`lg:h-auto text-lg font-semibold group-hover:text-primary-500`;
 // const CardContent = tw.p`mt-1 text-sm font-medium text-gray-600`;
 
 const DecoratorBlob1 = styled(SvgDecoratorBlob1)`

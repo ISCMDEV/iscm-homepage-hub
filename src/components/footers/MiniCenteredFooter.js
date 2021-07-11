@@ -7,6 +7,7 @@ import logo from "../../images/logo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import { ReactComponent as Linkedin } from "../../images/linkedin.svg";
 import { Subheading as SubheadingBase } from "components/misc/Headings.js";
 const FooterTabs = tw.div`font-medium lg:text-xl xl:text-xl`;
 
@@ -70,7 +71,7 @@ export default () => {
           <br />
           <FooterTabs>Contacts</FooterTabs>
           <LinksContainer style={{ marginTop: "1rem" }}>
-            <Links>Address: 232/6 Võ Thị Sáu, P7, Quận 3</Links>
+            <Links>Address: 232/6 Võ Thị Sáu, P. Võ Thị Sáu, Quận 3</Links>
             <Links>Telephone: 028.39309589 - 028.39309269</Links>
             <Links>
               Email:
@@ -98,10 +99,10 @@ export default () => {
             <SocialLink href="https://www.facebook.com/ISCM.ueh">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
+            <SocialLink href="https://www.linkedin.com/company/iscm-ueh">
+              <Linkedin />
             </SocialLink>
-            <SocialLink href="https://www.youtube.com/c/UEHChannel/">
+            <SocialLink href="https://www.youtube.com/channel/UCtoJ5ZFc9yLiPFRY_UcIoBg">
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>

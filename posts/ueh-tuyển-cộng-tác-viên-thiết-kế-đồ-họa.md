@@ -16,7 +16,9 @@ thumbnail: /images/openrecruitment.png
 
 ![🤟](https://static.xx.fbcdn.net/images/emoji.php/v9/tbf/1.5/16/1f91f.png) Chần chừ gì nữa mà không ứng tuyển vị trí cộng tác viên thiết kế cho Đại học Kinh tế TP. Hồ Chí Minh (UEH) ngay từ hôm nay!
 
-Xem chi tiết tại: [https://bitly.com.vn/h3d1xe](https://bitly.com.vn/h3d1xe?fbclid=IwAR1DZ3NPH948_YzC2fuNAqdSglaCKanlOT160RekceOvbKJq7PLG37xPG8Q)
+Xem chi tiết tại: [](https://bitly.com.vn/h3d1xe?fbclid=IwAR1DZ3NPH948_YzC2fuNAqdSglaCKanlOT160RekceOvbKJq7PLG37xPG8Q)<!--StartFragment-->[https://bom.to/GTpOOK2OWCy1jR](https://bom.to/GTpOOK2OWCy1jR?fbclid=IwAR2bXPWs38h7KeiYy73yUEhPGVkXHvyHuv2bW1wQFjCQwDviGilLvQRYpvM)
+
+<!--EndFragment-->
 
 ![❗️](https://static.xx.fbcdn.net/images/emoji.php/v9/td7/1.5/16/2757.png)Đừng bỏ lỡ cơ hội, hãy nhanh tay đăng kí và gửi CV & Portfolio về địa chỉ email: iscm@ueh.edu.vn
 

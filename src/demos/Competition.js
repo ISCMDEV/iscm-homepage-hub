@@ -36,7 +36,7 @@ export default () => (
     {" "}
     <StyledSection id="overview">
       <TextWithBanner
-        title="SMART CITY INTERNATIONAL DESIGN COMPETITION"
+        title="The 2nd International Design Competition: SMART CITY+"
         text={text}
         image={CompetitionImage}
         id="overview"
